@@ -14,15 +14,18 @@ Jagged Alliance 2 v1.13 **r7609 영어판**을 대상으로 제작 중인 한국
 
 1. Jagged Alliance 2 v1.13 r7609 영어판을 준비합니다.
 2. 게임을 종료합니다.
-3. PowerShell에서 다음 명령을 실행합니다.
+3. 릴리즈 ZIP의 압축을 풉니다.
+4. 압축을 풀어 나온 `Data`, `Data-1.13`, `ja2.exe`, `Ja2.ini`를 게임 설치 폴더에 그대로 복사하고 덮어씁니다.
+
+기존 `ja2.exe`와 `Ja2.ini`는 덮어쓰기 전에 직접 백업하는 것을 권장합니다. 릴리즈의 `Ja2.ini`는 한국어 글꼴과 전체 화면 실행이 이미 설정되어 있습니다.
+
+저장소를 직접 내려받은 경우에는 `Patch` 폴더 안의 내용물을 게임 설치 폴더에 복사하면 됩니다. `install.ps1`은 백업과 글꼴 설정을 자동화하려는 사용자를 위한 선택 기능입니다.
 
 ```powershell
 .\install.ps1 -GamePath "D:\jagged\Jagged Alliance 2"
 ```
 
-설치기는 기존 `ja2.exe`와 `Ja2.ini`를 타임스탬프가 붙은 파일로 백업한 뒤 패치를 복사하고, 한국어 글꼴 설정만 갱신합니다.
-
-수동 설치 시에는 `Patch` 폴더의 내용물을 게임 설치 폴더에 덮어쓴 다음 `Ja2.ini`에서 `USE_WINFONTS = 1`, `WIN_FONT_ADJUST = 0`을 설정해야 합니다.
+자동 설치기는 기존 `ja2.exe`와 `Ja2.ini`를 타임스탬프가 붙은 파일로 백업한 뒤 패치를 복사하고 한국어 글꼴 설정을 갱신합니다.
 
 ## 알려진 사항
 
@@ -33,4 +36,3 @@ Jagged Alliance 2 v1.13 **r7609 영어판**을 대상으로 제작 중인 한국
 ## 글꼴
 
 한국어 표시에 [Galmuri](https://github.com/quiple/galmuri)를 사용합니다. 글꼴 라이선스는 `Patch/Data/Fonts/LICENSE_GALMURI.md`를 참고하세요.
-
