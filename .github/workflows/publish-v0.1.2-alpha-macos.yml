@@ -1,0 +1,111 @@
+name: Publish v0.1.2-alpha macOS
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/publish-v0.1.2-alpha-macos.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: macos-14
+    env:
+      PAYLOAD_ID: 1TZeiYXocMa1d2H314C2DmYcq5f-CCDUF
+      PATCH_ID: 1LqYkuhB41pGpoZz4YctZcsYJSlvKmraD
+      CHECKSUM_ID: 1fp0HIHT9A_iUuTJaG7cLpM39f2uo-_Ya
+      PAYLOAD_SHA256: 4626453e423418cacee1dc5521f2985eea975ed82d06d8ba08ebfc7d57e2f86d
+      PATCH_SHA256: e7475d99eb398bd55c7172b796ae5e5ff3743a9efae21e5362c6afa8f3a3db30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download and verify payloads
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 4 --retry-delay 3 "https://drive.usercontent.google.com/download?id=${PAYLOAD_ID}&export=download&confirm=t" -o /tmp/repo-payload.zip
+          curl --fail --location --retry 4 --retry-delay 3 "https://drive.usercontent.google.com/download?id=${PATCH_ID}&export=download&confirm=t" -o /tmp/JA2_r7609_Korean_Patch_v0.1.2-alpha.zip
+          curl --fail --location --retry 4 --retry-delay 3 "https://drive.usercontent.google.com/download?id=${CHECKSUM_ID}&export=download&confirm=t" -o /tmp/JA2_r7609_Korean_Patch_v0.1.2-alpha.zip.sha256
+          python3 - <<'PY'
+          import hashlib, pathlib, zipfile
+          checks = {
+              pathlib.Path('/tmp/repo-payload.zip'): '4626453e423418cacee1dc5521f2985eea975ed82d06d8ba08ebfc7d57e2f86d',
+              pathlib.Path('/tmp/JA2_r7609_Korean_Patch_v0.1.2-alpha.zip'): 'e7475d99eb398bd55c7172b796ae5e5ff3743a9efae21e5362c6afa8f3a3db30',
+          }
+          for path, expected in checks.items():
+              actual = hashlib.sha256(path.read_bytes()).hexdigest()
+              assert actual == expected, (path, actual, expected)
+              with zipfile.ZipFile(path) as zf:
+                  assert zf.testzip() is None
+          text = pathlib.Path('/tmp/JA2_r7609_Korean_Patch_v0.1.2-alpha.zip.sha256').read_text().lower()
+          assert checks[pathlib.Path('/tmp/JA2_r7609_Korean_Patch_v0.1.2-alpha.zip')] in text
+          PY
+
+      - name: Apply and validate release source
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os, pathlib, shutil, zipfile
+          root = pathlib.Path.cwd()
+          tmp = pathlib.Path('/tmp/ja2-payload')
+          shutil.rmtree(tmp, ignore_errors=True)
+          tmp.mkdir()
+          with zipfile.ZipFile('/tmp/repo-payload.zip') as zf:
+              zf.extractall(tmp)
+          for rel in ('Patch/Data', 'Patch/Data-1.13'):
+              dst = root / rel
+              shutil.rmtree(dst, ignore_errors=True)
+              shutil.copytree(tmp / rel, dst)
+          for rel in ('Patch/Ja2.ini', 'Patch/ja2.exe', 'README.md', 'RELEASE_NOTES_v0.1.2-alpha.md', 'tools/build_fixed_mercedt.py'):
+              dst = root / rel
+              dst.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copy2(tmp / rel, dst)
+          for rel in ('.github/workflows/publish-v0.1.2-alpha.yml', '.github/workflows/publish-v0.1.2-alpha-macos.yml'):
+              try: (root / rel).unlink()
+              except FileNotFoundError: pass
+          assert not (root / 'Patch/Data-UB').exists()
+          assert not list((root / 'Patch/Data/NPCData').glob('civ*.edt'))
+          for ident in ('004','013','014','015','020','031','037','040','149','167','169'):
+              candidates = list((root / 'Patch/Data/MercEdt').glob(f'{ident}.[Ee][Dd][Tt]'))
+              assert len(candidates) == 1, (ident, candidates)
+              assert candidates[0].read_bytes() == (root / f'Patch/Data-1.13/MercEdt/{ident}.EDT').read_bytes()
+          expected_sizes = {
+              'Patch/Data/MercEdt/017.edt': 56160,
+              'Patch/Data-1.13/MercEdt/251.EDT': 56160,
+              'Patch/Data-1.13/MercEdt/252.EDT': 37920,
+              'Patch/Data-1.13/BinaryData/MERCBIOS.EDT': 48160,
+          }
+          for rel, size in expected_sizes.items():
+              assert (root / rel).stat().st_size == size, rel
+          PY
+
+      - name: Commit release source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Release v0.1.2-alpha translation fixes"
+          git push origin main
+
+      - name: Create prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git tag -a v0.1.2-alpha -m "JA2 r7609 Korean Patch v0.1.2-alpha"
+          git push origin v0.1.2-alpha
+          gh release create v0.1.2-alpha \
+            /tmp/JA2_r7609_Korean_Patch_v0.1.2-alpha.zip \
+            /tmp/JA2_r7609_Korean_Patch_v0.1.2-alpha.zip.sha256 \
+            --prerelease \
+            --title "JA2 r7609 Korean Patch v0.1.2-alpha" \
+            --notes-file RELEASE_NOTES_v0.1.2-alpha.md
