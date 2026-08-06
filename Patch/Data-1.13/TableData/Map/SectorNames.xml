@@ -1,0 +1,2381 @@
+﻿<SECTOR_NAMES>
+  <SECTOR>
+    <SectorGrid>A1</SectorGrid>
+    <szUnexploredName>열대</szUnexploredName>
+    <szDetailedUnexploredName>열대</szDetailedUnexploredName>
+    <szExploredName>열대</szExploredName>
+    <szDetailedExploredName>열대</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>300</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A2</SectorGrid>
+    <szUnexploredName>치체나</szUnexploredName>
+    <szDetailedUnexploredName>치체나</szDetailedUnexploredName>
+    <szExploredName>치체나</szExploredName>
+    <szDetailedExploredName>치체나</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>250</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A3</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A4</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A5</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A6</SectorGrid>
+    <szUnexploredName>언덕</szUnexploredName>
+    <szDetailedUnexploredName>언덕</szDetailedUnexploredName>
+    <szExploredName>언덕</szExploredName>
+    <szDetailedExploredName>언덕</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>225</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A7</SectorGrid>
+    <szUnexploredName>언덕</szUnexploredName>
+    <szDetailedUnexploredName>언덕</szDetailedUnexploredName>
+    <szExploredName>언덕</szExploredName>
+    <szDetailedExploredName>언덕</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>225</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A8</SectorGrid>
+    <szUnexploredName>언덕</szUnexploredName>
+    <szDetailedUnexploredName>언덕</szDetailedUnexploredName>
+    <szExploredName>언덕</szExploredName>
+    <szDetailedExploredName>언덕</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>225</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A9</SectorGrid>
+    <szUnexploredName>오메르타</szUnexploredName>
+    <szDetailedUnexploredName>오메르타</szDetailedUnexploredName>
+    <szExploredName>오메르타</szExploredName>
+    <szDetailedExploredName>오메르타</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>150</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A10</SectorGrid>
+    <szUnexploredName>오메르타</szUnexploredName>
+    <szDetailedUnexploredName>오메르타</szDetailedUnexploredName>
+    <szExploredName>오메르타</szExploredName>
+    <szDetailedExploredName>오메르타</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>150</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A11</SectorGrid>
+    <szUnexploredName>농토</szUnexploredName>
+    <szDetailedUnexploredName>농토</szDetailedUnexploredName>
+    <szExploredName>농토</szExploredName>
+    <szDetailedExploredName>농토</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A12</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>210</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A13</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A14</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>225</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A15</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>210</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>A16</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B1</SectorGrid>
+    <szUnexploredName>열대</szUnexploredName>
+    <szDetailedUnexploredName>열대</szDetailedUnexploredName>
+    <szExploredName>열대</szExploredName>
+    <szDetailedExploredName>열대</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>300</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B2</SectorGrid>
+    <szUnexploredName>치체나 광산</szUnexploredName>
+    <szDetailedUnexploredName>치체나 광산</szDetailedUnexploredName>
+    <szExploredName>치체나 광산</szExploredName>
+    <szDetailedExploredName>치체나 광산</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>250</usNaturalDirt>
+    <usPrisonRoomNumber00>3</usPrisonRoomNumber00>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B3</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B4</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B5</SectorGrid>
+    <szUnexploredName>농토</szUnexploredName>
+    <szDetailedUnexploredName>농토</szDetailedUnexploredName>
+    <szExploredName>농토</szExploredName>
+    <szDetailedExploredName>농토</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B6</SectorGrid>
+    <szUnexploredName>농토</szUnexploredName>
+    <szDetailedUnexploredName>농토</szDetailedUnexploredName>
+    <szExploredName>농토</szExploredName>
+    <szDetailedExploredName>농토</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B7</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B8</SectorGrid>
+    <szUnexploredName>농토</szUnexploredName>
+    <szDetailedUnexploredName>농토</szDetailedUnexploredName>
+    <szExploredName>농토</szExploredName>
+    <szDetailedExploredName>농토</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B9</SectorGrid>
+    <szUnexploredName>평원, 도로</szUnexploredName>
+    <szDetailedUnexploredName>평원, 도로</szDetailedUnexploredName>
+    <szExploredName>평원, 도로</szExploredName>
+    <szDetailedExploredName>평원, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>180</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B10</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B11</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B12</SectorGrid>
+    <szUnexploredName>농장, 도로</szUnexploredName>
+    <szDetailedUnexploredName>농장, 도로</szDetailedUnexploredName>
+    <szExploredName>농장, 도로</szExploredName>
+    <szDetailedExploredName>농장, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>210</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B13</SectorGrid>
+    <szUnexploredName>드라센 공항</szUnexploredName>
+    <szDetailedUnexploredName>드라센 공항</szDetailedUnexploredName>
+    <szExploredName>드라센 공항</szExploredName>
+    <szDetailedExploredName>드라센 공항</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <sRadioScanModifier>2</sRadioScanModifier>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B14</SectorGrid>
+    <szUnexploredName>수역</szUnexploredName>
+    <szDetailedUnexploredName>수역</szDetailedUnexploredName>
+    <szExploredName>수역</szExploredName>
+    <szDetailedExploredName>수역</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>120</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B15</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>B16</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>C1</SectorGrid>
+    <szUnexploredName>열대</szUnexploredName>
+    <szDetailedUnexploredName>열대</szDetailedUnexploredName>
+    <szExploredName>열대</szExploredName>
+    <szDetailedExploredName>열대</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>300</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>C2</SectorGrid>
+    <szUnexploredName>열대, 도로</szUnexploredName>
+    <szDetailedUnexploredName>열대, 도로</szDetailedUnexploredName>
+    <szExploredName>열대, 도로</szExploredName>
+    <szDetailedExploredName>열대, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>300</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>C3</SectorGrid>
+    <szUnexploredName>열대, 도로</szUnexploredName>
+    <szDetailedUnexploredName>열대, 도로</szDetailedUnexploredName>
+    <szExploredName>열대, 도로</szExploredName>
+    <szDetailedExploredName>열대, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>300</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>C4</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>C5</SectorGrid>
+    <szUnexploredName>산모나</szUnexploredName>
+    <szDetailedUnexploredName>산모나</szDetailedUnexploredName>
+    <szExploredName>산모나</szExploredName>
+    <szDetailedExploredName>산모나</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>C6</SectorGrid>
+    <szUnexploredName>산모나</szUnexploredName>
+    <szDetailedUnexploredName>산모나</szDetailedUnexploredName>
+    <szExploredName>산모나</szExploredName>
+    <szDetailedExploredName>산모나</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>C7</SectorGrid>
+    <szUnexploredName>평원, 도로</szUnexploredName>
+    <szDetailedUnexploredName>평원, 도로</szDetailedUnexploredName>
+    <szExploredName>평원, 도로</szExploredName>
+    <szDetailedExploredName>평원, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>180</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>C8</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>C9</SectorGrid>
+    <szUnexploredName>평원, 도로</szUnexploredName>
+    <szDetailedUnexploredName>평원, 도로</szDetailedUnexploredName>
+    <szExploredName>평원, 도로</szExploredName>
+    <szDetailedExploredName>평원, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+  </SECTOR>
+  <SECTOR>
+    <SectorGrid>C10</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>C11</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>C12</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>C13</SectorGrid>
+    <szUnexploredName>드라센</szUnexploredName>
+    <szDetailedUnexploredName>드라센</szDetailedUnexploredName>
+    <szExploredName>드라센</szExploredName>
+    <szDetailedExploredName>드라센</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>C14</SectorGrid>
+    <szUnexploredName>수역</szUnexploredName>
+    <szDetailedUnexploredName>수역</szDetailedUnexploredName>
+    <szExploredName>수역</szExploredName>
+    <szDetailedExploredName>수역</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+   </SECTOR>	
+   <SECTOR>
+    <SectorGrid>C15</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+   </SECTOR>	
+   <SECTOR>
+    <SectorGrid>C16</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>3</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D1</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D2</SectorGrid>
+    <szUnexploredName>열대</szUnexploredName>
+    <szDetailedUnexploredName>열대</szDetailedUnexploredName>
+    <szExploredName>지대공 미사일 기지</szExploredName>
+    <szDetailedExploredName>열대, 지대공 미사일 기지</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>300</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+    <sRadioScanModifier>2</sRadioScanModifier>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D3</SectorGrid>
+    <szUnexploredName>평원, 도로</szUnexploredName>
+    <szDetailedUnexploredName>평원, 도로</szDetailedUnexploredName>
+    <szExploredName>평원, 도로</szExploredName>
+    <szDetailedExploredName>평원, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D4</SectorGrid>
+    <szUnexploredName>산모나 광산</szUnexploredName>
+    <szDetailedUnexploredName>산모나 광산</szDetailedUnexploredName>
+    <szExploredName>산모나 광산</szExploredName>
+    <szDetailedExploredName>산모나 광산</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>120</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D5</SectorGrid>
+    <szUnexploredName>산모나</szUnexploredName>
+    <szDetailedUnexploredName>산모나</szDetailedUnexploredName>
+    <szExploredName>산모나</szExploredName>
+    <szDetailedExploredName>산모나</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usPrisonRoomNumber00>8</usPrisonRoomNumber00>
+    <usPrisonRoomNumber01>9</usPrisonRoomNumber01>
+    <usPrisonRoomNumber02>10</usPrisonRoomNumber02>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D6</SectorGrid>
+    <szUnexploredName>농토</szUnexploredName>
+    <szDetailedUnexploredName>농토</szDetailedUnexploredName>
+    <szExploredName>농토</szExploredName>
+    <szDetailedExploredName>농토</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>180</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D7</SectorGrid>
+    <szUnexploredName>숲, 도로</szUnexploredName>
+    <szDetailedUnexploredName>숲, 도로</szDetailedUnexploredName>
+    <szExploredName>숲, 도로</szExploredName>
+    <szDetailedExploredName>숲, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>170</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D8</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D9</SectorGrid>
+    <szUnexploredName>평원, 도로</szUnexploredName>
+    <szDetailedUnexploredName>평원, 도로</szDetailedUnexploredName>
+    <szExploredName>평원, 도로</szExploredName>
+    <szDetailedExploredName>평원, 도로</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>150</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D10</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>150</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D11</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D12</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D13</SectorGrid>
+    <szUnexploredName>드라센 광산</szUnexploredName>
+    <szDetailedUnexploredName>드라센 광산</szDetailedUnexploredName>
+    <szExploredName>드라센 광산</szExploredName>
+    <szDetailedExploredName>드라센 광산</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D14</SectorGrid>
+    <szUnexploredName>수역</szUnexploredName>
+    <szDetailedUnexploredName>수역</szDetailedUnexploredName>
+    <szExploredName>수역</szExploredName>
+    <szDetailedExploredName>수역</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>130</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>D15</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>지대공 미사일 기지</szExploredName>
+    <szDetailedExploredName>숲, 지대공 미사일 기지</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+    <sRadioScanModifier>2</sRadioScanModifier>
+   </SECTOR>  
+   <SECTOR>
+    <SectorGrid>D16</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>E1</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>E2</SectorGrid>
+    <szUnexploredName>열대</szUnexploredName>
+    <szDetailedUnexploredName>열대</szDetailedUnexploredName>
+    <szExploredName>열대</szExploredName>
+    <szDetailedExploredName>열대</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>300</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>E3</SectorGrid>
+    <szUnexploredName>평원, 도로</szUnexploredName>
+    <szDetailedUnexploredName>평원, 도로</szDetailedUnexploredName>
+    <szExploredName>평원, 도로</szExploredName>
+    <szDetailedExploredName>평원, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>E4</SectorGrid>
+    <szUnexploredName>언덕</szUnexploredName>
+    <szDetailedUnexploredName>언덕</szDetailedUnexploredName>
+    <szExploredName>언덕</szExploredName>
+    <szDetailedExploredName>언덕</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>130</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>E5</SectorGrid>
+    <szUnexploredName>언덕</szUnexploredName>
+    <szDetailedUnexploredName>언덕</szDetailedUnexploredName>
+    <szExploredName>언덕</szExploredName>
+    <szDetailedExploredName>언덕</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>130</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>E6</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+   </SECTOR> 	  	 	
+   <SECTOR>
+    <SectorGrid>E7</SectorGrid>
+    <szUnexploredName>농장, 도로</szUnexploredName>
+    <szDetailedUnexploredName>농장, 도로</szDetailedUnexploredName>
+    <szExploredName>농장, 도로</szExploredName>
+    <szDetailedExploredName>농장, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>180</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>E8</SectorGrid>
+    <szUnexploredName>농토</szUnexploredName>
+    <szDetailedUnexploredName>농토</szDetailedUnexploredName>
+    <szExploredName>농토</szExploredName>
+    <szDetailedExploredName>농토</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>E9</SectorGrid>
+    <szUnexploredName>농장, 도로</szUnexploredName>
+    <szDetailedUnexploredName>농장, 도로</szDetailedUnexploredName>
+    <szExploredName>농장, 도로</szExploredName>
+    <szDetailedExploredName>농장, 도로</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>150</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>E10</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>E11</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>E12</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>E13</SectorGrid>
+    <szUnexploredName>수역</szUnexploredName>
+    <szDetailedUnexploredName>수역</szDetailedUnexploredName>
+    <szExploredName>수역</szExploredName>
+    <szDetailedExploredName>수역</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>E14</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+   </SECTOR> 
+   <SECTOR>
+    <SectorGrid>E15</SectorGrid>
+    <szUnexploredName>숲, 도로</szUnexploredName>
+    <szDetailedUnexploredName>숲, 도로</szDetailedUnexploredName>
+    <szExploredName>숲, 도로</szExploredName>
+    <szDetailedExploredName>숲, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>175</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>E16</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F1</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F2</SectorGrid>
+    <szUnexploredName>해안선</szUnexploredName>
+    <szDetailedUnexploredName>해안선</szDetailedUnexploredName>
+    <szExploredName>해안선</szExploredName>
+    <szDetailedExploredName>해안선</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>180</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F3</SectorGrid>
+    <szUnexploredName>평원, 도로</szUnexploredName>
+    <szDetailedUnexploredName>평원, 도로</szDetailedUnexploredName>
+    <szExploredName>평원, 도로</szExploredName>
+    <szDetailedExploredName>평원, 도로</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>150</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F4</SectorGrid>
+    <szUnexploredName>언덕</szUnexploredName>
+    <szDetailedUnexploredName>언덕</szDetailedUnexploredName>
+    <szExploredName>언덕</szExploredName>
+    <szDetailedExploredName>언덕</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>130</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F5</SectorGrid>
+    <szUnexploredName>언덕</szUnexploredName>
+    <szDetailedUnexploredName>언덕</szDetailedUnexploredName>
+    <szExploredName>언덕</szExploredName>
+    <szDetailedExploredName>언덕</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>130</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F6</SectorGrid>
+    <szUnexploredName>언덕</szUnexploredName>
+    <szDetailedUnexploredName>언덕</szDetailedUnexploredName>
+    <szExploredName>언덕</szExploredName>
+    <szDetailedExploredName>언덕</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>130</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F7</SectorGrid>
+    <szUnexploredName>산악, 도로</szUnexploredName>
+    <szDetailedUnexploredName>산악, 도로</szDetailedUnexploredName>
+    <szExploredName>산악, 도로</szExploredName>
+    <szDetailedExploredName>산악, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F8</SectorGrid>
+    <szUnexploredName>캠브리아 병원</szUnexploredName>
+    <szDetailedUnexploredName>캠브리아 병원</szDetailedUnexploredName>
+    <szExploredName>캠브리아 병원</szExploredName>
+    <szDetailedExploredName>캠브리아 병원</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F9</SectorGrid>
+    <szUnexploredName>캠브리아</szUnexploredName>
+    <szDetailedUnexploredName>캠브리아</szDetailedUnexploredName>
+    <szExploredName>캠브리아</szExploredName>
+    <szDetailedExploredName>캠브리아</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCurfewValue>1</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F10</SectorGrid>
+    <szUnexploredName>농토</szUnexploredName>
+    <szDetailedUnexploredName>농토</szDetailedUnexploredName>
+    <szExploredName>농토</szExploredName>
+    <szDetailedExploredName>농토</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F11</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F12</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F13</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F14</SectorGrid>
+    <szUnexploredName>평원, 도로</szUnexploredName>
+    <szDetailedUnexploredName>평원, 도로</szDetailedUnexploredName>
+    <szExploredName>평원, 도로</szExploredName>
+    <szDetailedExploredName>평원, 도로</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>150</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F15</SectorGrid>
+    <szUnexploredName>숲, 도로</szUnexploredName>
+    <szDetailedUnexploredName>숲, 도로</szDetailedUnexploredName>
+    <szExploredName>숲, 도로</szExploredName>
+    <szDetailedExploredName>숲, 도로</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>170</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>F16</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G1</SectorGrid>
+    <szUnexploredName>그룸</szUnexploredName>
+    <szDetailedUnexploredName>그룸</szDetailedUnexploredName>
+    <szExploredName>그룸</szExploredName>
+    <szDetailedExploredName>그룸</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G2</SectorGrid>
+    <szUnexploredName>그룸</szUnexploredName>
+    <szDetailedUnexploredName>그룸</szDetailedUnexploredName>
+    <szExploredName>그룸</szExploredName>
+    <szDetailedExploredName>그룸</szDetailedExploredName>
+    <sWaterType>3</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G3</SectorGrid>
+    <szUnexploredName>해안, 도로</szUnexploredName>
+    <szDetailedUnexploredName>해안, 도로</szDetailedUnexploredName>
+    <szExploredName>해안, 도로</szExploredName>
+    <szDetailedExploredName>해안, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>120</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G4</SectorGrid>
+    <szUnexploredName>산악, 도로</szUnexploredName>
+    <szDetailedUnexploredName>산악, 도로</szDetailedUnexploredName>
+    <szExploredName>산악, 도로</szExploredName>
+    <szDetailedExploredName>산악, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G5</SectorGrid>
+    <szUnexploredName>산악, 도로</szUnexploredName>
+    <szDetailedUnexploredName>산악, 도로</szDetailedUnexploredName>
+    <szExploredName>산악, 도로</szExploredName>
+    <szDetailedExploredName>산악, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G6</SectorGrid>
+    <szUnexploredName>산악, 도로</szUnexploredName>
+    <szDetailedUnexploredName>산악, 도로</szDetailedUnexploredName>
+    <szExploredName>산악, 도로</szExploredName>
+    <szDetailedExploredName>산악, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G7</SectorGrid>
+    <szUnexploredName>농장, 도로</szUnexploredName>
+    <szDetailedUnexploredName>농장, 도로</szDetailedUnexploredName>
+    <szExploredName>농장, 도로</szExploredName>
+    <szDetailedExploredName>농장, 도로</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>175</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G8</SectorGrid>
+    <szUnexploredName>캠브리아</szUnexploredName>
+    <szDetailedUnexploredName>캠브리아</szDetailedUnexploredName>
+    <szExploredName>캠브리아</szExploredName>
+    <szDetailedExploredName>캠브리아</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G9</SectorGrid>
+    <szUnexploredName>캠브리아</szUnexploredName>
+    <szDetailedUnexploredName>캠브리아</szDetailedUnexploredName>
+    <szExploredName>캠브리아</szExploredName>
+    <szDetailedExploredName>캠브리아</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usPrisonRoomNumber00>41</usPrisonRoomNumber00>
+    <usPrisonRoomNumber01>42</usPrisonRoomNumber01>
+    <usPrisonRoomNumber02>44</usPrisonRoomNumber02>
+    <usPrisonRoomNumber03>45</usPrisonRoomNumber03>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G10</SectorGrid>
+    <szUnexploredName>사막, 도로</szUnexploredName>
+    <szDetailedUnexploredName>사막, 도로</szDetailedUnexploredName>
+    <szExploredName>사막, 도로</szExploredName>
+    <szDetailedExploredName>사막, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>900</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G11</SectorGrid>
+    <szUnexploredName>사막, 도로</szUnexploredName>
+    <szDetailedUnexploredName>사막, 도로</szDetailedUnexploredName>
+    <szExploredName>사막, 도로</szExploredName>
+    <szDetailedExploredName>사막, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>900</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G12</SectorGrid>
+    <szUnexploredName>평원, 도로</szUnexploredName>
+    <szDetailedUnexploredName>평원, 도로</szDetailedUnexploredName>
+    <szExploredName>평원, 도로</szExploredName>
+    <szDetailedExploredName>평원, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G13</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>170</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G14</SectorGrid>
+    <szUnexploredName>평원, 도로</szUnexploredName>
+    <szDetailedUnexploredName>평원, 도로</szDetailedUnexploredName>
+    <szExploredName>평원, 도로</szExploredName>
+    <szDetailedExploredName>평원, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G15</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>G16</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H1</SectorGrid>
+    <szUnexploredName>그룸</szUnexploredName>
+    <szDetailedUnexploredName>그룸</szDetailedUnexploredName>
+    <szExploredName>그룸</szExploredName>
+    <szDetailedExploredName>그룸</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H2</SectorGrid>
+    <szUnexploredName>그룸</szUnexploredName>
+    <szDetailedUnexploredName>그룸</szDetailedUnexploredName>
+    <szExploredName>그룸</szExploredName>
+    <szDetailedExploredName>그룸</szDetailedExploredName>
+    <sWaterType>3</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCurfewValue>1</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H3</SectorGrid>
+    <szUnexploredName>그룸 광산</szUnexploredName>
+    <szDetailedUnexploredName>그룸 광산</szDetailedUnexploredName>
+    <szExploredName>그룸 광산</szExploredName>
+    <szDetailedExploredName>그룸 광산</szDetailedExploredName>
+    <sWaterType>3</sWaterType>
+    <usNaturalDirt>150</usNaturalDirt>
+    <usCurfewValue>1</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H4</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H5</SectorGrid>
+    <szUnexploredName>언덕</szUnexploredName>
+    <szDetailedUnexploredName>언덕</szDetailedUnexploredName>
+    <szExploredName>언덕</szExploredName>
+    <szDetailedExploredName>언덕</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>130</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H6</SectorGrid>
+    <szUnexploredName>산악, 도로</szUnexploredName>
+    <szDetailedUnexploredName>산악, 도로</szDetailedUnexploredName>
+    <szExploredName>산악, 도로</szExploredName>
+    <szDetailedExploredName>산악, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H7</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+   </SECTOR>  
+   <SECTOR>
+    <SectorGrid>H8</SectorGrid>
+    <szUnexploredName>캠브리아 광산</szUnexploredName>
+    <szDetailedUnexploredName>캠브리아 광산</szDetailedUnexploredName>
+    <szExploredName>캠브리아 광산</szExploredName>
+    <szDetailedExploredName>캠브리아 광산</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>130</usNaturalDirt>
+    <usCurfewValue>1</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H9</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H10</SectorGrid>
+    <szUnexploredName>사막</szUnexploredName>
+    <szDetailedUnexploredName>사막</szDetailedUnexploredName>
+    <szExploredName>사막</szExploredName>
+    <szDetailedExploredName>사막</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>1000</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H11</SectorGrid>
+    <szUnexploredName>사막</szUnexploredName>
+    <szDetailedUnexploredName>사막</szDetailedUnexploredName>
+    <szExploredName>사막</szExploredName>
+    <szDetailedExploredName>사막</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>1000</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H12</SectorGrid>
+    <szUnexploredName>평원, 도로</szUnexploredName>
+    <szDetailedUnexploredName>평원, 도로</szDetailedUnexploredName>
+    <szExploredName>평원, 도로</szExploredName>
+    <szDetailedExploredName>평원, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>150</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H13</SectorGrid>
+    <szUnexploredName>알마</szUnexploredName>
+    <szDetailedUnexploredName>알마</szDetailedUnexploredName>
+    <szExploredName>알마</szExploredName>
+    <szDetailedExploredName>알마</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+    <sRadioScanModifier>1</sRadioScanModifier>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H14</SectorGrid>
+    <szUnexploredName>알마</szUnexploredName>
+    <szDetailedUnexploredName>알마</szDetailedUnexploredName>
+    <szExploredName>알마</szExploredName>
+    <szDetailedExploredName>알마</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H15</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>H16</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I1</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I2</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I3</SectorGrid>
+    <szUnexploredName>해안, 도로</szUnexploredName>
+    <szDetailedUnexploredName>해안, 도로</szDetailedUnexploredName>
+    <szExploredName>해안, 도로</szExploredName>
+    <szDetailedExploredName>해안, 도로</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I4</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I5</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I6</SectorGrid>
+    <szUnexploredName>에스토니</szUnexploredName>
+    <szDetailedUnexploredName>에스토니</szDetailedUnexploredName>
+    <szExploredName>에스토니</szExploredName>
+    <szDetailedExploredName>에스토니</szDetailedExploredName>
+    <sWaterType>3</sWaterType>
+    <usNaturalDirt>135</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I7</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I8</SectorGrid>
+    <szUnexploredName>사막</szUnexploredName>
+    <szDetailedUnexploredName>사막</szDetailedUnexploredName>
+    <szExploredName>지대공 미사일 기지</szExploredName>
+    <szDetailedExploredName>사막, 지대공 미사일 기지</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>850</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+    <sRadioScanModifier>2</sRadioScanModifier>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I9</SectorGrid>
+    <szUnexploredName>사막</szUnexploredName>
+    <szDetailedUnexploredName>사막</szDetailedUnexploredName>
+    <szExploredName>사막</szExploredName>
+    <szDetailedExploredName>사막</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>1000</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I10</SectorGrid>
+    <szUnexploredName>사막</szUnexploredName>
+    <szDetailedUnexploredName>사막</szDetailedUnexploredName>
+    <szExploredName>사막</szExploredName>
+    <szDetailedExploredName>사막</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>1000</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I11</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>170</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I12</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>170</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I13</SectorGrid>
+    <szUnexploredName>알마</szUnexploredName>
+    <szDetailedUnexploredName>알마</szDetailedUnexploredName>
+    <szExploredName>알마</szExploredName>
+    <szDetailedExploredName>알마</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+    <usPrisonRoomNumber00>38</usPrisonRoomNumber00>
+    <usPrisonRoomNumber01>39</usPrisonRoomNumber01>
+    <usPrisonRoomNumber02>40</usPrisonRoomNumber02>
+    <usPrisonRoomNumber03>41</usPrisonRoomNumber03>
+    <usPrisonRoomNumber04>42</usPrisonRoomNumber04>
+    <usPrisonRoomNumber05>43</usPrisonRoomNumber05>
+    <usPrisonRoomNumber06>44</usPrisonRoomNumber06>
+    <usPrisonRoomNumber07>45</usPrisonRoomNumber07>
+    <usPrisonRoomNumber08>46</usPrisonRoomNumber08>
+    <usPrisonRoomNumber09>47</usPrisonRoomNumber09>
+    <usPrisonRoomNumber10>48</usPrisonRoomNumber10>
+    <usPrisonRoomNumber11>49</usPrisonRoomNumber11>
+    <usPrisonRoomNumber12>50</usPrisonRoomNumber12>
+    <usPrisonRoomNumber13>51</usPrisonRoomNumber13>
+   </SECTOR>
+    <SECTOR>
+    <SectorGrid>I14</SectorGrid>
+    <szUnexploredName>알마 광산</szUnexploredName>
+    <szDetailedUnexploredName>알마 광산</szDetailedUnexploredName>
+    <szExploredName>알마 광산</szExploredName>
+    <szDetailedExploredName>알마 광산</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I15</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>I16</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J1</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J2</SectorGrid>
+    <szUnexploredName>해안, 도로</szUnexploredName>
+    <szDetailedUnexploredName>해안, 도로</szDetailedUnexploredName>
+    <szExploredName>해안, 도로</szExploredName>
+    <szDetailedExploredName>해안, 도로</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J3</SectorGrid>
+    <szUnexploredName>해안, 도로</szUnexploredName>
+    <szDetailedUnexploredName>해안, 도로</szDetailedUnexploredName>
+    <szExploredName>해안, 도로</szExploredName>
+    <szDetailedExploredName>해안, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J4</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>3</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J5</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>3</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J6</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J7</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J8</SectorGrid>
+    <szUnexploredName>사막</szUnexploredName>
+    <szDetailedUnexploredName>사막</szDetailedUnexploredName>
+    <szExploredName>사막</szExploredName>
+    <szDetailedExploredName>사막</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>1000</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J9</SectorGrid>
+    <szUnexploredName>사막</szUnexploredName>
+    <szDetailedUnexploredName>사막</szDetailedUnexploredName>
+    <szExploredName>티사</szExploredName>
+    <szDetailedExploredName>티사</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>1000</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <usPrisonRoomNumber00>5</usPrisonRoomNumber00>
+    <usPrisonRoomNumber01>6</usPrisonRoomNumber01>
+    <usPrisonRoomNumber02>7</usPrisonRoomNumber02>
+    <usPrisonRoomNumber03>8</usPrisonRoomNumber03>
+    <usPrisonRoomNumber04>9</usPrisonRoomNumber04>
+    <usPrisonRoomNumber05>10</usPrisonRoomNumber05>
+    <usPrisonRoomNumber06>11</usPrisonRoomNumber06>
+    <usPrisonRoomNumber07>12</usPrisonRoomNumber07>
+    <usPrisonRoomNumber08>13</usPrisonRoomNumber08>
+    <usPrisonRoomNumber09>14</usPrisonRoomNumber09>
+    <usPrisonRoomNumber10>15</usPrisonRoomNumber10>
+    <usPrisonRoomNumber11>16</usPrisonRoomNumber11>
+    <usPrisonRoomNumber12>17</usPrisonRoomNumber12>
+    <usPrisonRoomNumber13>18</usPrisonRoomNumber13>
+    <usPrisonRoomNumber14>19</usPrisonRoomNumber14>
+    <usPrisonRoomNumber15>20</usPrisonRoomNumber15>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J10</SectorGrid>
+    <szUnexploredName>사막</szUnexploredName>
+    <szDetailedUnexploredName>사막</szDetailedUnexploredName>
+    <szExploredName>사막</szExploredName>
+    <szDetailedExploredName>사막</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>1000</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J11</SectorGrid>
+    <szUnexploredName>사막</szUnexploredName>
+    <szDetailedUnexploredName>사막</szDetailedUnexploredName>
+    <szExploredName>사막</szExploredName>
+    <szDetailedExploredName>사막</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>1000</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J12</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J13</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J14</SectorGrid>
+    <szUnexploredName>농장, 도로</szUnexploredName>
+    <szDetailedUnexploredName>농장, 도로</szDetailedUnexploredName>
+    <szExploredName>농장, 도로</szExploredName>
+    <szDetailedExploredName>농장, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>175</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J15</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>J16</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K1</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K2</SectorGrid>
+    <szUnexploredName>해안, 도로</szUnexploredName>
+    <szDetailedUnexploredName>해안, 도로</szDetailedUnexploredName>
+    <szExploredName>해안, 도로</szExploredName>
+    <szDetailedExploredName>해안, 도로</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K3</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>3</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K4</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>오르타</szExploredName>
+    <szDetailedExploredName>오르타 군사 기지</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K5</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>3</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K6</SectorGrid>
+    <szUnexploredName>평원, 도로</szUnexploredName>
+    <szDetailedUnexploredName>평원, 도로</szDetailedUnexploredName>
+    <szExploredName>평원, 도로</szExploredName>
+    <szDetailedExploredName>평원, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>150</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K7</SectorGrid>
+    <szUnexploredName>사막, 도로</szUnexploredName>
+    <szDetailedUnexploredName>사막, 도로</szDetailedUnexploredName>
+    <szExploredName>사막, 도로</szExploredName>
+    <szDetailedExploredName>사막, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>900</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K8</SectorGrid>
+    <szUnexploredName>사막, 도로</szUnexploredName>
+    <szDetailedUnexploredName>사막, 도로</szDetailedUnexploredName>
+    <szExploredName>사막, 도로</szExploredName>
+    <szDetailedExploredName>사막, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>900</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K9</SectorGrid>
+    <szUnexploredName>사막, 도로</szUnexploredName>
+    <szDetailedUnexploredName>사막, 도로</szDetailedUnexploredName>
+    <szExploredName>사막, 도로</szExploredName>
+    <szDetailedExploredName>사막, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>900</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K10</SectorGrid>
+    <szUnexploredName>사막, 도로</szUnexploredName>
+    <szDetailedUnexploredName>사막, 도로</szDetailedUnexploredName>
+    <szExploredName>사막, 도로</szExploredName>
+    <szDetailedExploredName>사막, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>900</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K11</SectorGrid>
+    <szUnexploredName>사막, 도로</szUnexploredName>
+    <szDetailedUnexploredName>사막, 도로</szDetailedUnexploredName>
+    <szExploredName>사막, 도로</szExploredName>
+    <szDetailedExploredName>사막, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>900</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K12</SectorGrid>
+    <szUnexploredName>사막, 도로</szUnexploredName>
+    <szDetailedUnexploredName>사막, 도로</szDetailedUnexploredName>
+    <szExploredName>사막, 도로</szExploredName>
+    <szDetailedExploredName>사막, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>900</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K13</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K14</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K15</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>190</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>K16</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR> 
+   <SECTOR>
+    <SectorGrid>L1</SectorGrid>
+    <szUnexploredName>해안선</szUnexploredName>
+    <szDetailedUnexploredName>해안선</szDetailedUnexploredName>
+    <szExploredName>해안선</szExploredName>
+    <szDetailedExploredName>해안선</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>150</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>L2</SectorGrid>
+    <szUnexploredName>해안, 도로</szUnexploredName>
+    <szDetailedUnexploredName>해안, 도로</szDetailedUnexploredName>
+    <szExploredName>해안, 도로</szExploredName>
+    <szDetailedExploredName>해안, 도로</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>L3</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>3</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>L4</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>4</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>L5</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>180</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>L6</SectorGrid>
+    <szUnexploredName>평원, 도로</szUnexploredName>
+    <szDetailedUnexploredName>평원, 도로</szDetailedUnexploredName>
+    <szExploredName>평원, 도로</szExploredName>
+    <szDetailedExploredName>평원, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>L7</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>170</usNaturalDirt>
+   </SECTOR>
+    <SECTOR>
+    <SectorGrid>L8</SectorGrid>
+    <szUnexploredName>사막</szUnexploredName>
+    <szDetailedUnexploredName>사막</szDetailedUnexploredName>
+    <szExploredName>사막</szExploredName>
+    <szDetailedExploredName>사막</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>1000</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>L9</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>170</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>L10</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>L11</SectorGrid>
+    <szUnexploredName>발리메</szUnexploredName>
+    <szDetailedUnexploredName>발리메</szDetailedUnexploredName>
+    <szExploredName>발리메</szExploredName>
+    <szDetailedExploredName>발리메</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>L12</SectorGrid>
+    <szUnexploredName>발리메</szUnexploredName>
+    <szDetailedUnexploredName>발리메</szDetailedUnexploredName>
+    <szExploredName>발리메</szExploredName>
+    <szDetailedExploredName>발리메</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>L13</SectorGrid>
+    <szUnexploredName>해안선</szUnexploredName>
+    <szDetailedUnexploredName>해안선</szDetailedUnexploredName>
+    <szExploredName>해안선</szExploredName>
+    <szDetailedExploredName>해안선</szDetailedExploredName>
+    <sWaterType>3</sWaterType>
+    <usNaturalDirt>150</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>L14</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>3</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>L15</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>180</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>L16</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M1</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M2</SectorGrid>
+    <szUnexploredName>해안, 도로</szUnexploredName>
+    <szDetailedUnexploredName>해안, 도로</szDetailedUnexploredName>
+    <szExploredName>해안, 도로</szExploredName>
+    <szDetailedExploredName>해안, 도로</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+   </SECTOR> 
+   <SECTOR>
+    <SectorGrid>M3</SectorGrid>
+    <szUnexploredName>늪, 도로</szUnexploredName>
+    <szDetailedUnexploredName>늪, 도로</szDetailedUnexploredName>
+    <szExploredName>늪, 도로</szExploredName>
+    <szDetailedExploredName>늪, 도로</szDetailedExploredName>
+    <sWaterType>3</sWaterType>
+    <usNaturalDirt>450</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M4</SectorGrid>
+    <szUnexploredName>농토</szUnexploredName>
+    <szDetailedUnexploredName>농토</szDetailedUnexploredName>
+    <szExploredName>농토</szExploredName>
+    <szDetailedExploredName>농토</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>175</usNaturalDirt>
+    <usCurfewValue>1</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M5</SectorGrid>
+    <szUnexploredName>숲, 도로</szUnexploredName>
+    <szDetailedUnexploredName>숲, 도로</szDetailedUnexploredName>
+    <szExploredName>숲, 도로</szExploredName>
+    <szDetailedExploredName>숲, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M6</SectorGrid>
+    <szUnexploredName>숲, 도로</szUnexploredName>
+    <szDetailedUnexploredName>숲, 도로</szDetailedUnexploredName>
+    <szExploredName>숲, 도로</szExploredName>
+    <szDetailedExploredName>숲, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>160</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M7</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>170</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M8</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>170</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M9</SectorGrid>
+    <szUnexploredName>평원</szUnexploredName>
+    <szDetailedUnexploredName>평원</szDetailedUnexploredName>
+    <szExploredName>평원</szExploredName>
+    <szDetailedExploredName>평원</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>170</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M10</SectorGrid>
+    <szUnexploredName>열대, 도로</szUnexploredName>
+    <szDetailedUnexploredName>열대, 도로</szDetailedUnexploredName>
+    <szExploredName>열대, 도로</szExploredName>
+    <szDetailedExploredName>열대, 도로</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>250</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M11</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M12</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M13</SectorGrid>
+    <szUnexploredName>숲</szUnexploredName>
+    <szDetailedUnexploredName>숲</szDetailedUnexploredName>
+    <szExploredName>숲</szExploredName>
+    <szDetailedExploredName>숲</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>200</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M14</SectorGrid>
+    <szUnexploredName>늪지</szUnexploredName>
+    <szDetailedUnexploredName>늪지</szDetailedUnexploredName>
+    <szExploredName>늪지</szExploredName>
+    <szDetailedExploredName>늪지</szDetailedExploredName>
+    <sWaterType>3</sWaterType>
+    <usNaturalDirt>500</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M15</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>M16</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N1</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N2</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N3</SectorGrid>
+    <szUnexploredName>메두나 공항</szUnexploredName>
+    <szDetailedUnexploredName>메두나 공항</szDetailedUnexploredName>
+    <szExploredName>메두나 공항</szExploredName>
+    <szDetailedExploredName>메두나 공항</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCurfewValue>1</usCurfewValue>
+    <sRadioScanModifier>2</sRadioScanModifier>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N4</SectorGrid>
+    <szUnexploredName>메두나</szUnexploredName>
+    <szDetailedUnexploredName>메두나</szDetailedUnexploredName>
+    <szExploredName>지대공 미사일 기지</szExploredName>
+    <szDetailedExploredName>메두나, 지대공 미사일 기지</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+    <sRadioScanModifier>2</sRadioScanModifier>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N5</SectorGrid>
+    <szUnexploredName>메두나</szUnexploredName>
+    <szDetailedUnexploredName>메두나</szDetailedUnexploredName>
+    <szExploredName>메두나</szExploredName>
+    <szDetailedExploredName>메두나</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N6</SectorGrid>
+    <szUnexploredName>열대, 도로</szUnexploredName>
+    <szDetailedUnexploredName>열대, 도로</szDetailedUnexploredName>
+    <szExploredName>열대, 도로</szExploredName>
+    <szDetailedExploredName>열대, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>250</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N7</SectorGrid>
+    <szUnexploredName>해안, 도로</szUnexploredName>
+    <szDetailedUnexploredName>해안, 도로</szDetailedUnexploredName>
+    <szExploredName>해안, 도로</szExploredName>
+    <szDetailedExploredName>해안, 도로</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+    <sRadioScanModifier>1</sRadioScanModifier>
+    <usPrisonRoomNumber00>3</usPrisonRoomNumber00>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N8</SectorGrid>
+    <szUnexploredName>해안, 도로</szUnexploredName>
+    <szDetailedUnexploredName>해안, 도로</szDetailedUnexploredName>
+    <szExploredName>해안, 도로</szExploredName>
+    <szDetailedExploredName>해안, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>140</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N9</SectorGrid>
+    <szUnexploredName>열대, 도로</szUnexploredName>
+    <szDetailedUnexploredName>열대, 도로</szDetailedUnexploredName>
+    <szExploredName>열대, 도로</szExploredName>
+    <szDetailedExploredName>열대, 도로</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>250</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N10</SectorGrid>
+    <szUnexploredName>열대, 도로</szUnexploredName>
+    <szDetailedUnexploredName>열대, 도로</szDetailedUnexploredName>
+    <szExploredName>열대, 도로</szExploredName>
+    <szDetailedExploredName>열대, 도로</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>250</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N11</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N12</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N13</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N14</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR> 
+   <SECTOR>
+    <SectorGrid>N15</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>N16</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O1</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O2</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O3</SectorGrid>
+    <szUnexploredName>메두나</szUnexploredName>
+    <szDetailedUnexploredName>메두나</szDetailedUnexploredName>
+    <szExploredName>메두나</szExploredName>
+    <szDetailedExploredName>메두나</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O4</SectorGrid>
+    <szUnexploredName>메두나</szUnexploredName>
+    <szDetailedUnexploredName>메두나</szDetailedUnexploredName>
+    <szExploredName>메두나</szExploredName>
+    <szDetailedExploredName>메두나</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCurfewValue>1</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O5</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O6</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O7</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O8</SectorGrid>
+    <szUnexploredName>열대</szUnexploredName>
+    <szDetailedUnexploredName>열대</szDetailedUnexploredName>
+    <szExploredName>열대</szExploredName>
+    <szDetailedExploredName>열대</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>300</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O9</SectorGrid>
+    <szUnexploredName>열대</szUnexploredName>
+    <szDetailedUnexploredName>열대</szDetailedUnexploredName>
+    <szExploredName>열대</szExploredName>
+    <szDetailedExploredName>열대</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>300</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O10</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O11</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O12</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O13</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O14</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O15</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>O16</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P1</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P2</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P3</SectorGrid>
+    <szUnexploredName>메두나</szUnexploredName>
+    <szDetailedUnexploredName>메두나</szDetailedUnexploredName>
+    <szExploredName>메두나</szExploredName>
+    <szDetailedExploredName>메두나</szDetailedExploredName>
+    <sWaterType>1</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+    <usCurfewValue>2</usCurfewValue>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P4</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P5</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P6</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P7</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P8</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P9</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P10</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P11</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P12</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P13</SectorGrid>
+    <szUnexploredName>통행 불가</szUnexploredName>
+    <szDetailedUnexploredName>통행 불가</szDetailedUnexploredName>
+    <szExploredName>통행 불가</szExploredName>
+    <szDetailedExploredName>통행 불가</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P14</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>2</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P15</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+   <SECTOR>
+    <SectorGrid>P16</SectorGrid>
+    <szUnexploredName>알 수 없음</szUnexploredName>
+    <szDetailedUnexploredName>알 수 없음</szDetailedUnexploredName>
+    <szExploredName>알 수 없음</szExploredName>
+    <szDetailedExploredName>알 수 없음</szDetailedExploredName>
+    <sWaterType>0</sWaterType>
+    <usNaturalDirt>100</usNaturalDirt>
+   </SECTOR>
+</SECTOR_NAMES>

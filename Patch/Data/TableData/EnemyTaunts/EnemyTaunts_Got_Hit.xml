@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>아아악!</szText>
+    <got_hit>1</got_hit>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>눈앞이 빨개...</szText>
+    <got_hit>1</got_hit>
+    <health_lt>40</health_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>젠장, 거의 의식이 없네.</szText>
+    <got_hit>1</got_hit>
+    <energy_lt>40</energy_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>으윽!</szText>
+    <got_hit>1</got_hit>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>이거... 아파!</szText>
+    <got_hit>1</got_hit>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>당신은 이걸... 음... 후회하게 될 거예요.</szText>
+    <got_hit>1</got_hit>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>젠장!</szText>
+    <got_hit>1</got_hit>
+    <miss>1</miss>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>이게 뭐야...!</szText>
+    <got_hit>1</got_hit>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>아야!</szText>
+    <got_hit>1</got_hit>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>이 개자식아!</szText>
+    <szTextCensored>이 개자식아!</szTextCensored>
+    <got_hit>1</got_hit>
+    <aggressive>1</aggressive>
+    <miss>1</miss>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>이 빌어먹을 놈아!</szText>
+    <szTextCensored>오, 이 녀석 정말...</szTextCensored>
+    <got_hit>1</got_hit>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>젠장, 넌 그 대가를 치르게 될 거야!</szText>
+    <szTextCensored>젠장, 넌 그 대가를 치르게 될 거야!</szTextCensored>
+    <got_hit>1</got_hit>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>넌 잘못된 사람을 건드렸어!</szText>
+    <szTextCensored>넌 잘못된 사람을 건드렸어!</szTextCensored>
+    <got_hit>1</got_hit>
+    <aggressive>1</aggressive>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>이제 넌... 날 화나게 했어.</szText>
+    <got_hit>1</got_hit>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>별거 아니었어요!</szText>
+    <got_hit>1</got_hit>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>나 아직 여기 있어!</szText>
+    <got_hit>1</got_hit>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>아무것도 못 느꼈어요!</szText>
+    <got_hit>1</got_hit>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>고통은 내 몸에서 나약함이 빠져나가는 것뿐이다!</szText>
+    <got_hit>1</got_hit>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>고통은 단지 환상일 뿐이다!</szText>
+    <got_hit>1</got_hit>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>네가 뭐라도 되는 줄 알아?</szText>
+    <got_hit>1</got_hit>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>20</uiIndex>
+    <szText>아, 제발!</szText>
+    <got_hit>1</got_hit>
+    <miss>1</miss>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>21</uiIndex>
+    <szText>왜 하필 나야?!</szText>
+    <got_hit>1</got_hit>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>22</uiIndex>
+    <szText>이건 나보다 너에게 더 큰 상처가 되겠지.</szText>
+    <got_hit>1</got_hit>
+    <defensive>1</defensive>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>23</uiIndex>
+    <szText>저는 고통에 알레르기가 있어요!</szText>
+    <got_hit>1</got_hit>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>24</uiIndex>
+    <szText>이 개자식아!</szText>
+    <got_hit>1</got_hit>
+    <target_male>1</target_male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>25</uiIndex>
+    <szText>빌어먹을 특공 분대다!</szText>
+    <got_hit>1</got_hit>
+    <morale_lt>35</morale_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>26</uiIndex>
+    <szText>왜 항상 이런 일이 나한테만 일어나는 거야!?</szText>
+    <got_hit>1</got_hit>
+    <morale_lt>35</morale_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>27</uiIndex>
+    <szText>어머나, 어떻게 이런 일이 일어날 수 있지?</szText>
+    <got_hit>1</got_hit>
+    <morale_lt>35</morale_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>28</uiIndex>
+    <szText>난 화나지 않았어! 내가 화나면 알게 될 거야!</szText>
+    <got_hit>1</got_hit>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>29</uiIndex>
+    <szText>아... 지금 당장 너를 한 대 때려주고 싶다!</szText>
+    <got_missed>1</got_missed>
+    <got_hit>1</got_hit>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>30</uiIndex>
+    <szText>널 죽도록 패줄 거야!</szText>
+    <charge_hth>1</charge_hth>
+    <got_hit>1</got_hit>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>31</uiIndex>
+    <szText>이제 넌 죽었어!</szText>
+    <szTextCensored>이제 넌 죽었어!</szTextCensored>
+    <got_hit>1</got_hit>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>32</uiIndex>
+    <szText>널 주먹으로 때리고, 칼로 찌르고, 목을 졸라버릴 거야! 알잖아... 그게 바로 친구 사이잖아!</szText>
+    <charge_hth>1</charge_hth>
+    <got_hit>1</got_hit>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>33</uiIndex>
+    <szText>하나님은 반드시 당신에게 복수할 방법을 찾으실 것이고, 그 방법은 결코 좋지 않을 겁니다.</szText>
+    <got_hit>1</got_hit>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>34</uiIndex>
+    <szText>적이 작으니 상처도 작군!</szText>
+    <got_hit>1</got_hit>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>35</uiIndex>
+    <szText>저는 불필요한 폭력을 정말 싫어합니다.</szText>
+    <got_hit>1</got_hit>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>36</uiIndex>
+    <szText>날 다시 쏘면 네 총을 네 목에 걸어버릴 거야!</szText>
+    <got_hit_gunfire>1</got_hit_gunfire>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>37</uiIndex>
+    <szText>어머, 불쌍해라... 손톱이 부러졌네!</szText>
+    <got_hit_hth>1</got_hit_hth>
+    <cunning>1</cunning>
+    <target_female>1</target_female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>38</uiIndex>
+    <szText>네 총을 뺏어서 네 엉덩이에 꽂고 방아쇠를 딸깍 소리가 날 때까지 당겨버릴 거야!</szText>
+    <got_hit_gunfire>1</got_hit_gunfire>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>39</uiIndex>
+    <szText>이건? 이건 아무것도 아니야!</szText>
+    <aggressive>1</aggressive>
+    <got_hit>1</got_hit>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>40</uiIndex>
+    <szText>괜찮아요! 얼굴이 충격을 완화해 줬어요!</szText>
+    <aggressive>1</aggressive>
+    <got_hit_fallroof>1</got_hit_fallroof>
+  </TAUNT>
+</TAUNTS>

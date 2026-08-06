@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>죽으면 고통스러울까요?</szText>
+    <hit>1</hit>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>빙고!</szText>
+    <hit>1</hit>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>탁월함은 기술이 아니라 태도입니다.</szText>
+    <hit>1</hit>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>불쌍해라! 피가 나네... 잠깐만, 탐폰 찾아줄게.</szText>
+    <hit>1</hit>
+    <cunning>1</cunning>
+    <female>1</female>
+    <target_male>1</target_male>
+    <target_health>50</target_health>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>업보의 맛은 어때? 별로 안 좋아?</szText>
+    <hit>1</hit>
+    <militia>1</militia>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>의사 선생님이 오셨어요!</szText>
+    <hit_blade>1</hit_blade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>작전 성공!</szText>
+    <hit_blade>1</hit_blade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>너 닭고기 맛이 나!</szText>
+    <hit_blade>1</hit_blade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>지금 뭐가 좋을 것 같으세요? 파바빈이랑 키안티 와인 한 잔이요!</szText>
+    <hit_blade>1</hit_blade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>싹둑싹둑!</szText>
+    <aggressive>1</aggressive>
+    <attack_blade>1</attack_blade>
+    <hit_blade>1</hit_blade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>신선한 고기!</szText>
+    <aggressive>1</aggressive>
+    <hit_blade>1</hit_blade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>네 피를 마시겠다!</szText>
+    <aggressive>1</aggressive>
+    <hit_blade>1</hit_blade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>걱정 마세요, 소독 완료됐습니다!</szText>
+    <hit_blade>1</hit_blade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>음~ 다진 고기!</szText>
+    <aggressive>1</aggressive>
+    <hit_blade>1</hit_blade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>명중!</szText>
+    <hit_gunfire>1</hit_gunfire>
+    <hit_throwing_knife>1</hit_throwing_knife>
+    <cunning>1</cunning>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>조심해, 번개가 칠지도 몰라... 아, 방금 쳤네!</szText>
+    <brave>1</brave>
+    <hit_gunfire>1</hit_gunfire>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>널 보고 있어... 그리고 이제 네 속까지 꿰뚫어 볼 수 있어!</szText>
+    <hit_gunfire>1</hit_gunfire>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>평소라면 여자를 때리지 않겠지만… 아, 내가 무슨 소리를 하는 거야!</szText>
+    <attack_hth>1</attack_hth>
+    <hit_hth>1</hit_hth>
+    <brave>1</brave>
+    <male>1</male>
+    <target_female>1</target_female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>봐? 여자애들도 싸울 수 있어!</szText>
+    <hit_hth>1</hit_hth>
+    <female>1</female>
+    <target_male>1</target_male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>걸 파워!</szText>
+    <hit_hth>1</hit_hth>
+    <female>1</female>
+    <target_male>1</target_male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>20</uiIndex>
+    <szText>자, 이제 너희 둘을... 사람과 총알로 선언한다.</szText>
+    <hit_gunfire>1</hit_gunfire>
+    <cunning>1</cunning>
+    <target_male>1</target_male>
+  </TAUNT>
+</TAUNTS>

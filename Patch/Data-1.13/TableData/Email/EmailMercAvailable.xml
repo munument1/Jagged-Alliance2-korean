@@ -1,0 +1,1357 @@
+﻿<!--
+
+This file contains the email text for each merc (that is available on the A.I.M website), 
+when the merc contacts us back (now the merc is available to work with us).
+
+uiIndex:		This represents the merc index from MercProfiles.xml (Prof.dat)
+Subject:		The email subject
+Message:		The email message boy
+
+--><EMAIL_MERC_AVAILABLE>
+  <EMAIL>
+    <!-- Barry -->
+    <uiIndex>0</uiIndex>
+    <Subject>AIM 서버 전달: 배리 웅거의 메시지</Subject>
+    <Message>안녕하세요. 귀하가 제 전화 응답 장치에 남긴 응답에 대한 배리 웅거의 전자 우편 안내 메시지입니다. ± ± 현재 돌아왔으며, 제가 제공하는 서비스에 아직 관심이 있으시다면 AIM 웹사이트에서 연락하실 수 있습니다. ±  ± 감사합니다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Blood -->
+    <uiIndex>1</uiIndex>
+    <Subject>AIM 서버 전달: 키스 핸슨의 메시지</Subject>
+    <Message>이봐, 블러드다. 메시지 받았어. 연락하고 싶으면 나 돌아왔으니 찾아와. ± ± 네가 결정해. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Lynx -->
+    <uiIndex>2</uiIndex>
+    <Subject>AIM 서버 전달: 루디 로버츠의 메시지</Subject>
+    <Message>안녕하십니까. 루디 로버츠입니다. 최근 제게 메시지를 남기셨기에, 약속대로 이제 시간이 된다는 소식을 전합니다. ± ± 다만 한 가지 주의하십시오. 저는 정기적으로 제안을 받으므로 가능한 한 빨리 연락하시길 권합니다. ± ± 감사합니다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Grizzly -->
+    <uiIndex>3</uiIndex>
+    <Subject>AIM 서버 전달: 스티브 보넬의 메시지</Subject>
+    <Message>스티브 보넬, 그리즐리다. A.I.M.에 있는 내 그 기계에 메시지를 남겼더군. 나 돌아왔다. 다음부터는 내가 있을 때 연락해라. 이런 기술 쓰레기는 질색이야. EXIT exit Send sned help stoip stop SEND \\http:stop //http:stop send. send /send ?help stop. SEND Send. //http.send send this fuc ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Vicki -->
+    <uiIndex>4</uiIndex>
+    <Subject>AIM 서버 전달: 빅토리아 워터스의 메시지</Subject>
+    <Message>메시지 받았어. 아직 사람을 찾고 있으면 AIM으로 와서 얘기하자고. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Trevor -->
+    <uiIndex>5</uiIndex>
+    <Subject>AIM 서버 전달: 트레버 콜비의 메시지</Subject>
+    <Message>안녕하시오. 메시지 받았소. 실라와 내가 돌아왔는데, 물론 연락한 건 나겠지? 실라가 내가 모르는 뭔가를 하는 게 아니라면 말이오. ± ± AIM에 들러서 전부 정리해 봅시다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Grunty -->
+    <uiIndex>6</uiIndex>
+    <Subject>AIM 서버 전달: 헬무트 그룬터의 메시지</Subject>
+    <Message>안녕. 그런티다. 내 기계에 메시지를 남겼지. 이제 나도 네 기계에 하나 남긴다. 임무에서 돌아왔다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Ivan -->
+    <uiIndex>7</uiIndex>
+    <Subject>AIM 서버 전달: 이반 돌비치의 메시지</Subject>
+    <Message>안녕. 나 이제 집이다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Steroid -->
+    <uiIndex>8</uiIndex>
+    <Subject>AIM 서버 전달: 바비 곤타스키의 메시지</Subject>
+    <Message>이건 로버트 곤타스키가 너한테 보내는 메사지다. 나 지금 AIM에 여기 있고 너를 서비수할 수 있다고 말한다. 사이트에서 내 얼굴에 들러라. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Igor -->
+    <uiIndex>9</uiIndex>
+    <Subject>AIM 서버 전달: 이고르 돌비치의 메시지</Subject>
+    <Message>안녕하세요! 전설적인 이반 돌비치의 조카 이고르 돌비치가 메시지에 답합니다. 현재 고용 기회를 논의할 수 있습니다. ± ± 또한 제품 제공을 대가로 제 총에 상표를 붙이고 싶은 주류 회사의 기업 후원을 찾고 있습니다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Shadow -->
+    <uiIndex>10</uiIndex>
+    <Subject>A.I.M. 서버 전달: ???d?? ???????</Subject>
+    <Message>&gt;&gt;이 메시지는 익명 이메일을 통해 AIM 서버로 전달되었습니다. 섀도를 찾으셨군요. 잠시 AIM 사이트에서 연락할 수 있을지도 모릅니다. 이런 건 정말 알 수 없는 법이죠. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Red -->
+    <uiIndex>11</uiIndex>
+    <Subject>AIM 서버 전달: 어니 스프래그의 메시지</Subject>
+    <Message>안녕, 친구! 전화를 못 받아서 미안해. 무슨 뜻인지 알겠지만, 요즘 내 일이 아주 폭발적이었거든! 레드에게 전화해. 물론 AIM에서 날 찾을 수 있어. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Reaper -->
+    <uiIndex>12</uiIndex>
+    <Subject>AIM 서버 전달: 칼 시몬스의 메시지</Subject>
+    <Message>메시지 남겼더군. 우리가 이야기할 게 있을 것 같아. 어디서 날 찾을지는 알겠지. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Fidel -->
+    <uiIndex>13</uiIndex>
+    <Subject>AIM 서버 전달: 피델 다한의 메시지</Subject>
+    <Message>더 빨리 연락 못 해서 미안하다. 그들이 피델 컴퓨터 가져갔다. 나쁜 사진 파일 찾았다고 한다. 사실 아니다. 어떻게 거기 들어갔는지 모른다. 지금 멀리 가는 일 구하기 좋은 때다. AIM으로 와라, 이야기한다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Fox -->
+    <uiIndex>14</uiIndex>
+    <Subject>AIM 서버 전달: 신시아 구즈만의 메시지</Subject>
+    <Message>안녕하세요. 제게 메시지를 남기셨나요? 이야기해 보고 함께 한바탕할 수 있을지 알아보죠. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Sidney -->
+    <uiIndex>15</uiIndex>
+    <Subject>AIM 서버 전달: 시드니 네틀슨의 메시지</Subject>
+    <Message>관심을 보여 주셔서 감사합니다. 잘 알고 계시겠지만 저는 AIM에서 가장 명망 높은 전문가 중 한 명입니다. 제 경력을 더 논의하고 싶으시다면 지금 상담할 수 있습니다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Gus -->
+    <uiIndex>16</uiIndex>
+    <Subject>AIM 서버 전달: 거스 타볼스의 메시지</Subject>
+    <Message>우디! 영영 전화 안 할 줄 알았잖아! 내가 중동에서 골프 치는 동안 연락했다는 얘기는 들었어. ± ± 지금은 바쁘지 않아. 서로 괜찮은 거래를 할 수 있을지도 모르지. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Buns -->
+    <uiIndex>17</uiIndex>
+    <Subject>AIM 서버 전달: 모니카 손더가드의 메시지</Subject>
+    <Message>안녕하세요. 이제 AIM으로 돌아왔습니다. 원하시면 계약 가능성을 논의할 수 있습니다. (그리고 검피, 잡지에서 계속 뜯어 내는 무료 계정 중 하나로 또 연락한 거라면 네 모뎀을 해가 들지 않는 곳에 쑤셔 넣어 주겠어.) ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Ice -->
+    <uiIndex>18</uiIndex>
+    <Subject>AIM 서버 전달: 아이스 윌리엄스의 메시지</Subject>
+    <Message>아이스다. 날 찾고 다녔다고 들었고 메시지도 받았어. 만나고 싶다면 시간을 내지. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Spider -->
+    <uiIndex>19</uiIndex>
+    <Subject>AIM 서버 전달: 도나 휴스턴 박사의 메시지</Subject>
+    <Message>연락해 주셔서 감사합니다. 도나 휴스턴 박사입니다. 마지막 근무를 끝냈으니 지금 몇 분 정도 이야기할 수 있습니다. 물론 대기근무 중이라 유감스럽게도 아무것도 보장할 수는 없습니다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Cliff -->
+    <uiIndex>20</uiIndex>
+    <Subject>AIM 서버 전달: 클리퍼드 하이볼 박사의 메시지</Subject>
+    <Message>클리퍼드 하이볼 박사는 지금 연락할 수 있습니다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Bull -->
+    <uiIndex>21</uiIndex>
+    <Subject>AIM 서버 전달: 존 피터스의 메시지</Subject>
+    <Message>돌아왔다. ± ± 불. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Hitman -->
+    <uiIndex>22</uiIndex>
+    <Subject>AIM 서버 전달: 프랭크 헤네시의 메시지</Subject>
+    <Message>이봐, 에이스. 메시지 받았어. 일 얘기를 하고 싶으면 잠시 여기 있을게. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Buzz -->
+    <uiIndex>23</uiIndex>
+    <Subject>AIM 서버 전달: 루이자 가르노의 메시지</Subject>
+    <Message>쏴야 할 게 있으면 연락해. 아니면 관심 없어. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Raider -->
+    <uiIndex>24</uiIndex>
+    <Subject>AIM 서버 전달: 론 히긴스의 메시지</Subject>
+    <Message>론 히긴스다. 메시지 받았어. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Raven -->
+    <uiIndex>25</uiIndex>
+    <Subject>AIM 서버 전달: 샬린 히긴스의 메시지</Subject>
+    <Message>안녕. 샬린이야. 다른 일이 생기지 않으면 한동안 여기 있을 거야. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Static -->
+    <uiIndex>26</uiIndex>
+    <Subject>AIM 서버 전달: 커크 스티븐슨의 메시지</Subject>
+    <Message>얘기하고 싶다고? 나 왔어. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Len -->
+    <uiIndex>27</uiIndex>
+    <Subject>AIM 서버 전달: 렌 앤더슨 상병의 메시지</Subject>
+    <Message>연락해 주셔서 감사합니다. 지금 임무를 논의하고 싶으시다면 AIM을 통해 연락할 수 있습니다. ± ± 감사합니다! ± ± 렌 앤더슨 상병. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Danny -->
+    <uiIndex>28</uiIndex>
+    <Subject>AIM 서버 전달: 대니얼 퀸튼 박사의 메시지</Subject>
+    <Message>연락해 주셔서 반갑습니다. 아직 유능한 의료 인력을 찾고 계시다면 잠시 만나 뵐 수 있습니다. 하실 말씀은 무엇이든 기꺼이 검토하겠습니다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Magic -->
+    <uiIndex>29</uiIndex>
+    <Subject>AIM 서버 전달: 얼 워커의 메시지</Subject>
+    <Message>나 왔어. 얘기할래? 어디서 찾을지는 알겠지. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Stephen -->
+    <uiIndex>30</uiIndex>
+    <Subject>AIM 서버 전달: 스티븐 로스먼의 메시지</Subject>
+    <Message>연락해 주셔서 감사합니다. 분명 알고 계시겠지만 저는 AIM 최고의 신입 회원 중 하나로 평가받으며, 따라서 고난도·고위험 임무에 자주 자문을 제공하고 계약을 맺습니다. ± ± 현재는 이야기할 수 있지만 시간이 매우 제한적일 듯합니다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Scully -->
+    <uiIndex>31</uiIndex>
+    <Subject>AIM 서버 전달: 로버트 제임스 설리번의 메시지</Subject>
+    <Message>연락 받았어, 친구. 지금 AIM에 있고 항상 새 임무를 찾고 있지. 들러서 얘기하자고. 그때까지 무슨 일이 생길 것 같진 않지만, 또 모르는 일이야. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Malice -->
+    <uiIndex>32</uiIndex>
+    <Subject>AIM 서버 전달: J.P. 비오의 메시지</Subject>
+    <Message>맬리스가 사무실에 있다. 대기 중이다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Dr. Q -->
+    <uiIndex>33</uiIndex>
+    <Subject>AIM 서버 전달: Q. 화옹 박사의 메시지</Subject>
+    <Message>메시지를 받았습니다. 아직 저와 직접 논의하고 싶은 사안이 있다면 지금 기꺼이 만나겠습니다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Nails -->
+    <uiIndex>34</uiIndex>
+    <Subject>AIM 서버 전달: 에드거 스모스의 메시지</Subject>
+    <Message>알았어. 원해? 와서 가져가. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Thor -->
+    <uiIndex>35</uiIndex>
+    <Subject>AIM 서버 전달: 토르 카우프만의 메시지</Subject>
+    <Message>안녕하세요. 전화를 못 받아서 미안합니다. 이번 주는 바빴거든요. ± ± 어쨌든 아직 이야기하고 싶으시다면 지금 예정된 일은 없습니다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Scope -->
+    <uiIndex>36</uiIndex>
+    <Subject>AIM 서버 전달: 실라 스털링의 메시지</Subject>
+    <Message>안녕하세요. 스코프 스털링입니다. 약속드린 대로 메시지에 답합니다. 저와 논의할 일이 있다면 AIM을 통해 연락하실 수 있습니다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Wolf -->
+    <uiIndex>37</uiIndex>
+    <Subject>AIM 서버 전달: 피터 샌더슨의 메시지</Subject>
+    <Message>전화했어? 화장실에 있었어. 다시 연락해. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- MD -->
+    <uiIndex>38</uiIndex>
+    <Subject>AIM 서버 전달: 마이클 도슨 박사의 메시지</Subject>
+    <Message>좋습니다! 메시지를 받았으며, 맡기실 일이 있다면 자세한 이야기를 듣고 싶습니다. ± ± 감사합니다! ± ± 의학박사 마이클 도슨. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Meltdown -->
+    <uiIndex>39</uiIndex>
+    <Subject>AIM 서버 전달: 노마 제솝의 메시지</Subject>
+    <Message>내 자동응답기에 남긴 한심한 메시지는 받았어. 내 귀중한 시간을 더 빼앗고 싶다면 어디로 와야 할지 알겠지. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>40</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>41</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>42</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>43</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>44</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>45</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>46</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>47</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>48</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>49</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>50</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>51</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>52</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>53</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>54</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>55</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>56</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>57</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>58</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>59</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>60</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>61</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>62</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>63</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>64</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>65</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>66</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>67</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>68</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>69</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>70</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>71</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>72</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>73</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>74</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>75</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>76</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>77</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>78</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>79</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>80</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>81</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>82</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>83</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>84</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>85</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>86</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>87</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>88</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>89</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>90</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>91</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>92</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>93</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>94</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>95</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>96</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>97</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>98</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>99</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>100</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>101</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>102</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>103</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>104</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>105</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>106</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>107</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>108</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>109</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>110</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>111</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>112</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>113</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>114</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>115</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>116</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>117</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>118</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>119</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>120</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>121</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>122</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>123</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>124</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>125</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>126</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>127</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>128</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>129</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>130</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>131</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>132</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>133</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>134</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>135</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>136</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>137</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>138</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>139</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>140</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>141</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>142</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>143</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>144</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>145</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>146</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>147</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>148</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>149</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>150</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>151</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>152</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>153</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>154</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>155</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>156</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>157</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>158</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>159</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>160</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>161</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>162</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>163</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>164</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>165</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>166</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>167</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>168</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>169</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Monk -->
+    <uiIndex>170</uiIndex>
+    <Subject>AIM 서버 전달: 빅토르 콜레스니코프의 메시지</Subject>
+    <Message>안녕하세요. 몽크입니다. 메시지 받았습니다. 만나고 싶다면 돌아왔습니다. ± ± 연락 기다리겠습니다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Brain -->
+    <uiIndex>171</uiIndex>
+    <Subject>AIM 서버 전달: 야노 알리크의 메시지</Subject>
+    <Message>이제 임무를 검토할 준비가 됐습니다. 모든 일에는 때와 장소가 있는 법입니다. ± ± 야노 알리크 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Scream -->
+    <uiIndex>172</uiIndex>
+    <Subject>AIM 서버 전달: 레나르트 빌데의 메시지</Subject>
+    <Message>레나르트 빌데, 지금 연락 가능합니다! ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Henning -->
+    <uiIndex>173</uiIndex>
+    <Subject>AIM 서버 전달: 헤닝 폰 브라니츠의 메시지</Subject>
+    <Message>메시지 잘 받았습니다. 감사합니다. 고용을 논의하려면 AIM 웹사이트에서 연락해 주십시오. ± ± 그때 뵙겠습니다! ± ± 헤닝 폰 브라니츠 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Luc -->
+    <uiIndex>174</uiIndex>
+    <Subject>AIM 서버 전달: 뤼크 파브르의 메시지</Subject>
+    <Message>메시지 받았습니다, 메르시! 제안을 기꺼이 검토하겠습니다. 어디서 저를 찾을지는 아시겠죠. ± ± 연락 기다리겠습니다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Laura -->
+    <uiIndex>175</uiIndex>
+    <Subject>AIM 서버 전달: 라우라 콜린 박사의 메시지</Subject>
+    <Message>안녕하세요! 메시지를 남겨 주셔서 감사합니다. 흥미롭게 들리는군요. ± ± AIM에 다시 방문해 주세요. 자세한 이야기를 기꺼이 듣겠습니다. ± ± 행운을 빕니다! ± ± 라우라 콜린 박사 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Grace -->
+    <uiIndex>176</uiIndex>
+    <Subject>AIM 서버 전달: 그라치엘라 지렐리의 메시지</Subject>
+    <Message>제게 연락하려 했지만 성공하지 못하셨군요.± ± 가족 모임이었습니다. 이해하시겠죠? 이제 가족은 충분히 만났으니 AIM 사이트를 통해 다시 연락해 주시면 정말 기쁘겠습니다. ± ± 차오! ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Rudolf -->
+    <uiIndex>177</uiIndex>
+    <Subject>AIM 서버 전달: 루돌프 슈타이거의 메시지</Subject>
+    <Message>내가 하루에 전화를 몇 통이나 받는지 알아? 얼간이란 얼간이는 다 내게 전화할 수 있다고 생각하지.  ± ± 하지만 흥미로운 일이 있다면 돌아왔어.±</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>178</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>179</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>180</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>181</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>182</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>183</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>184</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>185</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Mitch -->
+    <uiIndex>186</uiIndex>
+    <Subject>AIM 서버 전달: 미치 셔들럼 박사의 메시지</Subject>
+    <Message>이전 임무에서 막 돌아왔으며, 이제 고용 조건을 협상할 수 있습니다. 한마디 충고하죠. 싼값을 찾는다면 시간 낭비입니다. ± ± 나머지는 잊고 최고를 선택하십시오! ± 미치 셔들럼 박사 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Carp -->
+    <uiIndex>187</uiIndex>
+    <Subject>AIM 서버 전달: 하워드 멜필드의 메시지</Subject>
+    <Message>안녕, 젊은이! 방금 메시지를 받았네. 아직 관심이 있다면 우리 웹사이트를 통해 연락하게. ± ± 하워드 멜필드 ± A.I.M. 보건안전부장 ± A.I.M. 크리스마스 파티 위원장 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>188</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>189</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>190</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>191</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>192</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>193</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>194</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>195</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>196</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>197</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>198</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>199</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>200</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>201</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>202</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>203</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>204</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>205</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>206</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>207</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>208</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>209</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>210</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>211</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>212</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>213</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>214</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>215</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>216</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>217</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>218</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>219</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>220</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>221</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>222</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Gary -->
+    <uiIndex>223</uiIndex>
+    <Subject>AIM 서버 전달: 게리 로치번의 메시지</Subject>
+    <Message>안녕하세요. 지금은 시간이 됩니다. ± ± 연락하세요. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>224</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>225</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>226</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>227</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Doc -->
+    <uiIndex>228</uiIndex>
+    <Subject>AIM 서버 전달: 아흐마드 쿨한 박사의 메시지</Subject>
+    <Message>쿨한 박사입니다. 리비아 임무에서 막 돌아왔습니다. ± ± AIM에서 연락하실 수 있습니다. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>229</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Boss -->
+    <uiIndex>230</uiIndex>
+    <Subject>AIM 서버 전달: 글렌 해칫의 메시지</Subject>
+    <Message>여기 DIY의 왕이 왔다. 내가 필요해? ± ± 젠장, 어디서 날 찾을지는 알잖아. ± 보스 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Snake -->
+    <uiIndex>231</uiIndex>
+    <Subject>AIM 서버 전달: 조니 에드워즈의 메시지</Subject>
+    <Message>안녕하세요. 가이아나에서 인턴 과정을 마쳤습니다. ± ± 연락하세요. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Spam -->
+    <uiIndex>232</uiIndex>
+    <Subject>AIM 서버 전달: 앨런 웹스터의 메시지</Subject>
+    <Message>안녕하세요. 방금 메시지를 들었습니다. ± ± 아직 저를 원하신다면... 해보겠습니다! ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Spike -->
+    <uiIndex>233</uiIndex>
+    <Subject>AIM 서버 전달: 스파이크 스캘리언 소령의 메시지</Subject>
+    <Message>스캘리언 소령이다. 네 연락을 기다리겠다, 애송이! ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Jimmy -->
+    <uiIndex>234</uiIndex>
+    <Subject>AIM 서버 전달: 지미 업턴의 메시지</Subject>
+    <Message>좋습니다. 당신을 위해 일할 의향이 있습니다. ± ± 하지만 목적지는 알아야 합니다... 제가 갈 수 없는 나라가 몇 곳 있기 때문입니다. ± 좋은 하루 보내십시오. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Leech -->
+    <uiIndex>235</uiIndex>
+    <Subject>AIM 서버 전달: 티머시 젠킨스의 메시지</Subject>
+    <Message>안녕하세요. 뛰어난 명사수가 필요하다면 ± ± 부담 없이 연락하십시오. ± 그럼 이만. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Bob -->
+    <uiIndex>236</uiIndex>
+    <Subject>AIM 서버 전달: 밥 애덤스 대위의 메시지</Subject>
+    <Message>안녕하세요. 제게 맡길 임무가 있습니까? ± ± 자세한 내용을 알려 주려면 연락하십시오. ± 애덤스 대위 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Kelly -->
+    <uiIndex>237</uiIndex>
+    <Subject>AIM 서버 전달: 리오 켈리 대령의 메시지</Subject>
+    <Message>켈리 대령이다. 귀하의 임무를 기꺼이 돕겠다. 내 장비는 실전용이다. ± 켈리 대령 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Vince -->
+    <uiIndex>238</uiIndex>
+    <Subject>AIM 서버 전달: 빈첸초 마시모의 메시지</Subject>
+    <Message>차오, 메시지 받았습니다. ± ± 제게 맡길 계약이 있다면... 지금 시간이 됩니다. ± 아리베데르치. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Kaboom -->
+    <uiIndex>239</uiIndex>
+    <Subject>AIM 서버 전달: 마티 모팻의 메시지</Subject>
+    <Message>안녕, 보스. AIM으로 돌아왔어. ± ± 바다붐. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Bud -->
+    <uiIndex>240</uiIndex>
+    <Subject>AIM 서버 전달: 버드 헬러 중위의 메시지</Subject>
+    <Message>안녕하십니까. 귀하를 위해 일할 수 있다면 기쁘겠습니다. ± ± 언제든 연락하십시오. ± 경의를 표하며, ± 헬러 중위 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Rusty -->
+    <uiIndex>241</uiIndex>
+    <Subject>AIM 서버 전달: 러셀 헌터의 메시지</Subject>
+    <Message>메시지를 받았습니다. 저는 폭발물 전문가이며 야간 작전의 프로입니다. ± ± 곧 온라인에서 뵙겠습니다. ± 러셀 헌터. ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Needle -->
+    <uiIndex>242</uiIndex>
+    <Subject>AIM 서버 전달: 마크 크랜후임 박사의 메시지</Subject>
+    <Message>선생님, 메시지를 받게 되어 기쁩니다. ± ± 제 장애는 의학 지식으로 보완할 수 있습니다. ± ± 제 주소와 전화번호는 알고 계시겠지요. ± ± 안부를 전하며, ± 크랜히엄 박사 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Screw -->
+    <uiIndex>243</uiIndex>
+    <Subject>AIM 서버 전달: 패트릭 필립스의 메시지</Subject>
+    <Message>안녕하세요. AIM 사이트에 있습니다. ± ± 기다리고 있지만... 인내심은 제 장점이 아니니 지체하지 마십시오. ± ± 그럼 이만, ± 아티스트 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>244</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Mouse -->
+    <uiIndex>245</uiIndex>
+    <Subject>AIM 서버 전달: 아니타 백먼의 메시지</Subject>
+    <Message>안녕하세요! *침묵* 함께할 준비가 됐습니다... ± ± **긴 침묵** ± ± 충실히, ± 아니타 *** 아주 긴 침묵 *** ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Hector -->
+    <uiIndex>246</uiIndex>
+    <Subject>AIM 서버 전달: 헥토르 알바레스의 메시지</Subject>
+    <Message>안녕하세요. 제 가치를 증명할 기회를 주셔서 감사합니다. 무척 기다려지는군요... ± ± 원하실 때 연락하십시오. ± ± 경의를 표하며, ± 헥토르 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>247</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Stella -->
+    <uiIndex>248</uiIndex>
+    <Subject>AIM 서버 전달: 마거릿 트래멀 박사의 메시지</Subject>
+    <Message>안녕하세요. 메시지 받았습니다. ± ± 저는 행동은 좋아하지만 말만 번지르르한 사람은 싫어합니다. 저와 모험을 즐기려는 거라면... 잊어버리십시오! ± 트래멀 박사 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>249</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Moses -->
+    <uiIndex>250</uiIndex>
+    <Subject>AIM 서버 전달: 머리 엡스턴의 메시지</Subject>
+    <Message>무슨 일이지? ± ± 아, 그래. 내 기억력과 건강 상태에 관한 소문은 듣지 마. ± ± 난 멀쩡하고 세상을 정복할 준비도 됐어... 농담일세, 젊은이. ± ± 어쨌든 나를 고용하면 실망하지 않을 거야. ± ± 행운을 빌며, ± 모지스 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <!-- Smoke -->
+    <uiIndex>251</uiIndex>
+    <Subject>AIM 서버 전달: 레슬리 피터슨의 메시지</Subject>
+    <Message>내게 연락하려 했더군, 응. ± ± 폭발물 전문가를 찾는다면 AIM에 접속해 있어, 응. ± 스모크 ±</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>252</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>253</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+  <EMAIL>
+    <uiIndex>254</uiIndex>
+    <Subject>Subject : None</Subject>
+    <Message>Message : None</Message>
+  </EMAIL>
+</EMAIL_MERC_AVAILABLE>

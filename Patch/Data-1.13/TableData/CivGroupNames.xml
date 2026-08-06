@@ -1,0 +1,1790 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CIV_GROUP_NAMES>
+	<NAME>
+		<uiIndex>0</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>없음</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>1</uiIndex>
+		<Enabled>1</Enabled>
+		<szGroup>반군</szGroup>
+		<AddToBattle>1</AddToBattle>
+		<Loyalty>1</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>2</uiIndex>
+		<Enabled>1</Enabled>
+		<szGroup>킹핀</szGroup>
+		<AddToBattle>1</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>3</uiIndex>
+		<Enabled>1</Enabled>
+		<szGroup>산모나 무기상</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>4</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>엔젤스</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>1</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>5</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>거지들</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>1</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>6</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>관광객</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>1</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>7</uiIndex>
+		<Enabled>1</Enabled>
+		<szGroup>알마 민병대</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>8</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>의사들</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>1</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>9</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>커플 1</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>1</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>10</uiIndex>
+		<Enabled>1</Enabled>
+		<szGroup>힉스 가문</szGroup>
+		<AddToBattle>1</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>11</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>교도소장</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>12</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>폐차장</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>1</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>13</uiIndex>
+		<Enabled>1</Enabled>
+		<szGroup>공장 아이들</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>1</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>14</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>여왕파</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>1</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>15</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>조이, 마사</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>1</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>16</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>데빈</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>1</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>17</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>하무스</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>1</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>18</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>테리</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>1</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>19</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>다이나모, 생크</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>1</Loyalty>
+	</NAME>
+	<NAME>
+	 <!-- This is the group assassins use, thus the name -->
+		<uiIndex>20</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>민병대</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+    <!-- Prisoners of war the player keeps in his prison -->
+		<uiIndex>21</uiIndex>
+		<Enabled>1</Enabled>
+		<szGroup>수감자</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>22</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯22</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>23</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯23</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>24</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯24</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>25</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯25</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>26</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯26</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>27</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯27</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>28</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯28</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>29</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯29</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>30</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯30</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>31</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯31</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>32</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯32</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>33</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯33</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>34</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯34</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>35</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯35</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>36</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯36</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>37</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯37</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>38</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯38</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>39</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯39</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>40</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯40</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>41</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯41</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>42</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯42</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>43</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯43</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>44</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯44</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>45</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯45</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>46</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯46</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>47</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯47</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>48</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯48</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>49</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯49</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>50</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯50</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>51</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯51</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>52</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯52</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>53</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯53</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>54</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯54</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>55</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯55</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>56</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯56</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>57</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯57</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>58</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯58</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>59</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯59</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>60</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯60</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>61</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯61</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>62</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯62</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>63</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯63</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>64</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯64</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>65</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯65</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>66</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯66</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>67</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯67</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>68</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯68</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>69</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯69</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>70</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯70</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>71</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯71</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>72</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯72</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>73</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯73</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>74</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯74</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>75</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯75</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>76</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯76</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>77</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯77</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>78</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯78</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>79</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯79</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>80</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯80</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>81</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯81</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>82</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯82</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>83</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯83</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>84</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯84</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>85</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯85</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>86</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯86</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>87</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯87</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>88</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯88</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>89</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯89</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>90</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯90</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>91</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯91</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>92</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯92</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>93</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯93</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>94</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯94</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>95</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯95</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>96</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯96</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>97</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯97</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>98</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯98</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>99</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯99</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>100</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯100</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>101</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯101</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>102</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯102</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>103</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯103</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>104</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯104</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>105</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯105</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>106</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯106</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>107</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯107</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>108</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯108</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>109</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯109</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>110</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯110</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>111</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯111</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>112</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯112</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>113</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯113</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>114</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯114</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>115</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯115</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>116</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯116</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>117</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯117</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>118</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯118</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>119</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯119</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>120</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯120</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>121</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯121</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>122</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯122</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>123</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯123</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>124</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯124</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>125</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯125</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>126</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯126</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>127</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯127</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>128</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯128</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>129</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯129</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>130</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯130</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>131</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯131</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>132</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯132</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>133</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯133</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>134</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯134</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>135</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯135</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>136</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯136</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>137</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯137</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>138</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯138</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>139</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯139</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>140</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯140</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>141</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯141</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>142</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯142</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>143</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯143</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>144</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯144</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>145</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯145</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>146</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯146</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>147</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯147</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>148</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯148</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>149</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯149</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>150</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯150</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>151</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯151</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>152</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯152</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>153</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯153</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>154</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯154</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>155</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯155</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>156</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯156</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>157</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯157</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>158</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯158</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>159</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯159</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>160</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯160</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>161</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯161</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>162</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯162</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>163</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯163</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>164</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯164</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>165</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯165</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>166</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯166</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>167</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯167</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>168</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯168</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>169</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯169</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>170</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯170</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>171</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯171</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>172</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯172</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>173</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯173</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>174</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯174</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>175</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯175</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>176</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯176</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>177</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯177</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>178</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯178</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>179</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯179</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>180</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯180</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>181</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯181</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>182</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯182</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>183</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯183</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>184</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯184</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>185</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯185</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>186</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯186</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>187</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯187</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>188</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯188</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>189</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯189</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>190</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯190</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>191</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯191</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>192</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯192</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>193</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯193</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>194</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯194</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>195</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯195</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>196</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯196</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>197</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯197</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>198</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯198</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>199</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯199</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>200</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯200</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>201</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯201</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>202</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯202</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>203</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯203</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>204</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯204</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>205</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯205</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>206</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯206</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>207</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯207</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>208</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯208</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>209</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯209</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>210</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯210</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>211</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯211</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>212</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯212</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>213</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯213</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>214</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯214</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>215</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯215</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>216</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯216</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>217</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯217</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>218</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯218</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>219</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯219</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>220</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯220</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>221</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯221</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>222</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯222</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>223</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯223</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>224</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯224</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>225</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯225</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>226</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯226</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>227</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯227</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>228</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯228</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>229</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯229</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>230</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯230</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>231</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯231</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>232</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯232</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>233</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯233</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>234</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯234</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>235</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯235</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>236</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯236</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>237</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯237</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>238</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯238</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>239</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯239</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>240</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯240</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>241</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯241</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>242</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯242</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>243</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯243</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>244</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯244</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>245</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯245</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>246</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯246</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>247</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯247</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>248</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯248</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>249</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯249</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>250</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯250</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>251</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯251</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>252</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯252</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>253</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯253</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+	<NAME>
+		<uiIndex>254</uiIndex>
+		<Enabled>0</Enabled>
+		<szGroup>빈 슬롯254</szGroup>
+		<AddToBattle>0</AddToBattle>
+		<Loyalty>0</Loyalty>
+	</NAME>
+</CIV_GROUP_NAMES>

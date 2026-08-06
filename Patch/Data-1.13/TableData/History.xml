@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+This file defines the text used for various history events.
+
+These are the "history log" strings. Their length is very limited, especially with '%s'
+One way to test is to use the replacement strings on <uiIndex> 1 & 5.
+
+NOTE:
+Will only work if there's an accompanying trigger in sourcecode;
+	does not work by simply adding more lines.
+Strings containing combinations of % characters are special format characters to insert
+	a parameter as specified in code. % characters can be rearranged/removed;
+	inserting new ones will just print garbled text.
+--><STRINGS>
+  <TEXT>
+	<!-- HISTORY_ENTERED_HISTORY_MODE - leave this line blank -->
+	<uiIndex>0</uiIndex>
+    <sHistory/>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_HIRED_MERC_FROM_AIM -->
+	<uiIndex>1</uiIndex>
+    <sHistory>%s을(를) A.I.M.에서 고용함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_HIRED_MERC_FROM_MERC -->
+	<uiIndex>2</uiIndex>
+    <sHistory>%s을(를) M.E.R.C.에서 고용함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_MERC_KILLED -->
+	<uiIndex>3</uiIndex>
+    <sHistory>%s 사망.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_SETTLED_ACCOUNTS_AT_MERC -->
+	<uiIndex>4</uiIndex>
+    <sHistory>M.E.R.C. 미지급금 정산.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_ACCEPTED_ASSIGNMENT_FROM_ENRICO -->
+	<uiIndex>5</uiIndex>
+    <sHistory>엔리코 치발도리의 임무를 수락함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_CHARACTER_GENERATED -->
+	<uiIndex>6</uiIndex>
+    <sHistory>IMP 프로필 생성.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_PURCHASED_INSURANCE -->
+	<uiIndex>7</uiIndex>
+    <sHistory>%s의 보험 계약을 구매함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_CANCELLED_INSURANCE -->
+	<uiIndex>8</uiIndex>
+    <sHistory>%s의 보험 계약을 취소함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_INSURANCE_CLAIM_PAYOUT -->
+	<uiIndex>9</uiIndex>
+    <sHistory>%s의 보험금이 지급됨.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_EXTENDED_CONTRACT_1_DAY -->
+	<uiIndex>10</uiIndex>
+    <sHistory>%s의 계약을 하루 연장함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_EXTENDED_CONTRACT_1_WEEK -->
+	<uiIndex>11</uiIndex>
+    <sHistory>%s의 계약을 1주 연장함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_EXTENDED_CONTRACT_2_WEEK -->
+	<uiIndex>12</uiIndex>
+    <sHistory>%s의 계약을 2주 연장함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_MERC_FIRED -->
+	<uiIndex>13</uiIndex>
+    <sHistory>%s을(를) 해고함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_MERC_QUIT -->
+	<uiIndex>14</uiIndex>
+    <sHistory>%s이(가) 그만둠.</sHistory>
+  </TEXT>
+  <TEXT>
+  	<!-- HISTORY_QUEST_STARTED - strings from BINARYDATA\quests.edt -->
+	<uiIndex>15</uiIndex>
+    <sHistory>퀘스트 시작.</sHistory>
+  </TEXT>
+  <TEXT>
+  	<!-- HISTORY_QUEST_FINISHED - strings from BINARYDATA\quests.edt -->
+	<uiIndex>16</uiIndex>
+    <sHistory>퀘스트 완료.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_TALKED_TO_MINER -->
+	<uiIndex>17</uiIndex>
+    <sHistory>%s 광산 책임자와 대화함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_LIBERATED_TOWN -->
+	<uiIndex>18</uiIndex>
+    <sHistory>%s 해방.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_CHEAT_ENABLED -->
+	<uiIndex>19</uiIndex>
+    <sHistory>치트 사용.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_TALKED_TO_FATHER_WALKER -->
+	<uiIndex>20</uiIndex>
+    <sHistory>내일까지 오메르타에 식량이 도착할 예정.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_MERC_MARRIED_OFF -->
+	<uiIndex>21</uiIndex>
+    <sHistory>%s이(가) 대릴 힉스의 아내가 되기 위해 팀을 떠남.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_MERC_CONTRACT_EXPIRED -->
+	<uiIndex>22</uiIndex>
+    <sHistory>%s의 계약이 만료됨.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_RPC_JOINED_TEAM -->
+	<uiIndex>23</uiIndex>
+    <sHistory>%s을(를) 영입함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_ENRICO_COMPLAINED -->
+	<uiIndex>24</uiIndex>
+    <sHistory>엔리코가 진척 부족에 불만을 표함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_WONBATTLE -->
+	<uiIndex>25</uiIndex>
+    <sHistory>전투 승리.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_MINE_RUNNING_OUT -->
+	<uiIndex>26</uiIndex>
+    <sHistory>%s 광산의 광석이 고갈되기 시작함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_MINE_RAN_OUT -->
+	<uiIndex>27</uiIndex>
+    <sHistory>%s 광산의 광석이 고갈됨.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_MINE_SHUTDOWN -->
+	<uiIndex>28</uiIndex>
+    <sHistory>%s 광산이 폐쇄됨.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_MINE_REOPENED -->
+	<uiIndex>29</uiIndex>
+    <sHistory>%s 광산이 재가동됨.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_DISCOVERED_TIXA -->
+	<uiIndex>30</uiIndex>
+    <sHistory>틱사라는 감옥이 있다는 사실을 알아냄.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_DISCOVERED_ORTA -->
+	<uiIndex>31</uiIndex>
+    <sHistory>오르타라는 비밀 무기 공장이 있다는 소문을 들음.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_GOT_ROCKET_RIFLES -->
+	<uiIndex>32</uiIndex>
+    <sHistory>오르타의 과학자가 다수의 로켓 소총을 기증함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_DEIDRANNA_DEAD_BODIES -->
+	<uiIndex>33</uiIndex>
+    <sHistory>데이드라나 여왕은 시체를 이용할 곳이 있음.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_BOXING_MATCHES -->
+	<uiIndex>34</uiIndex>
+    <sHistory>프랭크가 산모나의 격투 경기에 관해 이야기함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_SOMETHING_IN_MINES -->
+	<uiIndex>35</uiIndex>
+    <sHistory>환자 한 명이 광산에서 무언가를 봤다고 주장함.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_DEVIN -->
+	<uiIndex>36</uiIndex>
+    <sHistory>폭발물을 파는 데빈이라는 사람을 만남.</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_MIKE -->
+	<uiIndex>37</uiIndex>
+    <sHistory>유명한 전직 A.I.M. 용병 마이크와 마주침!</sHistory>
+  </TEXT>
+  <TEXT>
+	<!-- HISTORY_TONY -->
+	<uiIndex>38</uiIndex>
+    <sHistory>무기를 거래하는 토니를 만남.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_KROTT -->
+	<uiIndex>39</uiIndex>
+    <sHistory>크로트 병장에게서 로켓 소총을 받음.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_KYLE -->
+	<uiIndex>40</uiIndex>
+    <sHistory>카일에게 엔젤의 가죽 상점 권리증서를 건넴.</sHistory>
+  </TEXT>  
+  <TEXT>
+	<!-- HISTORY_MADLAB -->
+	<uiIndex>41</uiIndex>
+    <sHistory>매드랩이 로봇을 만들어 주겠다고 제안함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_GABBY -->
+	<uiIndex>42</uiIndex>
+    <sHistory>개비는 벌레용 은신 약물을 만들 수 있음.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_KEITH_OUT_OF_BUSINESS -->
+	<uiIndex>43</uiIndex>
+    <sHistory>키스가 폐업함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_HOWARD_CYANIDE -->
+	<uiIndex>44</uiIndex>
+    <sHistory>하워드가 데이드라나 여왕에게 청산가리를 제공함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_KEITH -->
+	<uiIndex>45</uiIndex>
+    <sHistory>캄브리아의 잡화상 키스를 만남.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_HOWARD -->
+	<uiIndex>46</uiIndex>
+    <sHistory>발리메에서 의약품을 거래하는 하워드를 만남.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_PERKO -->
+	<uiIndex>47</uiIndex>
+    <sHistory>소규모 수리점을 운영하는 페르코를 만남.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_SAM -->
+	<uiIndex>48</uiIndex>
+    <sHistory>철물점을 운영하는 발리메의 샘을 만남.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_FRANZ -->
+	<uiIndex>49</uiIndex>
+    <sHistory>프란츠는 전자제품과 기타 물품을 거래함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_ARNOLD -->
+	<uiIndex>50</uiIndex>
+    <sHistory>아놀드는 그룸에서 수리점을 운영함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_FREDO -->
+	<uiIndex>51</uiIndex>
+    <sHistory>프레도는 그룸에서 전자제품을 수리함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_RICHGUY_BALIME -->
+	<uiIndex>52</uiIndex>
+    <sHistory>발리메의 부자에게서 기부금을 받음.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_JAKE -->
+	<uiIndex>53</uiIndex>
+    <sHistory>제이크라는 폐차장 상인을 만남.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_BUM_KEYCARD -->
+	<uiIndex>54</uiIndex>
+    <sHistory>부랑자 한 명이 전자식 키카드를 건넴.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_WALTER -->
+	<uiIndex>55</uiIndex>
+    <sHistory>월터에게 뇌물을 주어 지하실 문을 열게 함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_DAVE -->
+	<uiIndex>56</uiIndex>
+    <sHistory>데이브에게 연료가 있으면 무료로 주유해 줌.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_PABLO -->
+	<uiIndex>57</uiIndex>
+    <sHistory>파블로에게 뇌물을 줌.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_KINGPIN_MONEY -->
+	<uiIndex>58</uiIndex>
+    <sHistory>킹핀은 산모나 광산에 돈을 보관함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_WON_BOXING -->
+	<uiIndex>59</uiIndex>
+    <sHistory>%s이(가) 익스트림 파이팅 경기에서 승리함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_LOST_BOXING -->
+	<uiIndex>60</uiIndex>
+    <sHistory>%s이(가) 익스트림 파이팅 경기에서 패배함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_DISQUALIFIED_BOXING -->
+	<uiIndex>61</uiIndex>
+    <sHistory>%s이(가) 익스트림 파이팅에서 실격됨.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_FOUND_MONEY -->
+	<uiIndex>62</uiIndex>
+    <sHistory>폐광에 숨겨진 거액의 돈을 발견함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_ASSASSIN -->
+	<uiIndex>63</uiIndex>
+    <sHistory>킹핀이 보낸 암살자와 조우함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_LOSTTOWNSECTOR -->
+	<uiIndex>64</uiIndex>
+    <sHistory>구역의 통제권을 잃음.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_DEFENDEDTOWNSECTOR -->
+	<uiIndex>65</uiIndex>
+    <sHistory>구역을 방어함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_LOSTBATTLE -->
+	<uiIndex>66</uiIndex>
+    <sHistory>전투 패배.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_FATALAMBUSH -->
+	<uiIndex>67</uiIndex>
+    <sHistory>치명적인 매복.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_WIPEDOUTENEMYAMBUSH -->
+	<uiIndex>68</uiIndex>
+    <sHistory>적의 매복을 섬멸함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_UNSUCCESSFULATTACK -->
+	<uiIndex>69</uiIndex>
+    <sHistory>공격 실패.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_SUCCESSFULATTACK -->
+	<uiIndex>70</uiIndex>
+    <sHistory>공격 성공!</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_CREATURESATTACKED -->
+	<uiIndex>71</uiIndex>
+    <sHistory>생물들의 공격.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_KILLEDBYBLOODCATS -->
+	<uiIndex>72</uiIndex>
+    <sHistory>블러드캣에게 살해됨.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_SLAUGHTEREDBLOODCATS -->
+	<uiIndex>73</uiIndex>
+    <sHistory>블러드캣을 몰살함.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_NPC_KILLED -->
+	<uiIndex>74</uiIndex>
+    <sHistory>%s이(가) 살해됨.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_GAVE_CARMEN_HEAD -->
+	<uiIndex>75</uiIndex>
+    <sHistory>카르멘에게 테러리스트의 머리를 건넴.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_SLAY_MYSTERIOUSLY_LEFT -->
+	<uiIndex>76</uiIndex>
+    <sHistory>슬레이가 떠남.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_MERC_KILLED_CHARACTER -->
+	<uiIndex>77</uiIndex>
+    <sHistory>%s 처치.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_WALDO -->
+	<uiIndex>78</uiIndex>
+    <sHistory>항공기 정비사 월도를 만남.</sHistory>
+  </TEXT> 
+  <TEXT>
+	<!-- HISTORY_HELICOPTER_REPAIR_STARTED -->
+	<uiIndex>79</uiIndex>
+    <sHistory>헬리콥터 수리 시작. 예상 시간: %d시간.</sHistory>
+  </TEXT> 
+</STRINGS>

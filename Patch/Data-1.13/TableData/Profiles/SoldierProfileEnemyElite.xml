@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--                                                                                                
+uiIndex           number of profile, 0 is a template            
+szName            name of soldier                                                                  
+uiBodyType        body type:                                                                        
+                  1: REGMALE                                                                        
+                  2: BIGMALE                                                                        
+                  3: STOCKYMALE                                                                     
+                  4: REGFEMALE                                                                      
+                                                                                                    
+uiHair            hair colour:                                                                      
+                  1: WHITEHEAD                                                                      
+                  2: BLACKHEAD                                                      
+                  3: BROWNHEAD                                                                      
+                  4: BLONDHEAD                                                                      
+                  5: REDHEAD                                                                        
+                                                                                                    
+uiSkin            skin colour:                                                                      
+                  1: PINKSKIN                                                                       
+                  2: TANSKIN                                                                        
+                  3: DARKSKIN                                                                       
+                  4: BLACKSKIN                                                                      
+                                                                                                    
+uiTrait1, uiTrait2, uiTrait3: according to the trait numbers:                                       
+                  // MAJOR TRAITS                                                                   
+                  AUTO_WEAPONS_NT, // 1                                                             
+                  HEAVY_WEAPONS_NT, // 2                                                            
+                  SNIPER_NT, // 3                                                                   
+                  RANGER_NT, // 4                                                                   
+                  GUNSLINGER_NT, // 5                                                               
+                  MARTIAL_ARTS_NT, // 6                                                             
+                  SQUADLEADER_NT, // 7                                                              
+                  TECHNICIAN_NT, // 8                                                               
+                  DOCTOR_NT, // 9                                                                   
+                                                                                                    
+                  // MINOR TRAITS                                                                   
+                  AMBIDEXTROUS_NT, // 10                                                            
+                  MELEE_NT, // 11                                                                   
+                  THROWING_NT, // 12                                                                
+                  NIGHT_OPS_NT, // 13                                                               
+                  STEALTHY_NT, // 14                                                                
+                  ATHLETICS_NT, // 15                                                               
+                  BODYBUILDING_NT, // 16                                                            
+                  DEMOLITIONS_NT, // 17                                                             
+                  TEACHING_NT, // 18                                                                
+                  SCOUTING_NT, // 19                                                                
+                                                                                                    
+                  COVERT_NT, // 20                                               
+--><PROFILES>
+  <PROFILE>
+    <uiIndex>0</uiIndex>
+    <szName>이 템플릿은 게임 내에서 절대 표시되어서는 안 됩니다...</szName>
+    <uiBodyType>0</uiBodyType>
+    <uiHair>0</uiHair>
+    <uiSkin>0</uiSkin>
+    <uiTrait1>0</uiTrait1>
+    <uiTrait2>0</uiTrait2>
+    <uiTrait3>0</uiTrait3>
+  </PROFILE>
+  <PROFILE>
+   <uiIndex>1</uiIndex>
+   <szName>데이비드 크누드센</szName>
+   <uiBodyType>1</uiBodyType>
+   <uiHair>4</uiHair>
+   <uiSkin>1</uiSkin>
+   <uiTrait1>3</uiTrait1>
+   <uiTrait2>10</uiTrait2>
+   <uiTrait3>13</uiTrait3>
+ </PROFILE>
+ <PROFILE>
+   <uiIndex>2</uiIndex>
+   <szName>세바스찬 메츠</szName>
+   <uiBodyType>3</uiBodyType>
+   <uiHair>3</uiHair>
+   <uiSkin>1</uiSkin>
+   <uiTrait1>1</uiTrait1>
+   <uiTrait2>5</uiTrait2>
+   <uiTrait3>15</uiTrait3>
+ </PROFILE>
+ <PROFILE>
+   <uiIndex>3</uiIndex>
+   <szName>라클란 "경" 보티키오</szName>
+   <uiBodyType>2</uiBodyType>
+   <uiHair>3</uiHair>
+   <uiSkin>1</uiSkin>
+   <uiTrait1>5</uiTrait1>
+   <uiTrait3>16</uiTrait3>
+ </PROFILE>
+ <PROFILE>
+   <uiIndex>4</uiIndex>
+   <szName>히락스</szName>
+   <uiBodyType>3</uiBodyType>
+   <uiHair>4</uiHair>
+   <uiSkin>1</uiSkin>
+   <uiTrait1>1</uiTrait1>
+   <uiTrait2>13</uiTrait2>
+   <uiTrait3>14</uiTrait3>
+ </PROFILE>
+ <PROFILE>
+   <uiIndex>5</uiIndex>
+   <szName>비볼</szName>
+   <uiBodyType>3</uiBodyType>
+   <uiHair>4</uiHair>
+   <uiSkin>2</uiSkin>
+   <uiTrait1>3</uiTrait1>
+   <uiTrait2>14</uiTrait2>
+   <uiTrait3>15</uiTrait3>
+ </PROFILE>
+ <PROFILE>
+   <uiIndex>6</uiIndex>
+   <szName>JK</szName>
+   <uiBodyType>2</uiBodyType>
+   <uiHair>3</uiHair>
+   <uiSkin>1</uiSkin>
+   <uiTrait1>1</uiTrait1>
+   <uiTrait2>7</uiTrait2>
+   <uiTrait3>15</uiTrait3>
+ </PROFILE>
+ <PROFILE>
+   <uiIndex>7</uiIndex>
+   <szName>제라드 폭스</szName>
+   <uiBodyType>1</uiBodyType>
+   <uiHair>3</uiHair>
+   <uiSkin>2</uiSkin>
+   <uiTrait1>1</uiTrait1>
+   <uiTrait2>7</uiTrait2>
+   <uiTrait3>15</uiTrait3>
+ </PROFILE>
+</PROFILES>

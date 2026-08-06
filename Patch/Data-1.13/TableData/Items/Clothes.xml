@@ -1,0 +1,140 @@
+<!--
+	Possible vests:
+		YELLOWVEST
+		BLACKSHIRT
+		REDVEST
+		GREENVEST
+		JEANVEST
+		BLUEVEST
+		greyVEST  :: note capitalization here
+		GYELLOWSHIRT
+		WHITEVEST
+		PURPLESHIRT
+		BLUEVEST
+		BROWNVEST
+	
+	Possible pants:
+		GREENPANTS
+		BLACKPANTS
+		BEIGEPANTS
+		TANPANTS
+		JEANPANTS
+		BLUEPANTS
+
+--><CLOTHESLIST>
+	<CLOTHES>
+		<uiIndex>0</uiIndex>
+		<szName>없음</szName>
+		<Vest/>
+		<Pants/>
+	</CLOTHES>
+	<CLOTHES>
+    <uiIndex>1</uiIndex>
+		<szName>노란색 조끼</szName>
+		<Vest>YELLOWVEST</Vest>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>2</uiIndex>
+		<szName>검은색 셔츠</szName>
+		<Vest>BLACKSHIRT</Vest>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>3</uiIndex>
+		<szName>빨간색 조끼</szName>
+		<Vest>REDVEST</Vest>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>4</uiIndex>
+		<szName>초록색 조끼</szName>
+		<Vest>GREENVEST</Vest>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>5</uiIndex>
+		<szName>데님 조끼</szName>
+		<Vest>JEANVEST</Vest>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>6</uiIndex>
+		<szName>파란색 조끼</szName>
+		<Vest>BLUEVEST</Vest>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>7</uiIndex>
+		<szName>회색 셔츠</szName>
+		<Vest>greyVEST</Vest>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>8</uiIndex>
+		<szName>연두색</szName>
+		<Vest>GYELLOWSHIRT</Vest>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>9</uiIndex>
+		<szName>흰색 조끼</szName>
+		<Vest>WHITEVEST</Vest>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>10</uiIndex>
+		<szName>보라색 셔츠</szName>
+		<Vest>PURPLESHIRT</Vest>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>11</uiIndex>
+		<szName>갈색 조끼</szName>
+		<Vest>BROWNVEST</Vest>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>12</uiIndex>
+		<szName>군용 바지</szName>
+		<Pants>GREENPANTS</Pants>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>13</uiIndex>
+		<szName>검은색 바지</szName>
+		<Pants>BLACKPANTS</Pants>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>14</uiIndex>
+		<szName>베이지색 바지</szName>
+		<Pants>BEIGEPANTS</Pants>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>15</uiIndex>
+		<szName>황갈색 바지</szName>
+		<Pants>TANPANTS</Pants>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>16</uiIndex>
+		<szName>데님 바지</szName>
+		<Pants>JEANPANTS</Pants>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>17</uiIndex>
+		<szName>청바지</szName>
+		<Pants>BLUEPANTS</Pants>
+	</CLOTHES>
+	
+	<CLOTHES>
+    <uiIndex>18</uiIndex>
+		<szName>흰색 티셔츠와 청바지</szName>
+		<Vest>WHITEVEST</Vest>
+		<Pants>BLUEPANTS</Pants>
+	</CLOTHES>
+
+</CLOTHESLIST>

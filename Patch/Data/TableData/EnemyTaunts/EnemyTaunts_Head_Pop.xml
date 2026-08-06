@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>네, 그가 죽었다고 가정해도 무방할 것 같습니다.</szText>
+    <head_pop>1</head_pop>
+    <defensive>1</defensive>
+    <target_male>1</target_male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>네, 그녀가 죽었다고 가정하는 게 안전할 것 같네요.</szText>
+    <head_pop>1</head_pop>
+    <defensive>1</defensive>
+    <target_female>1</target_female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>오늘은 점심을 건너뛸까 생각 중이에요.</szText>
+    <defensive>1</defensive>
+    <head_pop>1</head_pop>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>하하하! 진짜 끝내준다!</szText>
+    <szTextCensored>하하하! 완전 멋지다!</szTextCensored>
+    <aggressive>1</aggressive>
+    <head_pop>1</head_pop>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>그래, 맞아! 이 직업 너무 좋아!</szText>
+    <szTextCensored>완전 좋아! 이 직업이 너무 마음에 들어!</szTextCensored>
+    <aggressive>1</aggressive>
+    <head_pop>1</head_pop>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>괜찮아요, 어차피 안 쓰셨잖아요.</szText>
+    <brave>1</brave>
+    <head_pop>1</head_pop>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>쾅! 헤드샷!</szText>
+    <head_pop>1</head_pop>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>우와!</szText>
+    <head_pop>1</head_pop>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>정말 놀랍네요!</szText>
+    <head_pop>1</head_pop>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>난 애초에 노력한 것도 아니었어.</szText>
+    <head_pop>1</head_pop>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>누가 사진 찍었나요?</szText>
+    <head_pop>1</head_pop>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>여드름이 펑 터졌어요!</szText>
+    <head_pop>1</head_pop>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>누가 구급차 좀 불러줘!</szText>
+    <cunning>1</cunning>
+    <head_pop>1</head_pop>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>그럼 이제 내가 남의 마음을 읽을 수 있다는 뜻인가요?</szText>
+    <cunning>1</cunning>
+    <head_pop>1</head_pop>
+  </TAUNT>
+</TAUNTS>

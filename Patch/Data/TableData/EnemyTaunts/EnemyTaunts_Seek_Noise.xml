@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>나도 들었어!</szText>
+    <seek_noise>1</seek_noise>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>누구냐?</szText>
+    <seek_noise>1</seek_noise>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>저게 뭐였지?</szText>
+    <seek_noise>1</seek_noise>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>어이! 이게 뭐야...</szText>
+    <seek_noise>1</seek_noise>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>모습을 드러내라!</szText>
+    <seek_noise>1</seek_noise>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>경고하는데... 내 탐지 능력이 최고조에 달했거든!</szText>
+    <seek_noise>1</seek_noise>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>저게 도대체 뭐였어?</szText>
+    <seek_noise>1</seek_noise>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>나 귀 안 먹었거든?</szText>
+    <seek_noise>1</seek_noise>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>이봐!</szText>
+    <seek_noise>1</seek_noise>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>겁쟁이, 나와!</szText>
+    <seek_noise>1</seek_noise>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>어이! 누가 이렇게 시끄럽게 구는 거야?</szText>
+    <seek_noise>1</seek_noise>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>어디 있든 나와!</szText>
+    <seek_noise>1</seek_noise>
+    <aggressive>1</aggressive>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>어이! 뭔가 수상한 소리를 들었어!</szText>
+    <seek_noise>1</seek_noise>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>거기 누구 없어요?</szText>
+    <seek_noise>1</seek_noise>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>확인해 봐야겠군.</szText>
+    <seek_noise>1</seek_noise>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>누가 잔꾀를 부리나?</szText>
+    <seek_noise>1</seek_noise>
+    <cunning>1</cunning>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>이상한 소리들이 들려요...</szText>
+    <seek_noise>1</seek_noise>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>그냥 바람이었나... 잠깐만, 바람이 없잖아!</szText>
+    <seek_noise>1</seek_noise>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>모습을 드러내! 우린 우호적이고... 싸우는 법도 모르거든.</szText>
+    <seek_noise>1</seek_noise>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>이번엔 느낌이 좋지 않아.</szText>
+    <defensive>1</defensive>
+    <seek_noise>1</seek_noise>
+  </TAUNT>
+</TAUNTS>

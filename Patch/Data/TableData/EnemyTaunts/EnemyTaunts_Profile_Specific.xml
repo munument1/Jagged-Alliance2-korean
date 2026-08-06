@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>오, 폭시. 시를 읽어줄 시간조차 없었네....</szText>
+    <kill>1</kill>
+    <cunning>1</cunning>
+    <elite>1</elite>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+    <!--Fox-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>네년은 꼴 좋다, 이 창녀야!</szText>
+    <kill>1</kill>
+    <brave>1</brave>
+    <elite>1</elite>
+    <target_merc_profile>14</target_merc_profile>
+    <!--Fox-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>뭐라 하겠어, 내가 더 빨리 뽑았을 뿐이지.</szText>
+    <kill>1</kill>
+    <cunning>1</cunning>
+    <elite>1</elite>
+    <target_merc_profile>167</target_merc_profile>
+    <!--Tex-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>당신의 영상미가 그리울 거예요...</szText>
+    <kill>1</kill>
+    <cunning>1</cunning>
+    <elite>1</elite>
+    <target_merc_profile>167</target_merc_profile>
+    <!--Tex-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>재는 재로, 먼지는 먼지로 돌아간다.</szText>
+    <kill>1</kill>
+    <cunning>1</cunning>
+    <elite>1</elite>
+    <target_merc_profile>247</target_merc_profile>
+    <!--Rev-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>지옥에나 가라, 헬라르!</szText>
+    <kill>1</kill>
+    <elite>1</elite>
+    <target_merc_profile>240</target_merc_profile>
+    <!--Bud-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>저 문은 너무 많이 돌아갔어...</szText>
+    <elite>1</elite>
+    <kill>1</kill>
+    <defensive>1</defensive>
+    <target_merc_profile>149</target_merc_profile>
+    <!--Mike-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>배신자 자식, 지옥에서 썩어라.</szText>
+    <kill>1</kill>
+    <elite>1</elite>
+    <target_merc_profile>149</target_merc_profile>
+    <!--Mike-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>꺼져, 마이크! 젠장, 머릿속에서는 훨씬 더 멋진 말이었는데...</szText>
+    <kill>1</kill>
+    <cunning>1</cunning>
+    <elite>1</elite>
+    <target_merc_profile>149</target_merc_profile>
+    <!--Mike-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>길릿 씨, 당신의 조문록에 제 사인을 해 드리겠습니다!</szText>
+    <kill>1</kill>
+    <cunning>1</cunning>
+    <elite>1</elite>
+    <target_merc_profile>70</target_merc_profile>
+    <!--Conrad-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>내가 너보다 낫다는 걸 알고 있었어, 길릿!</szText>
+    <kill>1</kill>
+    <brave>1</brave>
+    <elite>1</elite>
+    <target_merc_profile>70</target_merc_profile>
+    <!--Conrad-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>미겔 코르도나를 날려버렸어! 드디어 여왕 폐하께서 내 소식을 듣게 되겠군!</szText>
+    <kill>1</kill>
+    <brave>1</brave>
+    <target_merc_profile>57</target_merc_profile>
+    <!--Miguel-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>마술 보여줄까? 짠! 그는 사라졌어!</szText>
+    <kill>1</kill>
+    <cunning>1</cunning>
+    <elite>1</elite>
+    <target_merc_profile>29</target_merc_profile>
+    <!--Magic-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>맙소사, 그가 쓰러지고 있어! 충격파에 대비해!</szText>
+    <kill>1</kill>
+    <cunning>1</cunning>
+    <target_merc_profile>253</target_merc_profile>
+    <!--Turtle-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>넌 참 딱하고 이상한 꼬맹이로군. 불쌍해서 어쩌나!</szText>
+    <attack>1</attack>
+    <defensive>1</defensive>
+    <target_merc_profile>40</target_merc_profile>
+    <!--Biff-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>안녕, 코르도나! 디디 여왕님이 인사드린대!</szText>
+    <fire_gun>1</fire_gun>
+    <target_merc_profile>57</target_merc_profile>
+    <!--Miguel-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>이 반역자 놈을 죽이면 승진하겠어!</szText>
+    <brave>1</brave>
+    <fire_gun>1</fire_gun>
+    <target_merc_profile>57</target_merc_profile>
+    <!--Miguel-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>빵빵! 꼭 《클라이즈데일의 습격》 같군!</szText>
+    <cunning>1</cunning>
+    <fire_gun>1</fire_gun>
+    <target_merc_profile>167</target_merc_profile>
+    <!--Tex-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>먼지도 많고, 총알도 많다!</szText>
+    <cunning>1</cunning>
+    <fire_gun>1</fire_gun>
+    <target_merc_profile>167</target_merc_profile>
+    <!--Tex-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>혼다 타고 멀리 꺼져!</szText>
+    <cunning>1</cunning>
+    <fire_gun>1</fire_gun>
+    <target_merc_profile>167</target_merc_profile>
+    <!--Tex-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>20</uiIndex>
+    <szText>제가 죄를 지었습니다. 용서해 주세요!</szText>
+    <cunning>1</cunning>
+    <fire_gun>1</fire_gun>
+    <target_merc_profile>247</target_merc_profile>
+    <!--Rev-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>21</uiIndex>
+    <szText>이 빌어먹을 좀비야, 무덤으로 돌아가!</szText>
+    <fire_gun>1</fire_gun>
+    <target_merc_profile>183</target_merc_profile>
+    <!--Pops-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>22</uiIndex>
+    <szText>게티즈버그에 대한 이야기를 다시 한번 들려주세요!</szText>
+    <say_hi>1</say_hi>
+    <target_merc_profile>183</target_merc_profile>
+    <!--Pops-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>23</uiIndex>
+    <szText>저건 아주 쉬운 표적이군!</szText>
+    <fire_gun>1</fire_gun>
+    <target_merc_profile>253</target_merc_profile>
+    <!--Turtle-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>24</uiIndex>
+    <szText>점보, 귀가 예쁘네! 내 목걸이에 잘 어울릴 것 같아!</szText>
+    <attack_blade>1</attack_blade>
+    <aggressive>1</aggressive>
+    <target_merc_profile>249</target_merc_profile>
+    <!--Ears-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>25</uiIndex>
+    <szText>당신의 신은 지금 어디 있습니까?!</szText>
+    <fire_launcher>1</fire_launcher>
+    <target_merc_profile>247</target_merc_profile>
+    <!--Rev-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>26</uiIndex>
+    <szText>신부님, 제5계명은 어쩌고요? 이 빌어먹을 위선자!</szText>
+    <got_missed>1</got_missed>
+    <defensive>1</defensive>
+    <target_merc_profile>247</target_merc_profile>
+    <!--Rev-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>27</uiIndex>
+    <szText>저 미친년은 누구야?</szText>
+    <got_missed>1</got_missed>
+    <target_merc_profile>23</target_merc_profile>
+    <!--Buzz-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>28</uiIndex>
+    <szText>이봐, 당신 이거 하기엔 좀 나이 많지 않아요?</szText>
+    <got_missed>1</got_missed>
+    <target_merc_profile>183</target_merc_profile>
+    <!--Pops-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>29</uiIndex>
+    <szText>그 많은 지방이 내장 기관을 보호해주지 못했던 건가요?</szText>
+    <kill>1</kill>
+    <target_merc_profile>253</target_merc_profile>
+    <!--Turtle-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>30</uiIndex>
+    <szText>아니, 링스 너 말고! 네 머리를 굴뚝 위에 매달아 놓고 싶었어!</szText>
+    <elite>1</elite>
+    <head_pop>1</head_pop>
+    <target_merc_profile>2</target_merc_profile>
+    <!--Lynx-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>31</uiIndex>
+    <szText>이 녀석은 망상에 빠졌어. 자기가 범고래인 줄 아나 봐!</szText>
+    <got_missed>1</got_missed>
+    <target_merc_profile>253</target_merc_profile>
+    <!--Turtle-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>32</uiIndex>
+    <szText>정말 딱 맞는 표현이네요, 당신은 마치 뚱뚱한 소처럼 싸우잖아요!</szText>
+    <got_missed>1</got_missed>
+    <target_merc_profile>253</target_merc_profile>
+    <!--Turtle-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>33</uiIndex>
+    <szText>떨지 마! 널 때릴 수가 없어!</szText>
+    <miss_gunfire>1</miss_gunfire>
+    <target_merc_profile>40</target_merc_profile>
+    <!--Bif-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>34</uiIndex>
+    <szText>움직이지 마! 땅이 흔들리면 조준할 수가 없어!</szText>
+    <miss_gunfire>1</miss_gunfire>
+    <target_merc_profile>253</target_merc_profile>
+    <!--Turtle-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>35</uiIndex>
+    <szText>맙소사, 거스 타볼스잖아! 우린 망했어!</szText>
+    <szTextCensored>맙소사, 거스 타볼스잖아! 우린 망했어!</szTextCensored>
+    <elite>1</elite>
+    <noticed_unseen>1</noticed_unseen>
+    <target_merc_profile>16</target_merc_profile>
+    <!--Gus-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>36</uiIndex>
+    <szText>이봐, 《와일드 와일드 이스트》에 나온 그 사람이잖아! 나 당신 열렬한 팬이야!</szText>
+    <cunning>1</cunning>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_merc_profile>167</target_merc_profile>
+    <!--Tex-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>37</uiIndex>
+    <szText>적 발견! 젠장, 눈에 띄지 않을 수가 없군...</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_merc_profile>253</target_merc_profile>
+    <!--Turtle-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>38</uiIndex>
+    <szText>안녕, 친구!</szText>
+    <cunning>1</cunning>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_merc_profile>167</target_merc_profile>
+    <!--Tex-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>39</uiIndex>
+    <szText>당신은 제 중국인 친구인 우그 리를 떠올리게 하네요!</szText>
+    <say_hi>1</say_hi>
+    <cunning>1</cunning>
+    <target_merc_profile>33</target_merc_profile>
+    <!--Dr.Q-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>40</uiIndex>
+    <szText>어머, 내가 제일 좋아하는 연예인이잖아! 네 포스터 전부 병영에 보관하고 있어...</szText>
+    <say_hi>1</say_hi>
+    <brave>1</brave>
+    <elite>1</elite>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+    <!--Fox-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>41</uiIndex>
+    <szText>당장 따귀를 갈길 수도 있지만, 손에 창녀 묻히긴 싫군!</szText>
+    <say_hi>1</say_hi>
+    <female>1</female>
+    <target_merc_profile>14</target_merc_profile>
+    <!--Fox-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>42</uiIndex>
+    <szText>멋진 총들을 갖고 계시네요! 진짜인가요, 아니면 모형인가요?</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <brave>1</brave>
+    <elite>1</elite>
+    <target_merc_profile>14</target_merc_profile>
+    <!--Fox-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>43</uiIndex>
+    <szText>여러분, 쿠션을 쏘지 마세요!</szText>
+    <say_hi>1</say_hi>
+    <brave>1</brave>
+    <target_merc_profile>14</target_merc_profile>
+    <!--Fox-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>44</uiIndex>
+    <szText>여러분, 제 생각엔 이 얘가 임신한 것 같아요!</szText>
+    <say_hi>1</say_hi>
+    <target_merc_profile>253</target_merc_profile>
+    <!--Turtle-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>45</uiIndex>
+    <szText>빨리, 누가 에이해브 선장을 불러!</szText>
+    <say_hi>1</say_hi>
+    <cunning>1</cunning>
+    <target_merc_profile>253</target_merc_profile>
+    <!--Turtle-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>46</uiIndex>
+    <szText>길을 잃으셨나요? '프리 윌리' 오디션 장소가 저쪽입니다!</szText>
+    <say_hi>1</say_hi>
+    <target_merc_profile>253</target_merc_profile>
+    <!--Turtle-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>47</uiIndex>
+    <szText>제발, 저를 먹지 마세요!</szText>
+    <say_hi>1</say_hi>
+    <cunning>1</cunning>
+    <target_merc_profile>253</target_merc_profile>
+    <!--Turtle-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>48</uiIndex>
+    <szText>여보, 여기서 뭐 하는 거야? 세탁기 못 돌리겠어?</szText>
+    <say_hi>1</say_hi>
+    <brave>1</brave>
+    <elite>1</elite>
+    <target_merc_profile>23</target_merc_profile>
+    <!--Buzz-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>49</uiIndex>
+    <szText>얘들아, 나 화석 찾았어!</szText>
+    <say_hi>1</say_hi>
+    <target_merc_profile>183</target_merc_profile>
+    <!--Pops-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>50</uiIndex>
+    <szText>얘들아, 나 화석 찾았어!</szText>
+    <say_hi>1</say_hi>
+    <target_merc_profile>226</target_merc_profile>
+    <!--Sam-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>51</uiIndex>
+    <szText>얘들아, 나 화석 찾았어!</szText>
+    <say_hi>1</say_hi>
+    <target_merc_profile>250</target_merc_profile>
+    <!--Moses-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>52</uiIndex>
+    <szText>얘들아, 공룡들이 아직 살아있어!</szText>
+    <say_hi>1</say_hi>
+    <target_merc_profile>183</target_merc_profile>
+    <!--Pops-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>53</uiIndex>
+    <szText>얘들아, 공룡들이 아직 살아있어!</szText>
+    <say_hi>1</say_hi>
+    <target_merc_profile>226</target_merc_profile>
+    <!--Sam-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>54</uiIndex>
+    <szText>얘들아, 공룡들이 아직 살아있어!</szText>
+    <say_hi>1</say_hi>
+    <target_merc_profile>250</target_merc_profile>
+    <!--Moses-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>55</uiIndex>
+    <szText>와, 성격이 참 좋으시네요.</szText>
+    <say_hi>1</say_hi>
+    <brave>1</brave>
+    <target_merc_profile>14</target_merc_profile>
+    <!--Fox-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>56</uiIndex>
+    <szText>당신은 젊고 멍청한 슈워제네거를 닮았어요!</szText>
+    <say_hi>1</say_hi>
+    <brave>1</brave>
+    <target_merc_profile>8</target_merc_profile>
+    <!--Steroid-->
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>57</uiIndex>
+    <szText>이 개자식아! 80년대에서 전화 왔는데, 머리 다시 돌려달라고 하네!</szText>
+    <say_hi>1</say_hi>
+    <brave>1</brave>
+    <target_merc_profile>227</target_merc_profile>
+    <!--Hurl-->
+  </TAUNT>
+</TAUNTS>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>피가 새고 있어!</szText>
+    <got_hit_bloodloss>1</got_hit_bloodloss>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>피가 나고 있어!</szText>
+    <got_hit_bloodloss>1</got_hit_bloodloss>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>다들 하던 일 내팽개치고 나 좀 도와줘!</szText>
+    <got_hit_bloodloss>1</got_hit_bloodloss>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>음... 피 같군.</szText>
+    <got_hit_bloodloss>1</got_hit_bloodloss>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>치료가 필요해!</szText>
+    <got_hit_bloodloss>1</got_hit_bloodloss>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>나는 피를 흘리고 있어!</szText>
+    <got_hit_bloodloss>1</got_hit_bloodloss>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>어머! 진짜 철 맛이 나네!</szText>
+    <got_hit_bloodloss>1</got_hit_bloodloss>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>어머, 머리가 어지러워요!</szText>
+    <got_hit_bloodloss>1</got_hit_bloodloss>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>이것도 내 명예 헌혈자 카드 실적에 포함되나?</szText>
+    <got_hit_bloodloss>1</got_hit_bloodloss>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>피가 나고 있어... 그들이 다쳐야 했는데, 내가 다칠 줄은 몰랐어!</szText>
+    <got_hit_bloodloss>1</got_hit_bloodloss>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>좀 꿰매야겠군!</szText>
+    <got_hit_bloodloss>1</got_hit_bloodloss>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>아, 안 돼... 내 소중한 체액들이!</szText>
+    <got_hit_bloodloss>1</got_hit_bloodloss>
+  </TAUNT>
+</TAUNTS>

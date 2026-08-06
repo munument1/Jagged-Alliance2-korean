@@ -1,0 +1,195 @@
+﻿<!--
+	In this file you can specify which old AIM veterans should be available on the AIM alumni laptop site.
+	Just remove the <MERC></MERC> block for the merc which should not show up on the AIM veterans site.
+	
+	uiIndex:	This is an index starting from 0 up to 254
+	NickName: 	The Nickname of the merc (this is externalized from the file: Data\BinaryData\ALUMNAME.EDT)
+	Name:     	The Name of the merc (this is externalized from the file: Data\BinaryData\ALUMNI.EDT)
+	Bio:      	The Bio of the merc (this is externalized from the file: Data\BinaryData\ALUMNI.EDT)
+	FaceID:		The face index from the "Data\Laptop\OLD_AIM.STI" file
+--><OLD_MERC>
+	<MERC>
+		<!-- Wink -->
+		<uiIndex>0</uiIndex>
+		<NickName>윙크</NickName>
+		<Name>Wink Dickerson</Name>
+		<Bio>강한 어깨와 다소 부족한 제구력으로 유명했던 윙크 딩커슨은 마침내 평생 기다려온 기회를 잡았습니다. 심각한 예산 삭감으로 인해 몬트리올 엑스포스는 투수 자원, 혹은 부족한 자원을 어디에서든 찾아야 하는 상황에 놓였습니다. 주급 140캐나다달러에 계약을 맺은 윙크는 현재 엑스포스 마이너리그 팀의 선발 로테이션 5선발 자리를 꿰찼습니다.</Bio>
+		<FaceID>7</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Larry -->
+		<uiIndex>1</uiIndex>
+		<NickName>래리</NickName>
+		<Name>Larry Roachburn</Name>
+		<Bio>여덟 번의 재활 시도에도 불구하고 지속적인 효과를 보지 못하자, A.I.M.은 래리 로치번의 회원 자격을 박탈할 수밖에 없었습니다. 저희가 파악한 바에 따르면, 래리의 아버지는 그에게 다시 한번 재활을 시도하여 과거의 악령을 떨쳐내고 수십 년간 축적된 독소를 몸에서 제거하기를 권유했습니다. A.I.M.은 래리의 앞날에 행운이 함께하기를 기원합니다.</Bio>
+		<FaceID>10</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Ears -->
+		<uiIndex>2</uiIndex>
+		<NickName>이어스</NickName>
+		<Name>Edward "Ears" Stockwell</Name>
+		<Bio>이어스 스톡웰은 약 18개월 전에 사직서를 제출했습니다. 그 이후로 우리는 그에게서 아무런 소식도 듣지 못했고, 따라서 전해드릴 소식도 없습니다. 솔직히 말해서, 우리가 그에게 연락하려고 특별히 노력하지도 않았습니다.</Bio>
+		<FaceID>11</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Bernie -->
+		<uiIndex>3</uiIndex>
+		<NickName>버니</NickName>
+		<Name>Doctor Bernie Gloveless</Name>
+		<Bio>버니와 A.I.M.의 관계는 좋게 말해 순탄치 않았습니다. 그는 조직의 주치의 자리를 포기하기를 거부했고, 동료 회원들의 불만도 끊이지 않았습니다. 결국 A.I.M.은 버니 글러브리스 박사를 불명예 제대시켰습니다. 현재 그는 국제 보험 회사에 재직 중이니, 다음에 회사에서 정기 건강검진을 보내면 그의 이름을 기억해 두는 편이 좋을 겁니다.</Bio>
+		<FaceID>15</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Reuban -->
+		<uiIndex>4</uiIndex>
+		<NickName>루반</NickName>
+		<Name>"Unusually Ruthless" Reuban</Name>
+		<Bio>수년간 도피 생활을 하던 루반은 마침내 체포되어 루마니아로 추방되었습니다. 그는 현재 아내와 가족을 살해한 죄로 6개의 종신형을 선고받고 복역 중입니다. 루반은 결코 자유로운 삶을 누릴 수는 없겠지만, 새로운 환경에 잘 적응하고 있는 듯합니다. 그는 교도소 조경 작업을 맡고 있으며, 그가 만든 관목 조형물은 교도소에서 여러 차례 "모범 수감자 관리상"을 수상하기도 했습니다.</Bio>
+		<FaceID>16</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Pops -->
+		<uiIndex>5</uiIndex>
+		<NickName>팝스</NickName>
+		<Name>Pops McGillicutty</Name>
+		<Bio>수년간 팝스 맥길리커티를 설득해 은퇴시키려 노력했지만, A.I.M.은 결국 85세에 도달한 직원들에게 의무 퇴직 제도를 도입할 수밖에 없었다. 강물에 시신을 묻는 관습을 없애는 데 일조하고 싶었던 팝스는 용병들을 정중하게 매장해주는 웹 기반 장례 서비스를 시작했다.</Bio>
+		<FaceID>17</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Tex -->
+		<uiIndex>6</uiIndex>
+		<NickName>텍스</NickName>
+		<Name>Tex R. Colburn</Name>
+		<Bio>우리 조직에서 손꼽히게 개성 넘치던 전사 텍스 콜번은 대형 스크린의 주연이 되겠다는 꿈을 이루기 위해 리볼버를 내려놓았습니다. 일본 서부극의 떠오르는 스타가 된 그는 《먼지는 많고, 총알도 많고》에서 주연을 맡았으며, 고전 영화 《클라이즈데일의 습격》과 《혼다가 있으면 어디든 간다》에서의 연기로 극찬을 받았습니다.</Bio>
+		<FaceID>19</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Hurl -->
+		<uiIndex>7</uiIndex>
+		<NickName>헐</NickName>
+		<Name>Hurl E. Cutter</Name>
+		<Bio>전국의 의사들에게 수익성 좋은 환자였던 헐은 지난 9개월 동안 행방불명 상태입니다. 그의 마지막 행방으로 알려진 하바나 지역의 병원 기록과 신원 미확인 시신들을 샅샅이 뒤졌지만 아무런 단서도 찾지 못했습니다. 피델 다한은 그의 실종과 관련하여 여러 차례 조사를 받았지만, 경찰은 수사에 진전을 보지 못하고 있습니다.</Bio>
+		<FaceID>20</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Biff -->
+		<uiIndex>8</uiIndex>
+		<NickName>비프</NickName>
+		<Name>Biff Apscott</Name>
+		<Bio>비프 앱스콧은 용병들 사이에서 진정으로 독특한 인물이었습니다. 그의 젊은 시절의 열정과 주변 사람들에게 용기를 일깨워주던 모습은 우리 모두에게 큰 그리움으로 남을 것입니다. 믿기 어렵지만, 그가 A.I.M.과 경쟁하려는 어설픈 시도로 자신만의 용병 조직을 만들었다는 소식을 접했습니다. 우리가 얼마나 걱정하고 있는지 굳이 자세히 설명할 필요는 없을 것 같습니다.</Bio>
+		<FaceID>21</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Raffi -->
+		<uiIndex>9</uiIndex>
+		<NickName>라피</NickName>
+		<Name>Dr. Raffitto "Raffi" Leevon</Name>
+		<Bio>의학 학위에 대한 논란이 끊이지 않았던 리본 박사는 올해 초 아무런 통보 없이 이 단체를 떠났습니다. 그는 이름을 바꾸고 새로운 직업을 찾은 것으로 보입니다. 한편, 라피만 박사와 그의 케이준 펑크 밴드 '로티스 앤 해기스'는 신디사이저로 만든 숟가락을 사용한 독특한 사운드와 최근 히트곡 '바준 바이유스'로 음악계의 주목을 받고 있습니다.</Bio>
+		<FaceID>23</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Mike -->
+		<uiIndex>10</uiIndex>
+		<NickName>마이크</NickName>
+		<Name>Mike</Name>
+		<Bio>마이크는 또 다른 임금 인상을 위한 협상을 진행하던 중, 이미 많은 고용주들이 그의 과도한 임금 수준에 대해 불만을 제기했다는 사실을 알고 갑자기 협상에서 철수했습니다. 그의 현재 행방은 물론이고, 그에 관한 거의 모든 것이 알려지지 않았습니다. 우리 사무실로 도착한 마지막 편지는 이름이 기억나지 않는 작은 나라에서 발송되었는데, 차마 떠올리고 싶지 않은 협박 내용이 담겨 있었습니다.</Bio>
+		<FaceID>24</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Speck -->
+		<uiIndex>11</uiIndex>
+		<NickName>스펙</NickName>
+		<Name>Speck T. Kline</Name>
+		<Bio>스펙은 용병 생활에 완전히 적응하지는 못했지만, 수리 불가능하다고 여겨지는 것들을 고치는 그의 뛰어난 재능 덕분에 우리 조직에서 가장 인기 있는 인물 중 한 명이었습니다. 아마도 그래서 그가 경쟁 용병 회사를 차린 것이 우리 조직에게는 더욱 놀라운 일이었을 것입니다. A.I.M.은 그에게 행운을 빌며, 우리 모두 잘 알고 있듯이, 그에게는 행운이 절실히 필요할 것입니다.</Bio>
+		<FaceID>27</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Weasel -->
+		<uiIndex>12</uiIndex>
+		<NickName>위즐</NickName>
+		<Name>Willy "Weasel" Augustin</Name>
+		<Bio>꼬마 윌리, 일명 위즐과 마우스피스는 팀 동료들을 감시하는 값싼 정보원으로 주로 고용되었습니다. 뒤틀린 인과응보라 할 만하게도, 오귀스탱은 마침내 많은 이들이 그에게 닥칠 만하다고 여긴 최후를 맞았습니다. 아내의 복지 사기를 고발한 뒤, 보석으로 풀려난 아내가 집으로 돌아와 그를 총으로 쏴 죽였습니다.</Bio>
+		<FaceID>28</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Lance -->
+		<uiIndex>13</uiIndex>
+		<NickName>랜스</NickName>
+		<Name>Lance Fisher</Name>
+		<Bio>빅토리아 워터스와의 지속적인 성격 충돌로 인해 랜스는 A.I.M.에서 사임하는 대신 웨스트포인트 사관학교로 발령받았습니다. 그는 이를 수락했고, 현재 윤리 및 전술적 철수 교관으로 재직 중이며, 최근 이 주제에 관한 책을 출간했습니다. 그의 저서 "비명 지르지 않고 안전한 길로 가는 법(Beating a Path to Safety without Screaming)"은 대부분의 군사 대학 서점에서 구입할 수 있습니다.</Bio>
+		<FaceID>30</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Eli -->
+		<uiIndex>14</uiIndex>
+		<NickName>엘리</NickName>
+		<Name>Doctor Eli Summers</Name>
+		<Bio>서머스 박사는 누가 봐도 게이머였으며, 신입 사원들을 담당하고 눈에 띄지 않게 업무를 처리하는 방식으로 고용주들에게 인기를 얻었습니다. A.I.M.은 그가 회사를 떠난 것을 아쉽게 생각하지만, 그가 좋아하는 취미를 직업으로 삼았다는 소식을 전하게 되어 기쁩니다. 현재 시니어 프로 골프 투어에서 활동 중인 엘리는 페블 비치에서 열린 디펜즈 오픈에서 4위라는 훌륭한 성적을 거두었습니다.</Bio>
+		<FaceID>32</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Elroy -->
+		<uiIndex>15</uiIndex>
+		<NickName>엘로이</NickName>
+		<Name>Elroy B. Tolken</Name>
+		<Bio>그는 떠났어. 우린 묻지도 않았어. 신경도 안 써. 누가 신경이나 쓰겠어?</Bio>
+		<FaceID>33</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Skitz -->
+		<uiIndex>16</uiIndex>
+		<NickName>스키츠</NickName>
+		<Name>Bruce "Skitz" Bonner</Name>
+		<Bio>브루스 보너는 떠났습니다. 완전히 떠났죠! 자격을 갖춘 폭발물 전문가들이 우리 팀에 합류하면서 오랫동안 미뤄왔던 결정을 내리기가 훨씬 쉬워졌습니다. 기록적인 8번의 보호관찰 기간 끝에 스키츠는 마침내 조직에서 제명되었습니다. 집중 치료와 21번의 전기충격 치료에도 불구하고 스키츠는 여전히 성 미카엘 정신병원에 수감되어 있습니다.</Bio>
+		<FaceID>34</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Wally -->
+		<uiIndex>17</uiIndex>
+		<NickName>월리</NickName>
+		<Name>Walter "Wally" Yuntz</Name>
+		<Bio>누군가 월리에게 불운이 없었다면 행운이 전혀 없었을 거라고 말한 적이 있다. 시력에 문제가 있다는 것을 알게 된 월리는 교정 수술을 받게 되었다. 수술로 그의 형편없는 사격 실력은 영원히 사라질 줄 알았지만, 윤츠가 시술받은 레이저 장치에 프로그래밍 오류가 발생했다. 이제 완전히 시력을 잃은 그는 그의 리드 캐디인 치피와 함께 시니어 프로 골프 투어에서 엘리 서머스 박사의 캐디로 활동하고 있다.</Bio>
+		<FaceID>35</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Turtle -->
+		<uiIndex>18</uiIndex>
+		<NickName>터틀</NickName>
+		<Name>Herman "Turtle" Regents</Name>
+		<Bio>터틀의 사임 이유는 그의 사직서에 적힌 다음 구절로 가장 잘 설명될 수 있을 것이다. "전투의 속도가 너무 빨라졌습니다. 순찰을 걸어서 하는 것이 아니라 뛰어야 하는 상황에 놓였습니다. 모든 방법을 다 써봤지만, 지금 당장 사직하는 것 외에는 다른 선택의 여지가 없습니다." 마지막으로 들은 소식에 따르면 허먼은 시카고에서 보호관찰관으로 일하고 있었다.</Bio>
+		<FaceID>36</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Rev -->
+		<uiIndex>19</uiIndex>
+		<NickName>레브</NickName>
+		<Name>Reverend Clyde Potter</Name>
+		<Bio>조직의 무신론자 회원들의 수많은 항의로 인해 A.I.M.에서 전투 군종 목사 직책이 폐지되었고, 설교조였던 포터 목사 역시 활용도가 낮은 회원 중 한 명으로 여겨져 해고되었습니다. A.I.M.을 떠난 후, 클라이드 포터 목사는 볼티모어의 이너시티 그리스도 교회에서 직책을 맡았습니다. 그는 현재 A.I.M.과 어떤 관계도 없었다고 주장하며, 연금 수표를 반환하고 우리의 전화를 받지 않습니다.</Bio>
+		<FaceID>38</FaceID>
+	</MERC>
+	<MERC>
+		<!-- It -->
+		<uiIndex>20</uiIndex>
+		<NickName>잇</NickName>
+		<Name>Carl "It" Goodman</Name>
+		<Bio>주로 괴력으로 고용된 칼은 쇠지렛대를 다루는 데 탁월했으며, 소박하고 위협적이지 않은 태도로 오랫동안 고용주들을 만족시켰습니다. A.I.M.을 떠난 후, 굿맨은 프로레슬링계로 복귀하여 모든 동작은 진심이며 위험을 감수한다고 공언합니다. 그의 친구들과 팬들은 매주 토요일 밤 페이퍼뷰 레슬링 엑스트라바간자에서 가면 쓴 용병으로 활약하는 그를 만나볼 수 있습니다.</Bio>
+		<FaceID>42</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Hamous -->
+		<uiIndex>21</uiIndex>
+		<NickName>하무스</NickName>
+		<Name>Hamous</Name>
+		<Bio>하무스는 메타비라에서 처음으로 전투를 경험했고, 주요 고객인 잭 리처드의 극찬 덕분에 이 조직에서 인턴십을 하게 되었지만, 그 인턴십 기간은 최근에 만료되었습니다. 안타깝게도 불쌍한 하무스는 그토록 갖고 싶어 했던 미니밴을 살 만큼 돈을 모으지 못했습니다. 그래서 그는 차선책으로 파리 외곽에서 미니밴을 훔쳤습니다. 정확히는 아이스크림 트럭이었고, 그는 그 트럭을 타고 이스탄불로 향하는 모습이 마지막으로 목격되었습니다.</Bio>
+		<FaceID>45</FaceID>
+	</MERC>
+	<MERC>
+		<!-- Dyno -->
+		<uiIndex>22</uiIndex>
+		<NickName>다이노</NickName>
+		<Name>Roger "Dyno" Wittman</Name>
+		<Bio>로저는 정말 열심히 노력했어요. 하지만 필요한 기량이 부족했던 것 같아요. 당연히 어떤 사람들은 그를 곁에 두면 웃음이 나고, 또 어떤 사람들은 그와 함께 총을 손질하는 걸 좋아했죠. 하지만 결국 그는 자신이 이 직업에 맞지 않는다는 걸 깨달았어요. 마지막으로 들은 소식으로는 다이노가 애니멀스 온 아이스에서 그린 히포의 대역을 맡고 있다는 거예요.</Bio>
+		<FaceID>49</FaceID>
+	</MERC>
+</OLD_MERC>

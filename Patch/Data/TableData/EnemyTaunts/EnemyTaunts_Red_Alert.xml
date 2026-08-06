@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>그들이 왔어요!</szText>
+    <alert>1</alert>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>이제부터 재미있는 시간이 시작될 거예요!</szText>
+    <alert>1</alert>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>이걸 정말 오랫동안 기다렸어요.</szText>
+    <alert>1</alert>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>사살 수 가장 적은 호구가 술 사는 거다!</szText>
+    <alert>1</alert>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>그들은 앞으로 무슨 일이 벌어질지 전혀 모르고 있어요...</szText>
+    <alert>1</alert>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>모두 준비하세요!</szText>
+    <alert>1</alert>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>죽일 시간이다!</szText>
+    <alert>1</alert>
+    <aggressive>1</aggressive>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>시체에서 획득하는 로켓 발사기는 내가 찜했어!</szText>
+    <alert>1</alert>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>드디어! 대규모 학살이 벌어지네!</szText>
+    <alert>1</alert>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>아, 정말 기대돼요!</szText>
+    <alert>1</alert>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>드디어 제 훈련이 결실을 맺을 겁니다.</szText>
+    <alert>1</alert>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>모두들 일어나세요!</szText>
+    <alert>1</alert>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>이제 밥값 할 시간이군...</szText>
+    <alert>1</alert>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>이제 제 능력을 증명할 수 있을 겁니다.</szText>
+    <alert>1</alert>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>우리는 전술적 우위를 점하고 있다!</szText>
+    <alert>1</alert>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>어쩌면 메달을 받을지도 몰라요!</szText>
+    <alert>1</alert>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>우리가 공격받고 있어요!</szText>
+    <alert>1</alert>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>와, 정말 멋지네요!</szText>
+    <alert>1</alert>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>여기선 낮잠 한숨도 못 자나?</szText>
+    <alert>1</alert>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>적의 공격이라니. 이건 처음 보는 일이군.</szText>
+    <alert>1</alert>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>20</uiIndex>
+    <szText>야호! 아무도 예상 못 했잖아.</szText>
+    <alert>1</alert>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>21</uiIndex>
+    <szText>우리가 지기 시작하면 바로 탈영할 거야.</szText>
+    <alert>1</alert>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>22</uiIndex>
+    <szText>이 빌어먹을 놈들아, 내 엉망진창인 하루를 완전히 망쳐놓아서 고맙다!</szText>
+    <alert>1</alert>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>23</uiIndex>
+    <szText>자리를 잡으세요!</szText>
+    <alert>1</alert>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>24</uiIndex>
+    <szText>이런 일이 절대 일어나지 않기를 바랐는데...</szText>
+    <alert>1</alert>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>25</uiIndex>
+    <szText>자유 사격!</szText>
+    <alert>1</alert>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>26</uiIndex>
+    <szText>결국 일어날 일이었다.</szText>
+    <alert>1</alert>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>27</uiIndex>
+    <szText>경보! 경보!</szText>
+    <alert>1</alert>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>28</uiIndex>
+    <szText>침입자다!</szText>
+    <alert>1</alert>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>29</uiIndex>
+    <szText>손님이 오셨어요!</szText>
+    <alert>1</alert>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>30</uiIndex>
+    <szText>적이 발견되었습니다!</szText>
+    <alert>1</alert>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>31</uiIndex>
+    <szText>적이 여기 있다!</szText>
+    <alert>1</alert>
+  </TAUNT>
+</TAUNTS>
