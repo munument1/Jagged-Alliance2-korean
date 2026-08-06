@@ -1,0 +1,108 @@
+name: Publish v0.1.2-alpha
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/publish-v0.1.2-alpha.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-v0.1.2-alpha
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      PAYLOAD_ID: 1TZeiYXocMa1d2H314C2DmYcq5f-CCDUF
+      PATCH_ID: 1LqYkuhB41pGpoZz4YctZcsYJSlvKmraD
+      CHECKSUM_ID: 1fp0HIHT9A_iUuTJaG7cLpM39f2uo-_Ya
+      PAYLOAD_SHA256: 4626453e423418cacee1dc5521f2985eea975ed82d06d8ba08ebfc7d57e2f86d
+      PATCH_SHA256: e7475d99eb398bd55c7172b796ae5e5ff3743a9efae21e5362c6afa8f3a3db30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download verified payload and release assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 4 --retry-delay 3 \
+            "https://drive.usercontent.google.com/download?id=${PAYLOAD_ID}&export=download&confirm=t" \
+            --output /tmp/repo-payload.zip
+          curl --fail --location --retry 4 --retry-delay 3 \
+            "https://drive.usercontent.google.com/download?id=${PATCH_ID}&export=download&confirm=t" \
+            --output /tmp/JA2_r7609_Korean_Patch_v0.1.2-alpha.zip
+          curl --fail --location --retry 4 --retry-delay 3 \
+            "https://drive.usercontent.google.com/download?id=${CHECKSUM_ID}&export=download&confirm=t" \
+            --output /tmp/JA2_r7609_Korean_Patch_v0.1.2-alpha.zip.sha256
+          echo "${PAYLOAD_SHA256}  /tmp/repo-payload.zip" | sha256sum --check --strict
+          echo "${PATCH_SHA256}  /tmp/JA2_r7609_Korean_Patch_v0.1.2-alpha.zip" | sha256sum --check --strict
+          grep -qi "${PATCH_SHA256}" /tmp/JA2_r7609_Korean_Patch_v0.1.2-alpha.zip.sha256
+          unzip -tq /tmp/repo-payload.zip
+          unzip -tq /tmp/JA2_r7609_Korean_Patch_v0.1.2-alpha.zip
+
+      - name: Apply repository payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/ja2-payload
+          mkdir -p /tmp/ja2-payload
+          unzip -q /tmp/repo-payload.zip -d /tmp/ja2-payload
+          rsync -a --delete /tmp/ja2-payload/Patch/Data/ Patch/Data/
+          rsync -a --delete /tmp/ja2-payload/Patch/Data-1.13/ Patch/Data-1.13/
+          install -m 0644 /tmp/ja2-payload/Patch/Ja2.ini Patch/Ja2.ini
+          install -m 0755 /tmp/ja2-payload/Patch/ja2.exe Patch/ja2.exe
+          install -m 0644 /tmp/ja2-payload/README.md README.md
+          install -m 0644 /tmp/ja2-payload/RELEASE_NOTES_v0.1.2-alpha.md RELEASE_NOTES_v0.1.2-alpha.md
+          mkdir -p tools
+          install -m 0755 /tmp/ja2-payload/tools/build_fixed_mercedt.py tools/build_fixed_mercedt.py
+          rm -f .github/workflows/publish-v0.1.2-alpha.yml
+
+      - name: Validate applied files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test ! -d Patch/Data-UB
+          test "$(find Patch/Data/NPCData -maxdepth 1 -type f -iname 'civ*.edt' | wc -l)" -eq 0
+          for id in 004 013 014 015 020 031 037 040 149 167 169; do
+            base="$(find Patch/Data/MercEdt -maxdepth 1 -type f -iname "${id}.edt" -print -quit)"
+            test -n "${base}"
+            cmp "${base}" "Patch/Data-1.13/MercEdt/${id}.EDT"
+          done
+          test "$(stat -c %s Patch/Data/MercEdt/017.edt)" -eq 56160
+          test "$(stat -c %s Patch/Data-1.13/MercEdt/251.EDT)" -eq 56160
+          test "$(stat -c %s Patch/Data-1.13/MercEdt/252.EDT)" -eq 37920
+          test "$(stat -c %s Patch/Data-1.13/BinaryData/MERCBIOS.EDT)" -eq 48160
+
+      - name: Commit release source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Release v0.1.2-alpha translation fixes"
+          git push origin main
+
+      - name: Create prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git tag -a v0.1.2-alpha -m "JA2 r7609 Korean Patch v0.1.2-alpha"
+          git push origin v0.1.2-alpha
+          gh release create v0.1.2-alpha \
+            /tmp/JA2_r7609_Korean_Patch_v0.1.2-alpha.zip \
+            /tmp/JA2_r7609_Korean_Patch_v0.1.2-alpha.zip.sha256 \
+            --prerelease \
+            --title "JA2 r7609 Korean Patch v0.1.2-alpha" \
+            --notes-file RELEASE_NOTES_v0.1.2-alpha.md
