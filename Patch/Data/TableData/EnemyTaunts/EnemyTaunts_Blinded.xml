@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>젠장, 내 눈알!</szText>
+    <szTextCensored>젠장, 내 눈알!</szTextCensored>
+    <got_blinded>1</got_blinded>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>아무것도 안 보여!</szText>
+    <got_blinded>1</got_blinded>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>누가 불을 껐어?!</szText>
+    <got_blinded>1</got_blinded>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>어머, 내 눈이여!</szText>
+    <got_blinded>1</got_blinded>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>맙소사, 난 눈이 멀었어!</szText>
+    <got_blinded>1</got_blinded>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>맙소사, 신부님 말이 맞았어! 진짜 눈이 멀게 되더라!</szText>
+    <got_blinded>1</got_blinded>
+    <male>1</male>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>누가 좀 도와주세요! 아무것도 안 보여요!</szText>
+    <got_blinded>1</got_blinded>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>눈이 멀었다고 널 못 잡을 것 같아? 네 공포가 냄새로 느껴진다!</szText>
+    <got_blinded>1</got_blinded>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>내 눈이 불타는 것 같아!</szText>
+    <got_blinded>1</got_blinded>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>안녕, 어둠이여, 나의 오랜 친구여.</szText>
+    <got_blinded>1</got_blinded>
+    <aggressive>1</aggressive>
+  </TAUNT>
+</TAUNTS>

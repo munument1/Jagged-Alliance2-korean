@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>이거 농담인가요?</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>지옥에는 더 이상 자리가 없어!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>그들이 우리를 잡으러 오고 있어!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <inform_about>1</inform_about>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>좋아, 이 나라에 딱 필요한 게 바로 그거야. 빌어먹을 좀비 대재앙이라니!</szText>
+    <szTextCensored>좋아, 바로 이 나라에 필요한 거야. 좀비 대재앙이라니!</szTextCensored>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>명심하세요, 머리를 노리세요, 머리를 노리세요...</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>정말? 아니, 제발!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>이건 정말 끔찍해!</szText>
+    <szTextCensored>이건 완전히 잘못됐잖아!</szTextCensored>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>다음은 뭐지? 늑대인간? 뱀파이어?</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>어서 와! 썩어가는 시체야, 어서 와!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <aggressive>1</aggressive>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>널 지옥으로 다시 보내주겠어!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <aggressive>1</aggressive>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>구급대원을 더 보내!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <cunning>1</cunning>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>젠장! 저놈이 내 뇌 냄새를 맡고 있어!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>좀비가 아니야! 엄밀히 말하면 그냥 감염자라고...</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>저건 달리는 놈이야, 걷는 놈이야? 헷갈리네...</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>살아있어!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>어쩌면 우호적일지도 몰라.</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>살아 있긴... 한 것 같군.</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>실제로 일어나기 전까지는 그 어떤 것도 진짜가 아니다.</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <defensive>1</defensive>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>놈들은 살아 있다!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <inform_about>1</inform_about>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>뭔가 합리적인 설명이 있을 거야. 바이러스, 우주 방사선, 아니면 운석 충돌일지도 몰라...</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <defensive>1</defensive>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>20</uiIndex>
+    <szText>나는 언데드와는 협상하지 않겠다!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <brave>1</brave>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>21</uiIndex>
+    <szText>정말 사후 세계가 있었군!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>22</uiIndex>
+    <szText>세상에! 반전이네!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <cunning>1</cunning>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>23</uiIndex>
+    <szText>젠장, 약 먹는 걸 깜빡한 것 같아.</szText>
+    <szTextCensored>젠장, 약 먹는 걸 깜빡한 것 같아.</szTextCensored>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <aggressive>1</aggressive>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>24</uiIndex>
+    <szText>됐어, 이제 약은 끊는다.</szText>
+    <say_hi>1</say_hi>
+    <noticed_unseen>1</noticed_unseen>
+    <aggressive>1</aggressive>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>25</uiIndex>
+    <szText>그 영화가 실화 기반인 줄 알았다니까!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <cunning>1</cunning>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>26</uiIndex>
+    <szText>너 진짜 소름 끼치는 놈이구나.</szText>
+    <szTextCensored>너 진짜 소름 끼치는 녀석이구나.</szTextCensored>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <inform_about>1</inform_about>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>27</uiIndex>
+    <szText>오, 좀비라니. 참 독창적이군.</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <cunning>1</cunning>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>28</uiIndex>
+    <szText>여기 좀비가 있어요!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <inform_about>1</inform_about>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>29</uiIndex>
+    <szText>지구 온난화 따위는 집어치워, 우리에겐 진짜 심각한 문제들이 있다고!</szText>
+    <szTextCensored>지구 온난화 따위는 집어치워, 우리에겐 진짜 심각한 문제들이 있다고!</szTextCensored>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>30</uiIndex>
+    <szText>언데드!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <inform_about>1</inform_about>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>31</uiIndex>
+    <szText>이건 악몽이야!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <morale_lt>40</morale_lt>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>32</uiIndex>
+    <szText>신성모독이다!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>33</uiIndex>
+    <szText>말도 안 돼! 17초도 안 됐잖아!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <cunning>1</cunning>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>34</uiIndex>
+    <szText>살다 보면 어느 순간 산 사람보다 죽은 사람을 더 많이 알고 있다는 사실을 깨닫게 된다.</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <defensive>1</defensive>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>35</uiIndex>
+    <szText>무서워 죽겠어!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <morale_lt>30</morale_lt>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>36</uiIndex>
+    <szText>세상이 순식간에 나쁜 상황에서 완전히 엉망진창으로 변할 수 있다는 게 놀랍네요.</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <defensive>1</defensive>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>37</uiIndex>
+    <szText>더 나쁠 수도 있었어. 나치였을 수도 있잖아!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>38</uiIndex>
+    <szText>이럴 때 필요한 잔디깎이는 대체 어디 있는 거야?</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>39</uiIndex>
+    <szText>그건 자연의 섭리에 어긋나는 짓이야, 이 괴짜야!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <target_zombie>1</target_zombie>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>40</uiIndex>
+    <szText>음... 나도 좀비가 되면 꽤 멋질 것 같은데.</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <brave>1</brave>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>41</uiIndex>
+    <szText>아니! 난 너희들 중 하나가 되고 싶지 않아!</szText>
+    <got_hit_hth>1</got_hit_hth>
+    <got_missed_hth>1</got_missed_hth>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>42</uiIndex>
+    <szText>내 소중한 뇌에서 떨어져!</szText>
+    <got_hit_hth>1</got_hit_hth>
+    <got_missed_hth>1</got_missed_hth>
+    <target_zombie>1</target_zombie>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>43</uiIndex>
+    <szText>제발, 저를 먹지 마세요! 저는 뚱뚱하고 혈당이 너무 높아요!</szText>
+    <got_hit_hth>1</got_hit_hth>
+    <got_missed_hth>1</got_missed_hth>
+    <target_zombie>1</target_zombie>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>44</uiIndex>
+    <szText>아아! 지금 잘라버려야 할까요?!</szText>
+    <got_hit_hth>1</got_hit_hth>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>45</uiIndex>
+    <szText>날 잡아먹을 거야! 맙소사!</szText>
+    <got_hit_hth>1</got_hit_hth>
+    <got_missed_hth>1</got_missed_hth>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>46</uiIndex>
+    <szText>내 얼굴은 안 돼! 내 아름다운 얼굴이야!</szText>
+    <got_hit_hth>1</got_hit_hth>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>47</uiIndex>
+    <szText>아, 너무 아파!</szText>
+    <got_hit_hth>1</got_hit_hth>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>48</uiIndex>
+    <szText>갑자기 뇌가 엄청 당기는데!</szText>
+    <got_hit_hth>1</got_hit_hth>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>49</uiIndex>
+    <szText>그리고 이번엔 진짜 죽은 채로 있어!</szText>
+    <kill>1</kill>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>50</uiIndex>
+    <szText>넌 또 죽었어.</szText>
+    <kill>1</kill>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>51</uiIndex>
+    <szText>조각난 채 편히 쉬어라!</szText>
+    <kill>1</kill>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>52</uiIndex>
+    <szText>저게 다시 일어서면, 난 오줌 쌀 것 같아.</szText>
+    <kill>1</kill>
+    <target_zombie>1</target_zombie>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>53</uiIndex>
+    <szText>쓰러져 있어!</szText>
+    <kill>1</kill>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>54</uiIndex>
+    <szText>왔던 곳으로 돌아가라!</szText>
+    <kill>1</kill>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>55</uiIndex>
+    <szText>제드는 죽었다.</szText>
+    <kill>1</kill>
+    <cunning>1</cunning>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>56</uiIndex>
+    <szText>오늘 아침 누군가 기분이 안 좋았나 보네요.</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <cunning>1</cunning>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>57</uiIndex>
+    <szText>이게 바로 내가 말하는 장르의 전환이지!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <cunning>1</cunning>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>58</uiIndex>
+    <szText>지금 뭐가 필요할지 알아? 빌어먹을 전기톱이지!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <cunning>1</cunning>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>59</uiIndex>
+    <szText>빨리, 누가 폭죽이라도 터뜨려서 놈들의 주의를 끌어!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <cunning>1</cunning>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>60</uiIndex>
+    <szText>*휘파람* 죽은 자들의 파티군! 이보다 더 좋을 수 있을까...</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <cunning>1</cunning>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>61</uiIndex>
+    <szText>좀비들을 박살낼 시간이다!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <cunning>1</cunning>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>62</uiIndex>
+    <szText>피를 흘리면 죽일 수 있어!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <brave>1</brave>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>63</uiIndex>
+    <szText>남자든 여자든 아이든 좀비든... 모두 죽여버리겠다!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <aggressive>1</aggressive>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>64</uiIndex>
+    <szText>또 살아났어...!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <cunning>1</cunning>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>65</uiIndex>
+    <szText>이봐! 그거 보험 사기야!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <cunning>1</cunning>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>66</uiIndex>
+    <szText>아니, 그건 정말 말도 안 돼.</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <defensive>1</defensive>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>67</uiIndex>
+    <szText>누가 무덤에서 잘못된 쪽으로 일어났나 보군!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <cunning>1</cunning>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>68</uiIndex>
+    <szText>그래, 이러면 되겠지. 실제론 감염자라든가 하는 현대식 좀비만 아니라면 말이야.</szText>
+    <cunning>1</cunning>
+    <head_pop>1</head_pop>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>69</uiIndex>
+    <szText>완전히 죽었거나, 곧 두 마리로 늘어나겠군. 전자이길 바라자.</szText>
+    <defensive>1</defensive>
+    <head_pop>1</head_pop>
+    <target_zombie>1</target_zombie>
+  </TAUNT>
+</TAUNTS>

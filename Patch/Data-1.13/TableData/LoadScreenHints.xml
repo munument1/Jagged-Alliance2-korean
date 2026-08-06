@@ -1,0 +1,691 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--                                                                                                
+uiIndex           number of hint, 0 is a template that will not be selected
+szName            text to appear, 190 chars max
+
+A hint can appear according to its flags. So a hint that only has the <food>-tag will only appear if playing with the food system. 
+
+The other tags determine in what category this hint falls, and will be displayed accordingly
+--><LOADSCREENHINTS>
+  <LOADSCREENHINT>
+    <uiIndex>0</uiIndex>
+    <szName>이 템플릿은 절대로 표시되어서는 안 됩니다.</szName>
+    <lore>0</lore>
+    <weapons>0</weapons>
+    <items>0</items>
+    <keybind>0</keybind>
+    <food>0</food>
+    <zombie>0</zombie>
+    <overheat>0</overheat>
+    <ncth>0</ncth>
+    <covertops>0</covertops>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>1</uiIndex>
+    <szName>대부분의 기관총은 총열을 교체할 수 있습니다. 이를 이용하여 전투 중 총기를 빠르게 냉각시키세요.</szName>
+    <overheat>1</overheat>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>2</uiIndex>
+    <szName>시체에 칼을 사용하여 제복을 회수하거나 시체를 들어 올리세요.</szName>
+    <covertops>1</covertops>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>3</uiIndex>
+    <szName>스파이는 적군의 군복을 이용하여 군인으로 위장할 수 있다.</szName>
+    <covertops>1</covertops>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>4</uiIndex>
+    <szName>[.] 키를 누르면 다양한 조준경과 조준 모드를 ​​전환할 수 있습니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>5</uiIndex>
+    <szName>신선한 음식을 며칠 동안 그대로 두면 상해서 건강에 해로워집니다.</szName>
+    <food>1</food>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>6</uiIndex>
+    <szName>해독제를 복용하거나 의사 임무를 수행하면 중독을 치료할 수 있습니다.</szName>
+    <food>1</food>
+    <zombie>1</zombie>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>7</uiIndex>
+    <szName>총에 'M'이라는 표시가 있다면, 현재 무언가에 고정되어 있어 안정성이 향상되었다는 뜻입니다.</szName>
+    <weapons>1</weapons>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>8</uiIndex>
+    <szName>창 모드에서 마우스 커서를 고정/해제하려면 [CTRL]+[Z]를 누르십시오. 전술 화면에서 구역을 나갈 때 유용합니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>9</uiIndex>
+    <szName>출입구가 막혔나요? 옆에 있는 사람 옆에서 [X]를 눌러 자리를 바꾸세요.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>10</uiIndex>
+    <szName>도움이 필요하세요? 전략 화면에서 [H] 키를 눌러 도움을 받으세요. 그리고 친절한 곰들이 있는 웹사이트 www.bears-pit.com을 방문해 보세요.</szName>
+    <keybind>1</keybind>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>11</uiIndex>
+    <szName>운명의 수레바퀴를 돌려보세요. [마우스 휠]로 모든 발사 모드의 명중률(CtH)을 높일 수 있습니다. [ALT]+[마우스 휠]로 자동 사격의 연사 탄수를 설정합니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>12</uiIndex>
+    <szName>일부 구역에는 전략 화면에서 용병을 배치할 수 있는 술집이나 광산 같은 시설이 있습니다. 용병을 배치할 때 시설의 기능을 알려주는 툴팁이 표시됩니다.</szName>
+    <keybind>1</keybind>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>13</uiIndex>
+    <szName>도둑 길드. 손 커서 [CTRL]+[마우스 왼쪽 버튼]을 눌러 상대방의 총을 훔치세요. 적이 쓰러져 있지만 죽지 않은 상태라면 모든 장비를 벗길 수 있습니다.</szName>
+    <keybind>1</keybind>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>14</uiIndex>
+    <szName>EOD 깃발 신호. 발견한 지뢰나 함정을 표시하려고 타일에 세운 파란 깃발은 적에게도 보이며, 적도 이를 인식하고 대응합니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>15</uiIndex>
+    <szName>전술 화면에서 [END] 버튼을 누르고 있으면 현재 선택된 용병의 시야 범위가 빨간색(아무도 발견되지 않음)부터 초록색(엎드려 있는 용병을 발견함)까지 자세하게 표시됩니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>16</uiIndex>
+    <szName>적색 경보! 전술 화면에서 [DEL] 키를 누르고 있으면 선택한 용병을 적들이 얼마나 잘 볼 수 있는지 표시됩니다. 빨간색은 엎드려 있어도 보인다는 의미이고, 초록색은 완벽한 은폐를 의미합니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>17</uiIndex>
+    <szName>창문 돌파. 필요하면 유리를 쏴 깨고 열린 창문을 바라본 뒤 [SHIFT]+[J]를 눌러 넘어가세요.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>18</uiIndex>
+    <szName>구역 인벤토리에서 용병의 빈 인벤토리 슬롯을 클릭하면 해당 슬롯에 들어갈 수 있는 아이템 목록이 표시됩니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>19</uiIndex>
+    <szName>구역 인벤토리에서 아이템의 빈 부착물 슬롯을 클릭하면 호환되는 부착물 목록이 표시됩니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>20</uiIndex>
+    <szName>구역 인벤토리에서 용병의 빈 인벤토리 슬롯을 [CTRL]+[마우스 왼쪽 버튼]으로 클릭하면 해당 구역의 아이템이 분류별로 표시됩니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>21</uiIndex>
+    <szName>(인벤토리 또는 부착물 슬롯이 비어 있을 때 나타나는) 팝업 메뉴를 통해 아이템을 선택할 경우, 손상 정도가 가장 적은 아이템이 선택됩니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>22</uiIndex>
+    <szName>[CTRL]+[SHIFT]+[X]를 눌러 실시간 잠행을 활성화하세요. 이 기능이 활성화되면 적군이 당신의 존재를 눈치채지 못한 상태라면, 적군을 발견하더라도 턴제 모드로 전환되지 않습니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>23</uiIndex>
+    <szName>실시간 잠행이 활성화된 상태에서 [CTRL]+[X]를 누르면 턴제 모드로 전환됩니다. 적군 병사가 보일 때만 작동합니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>24</uiIndex>
+    <szName>야간의 적을 조명탄으로 비추면 명중 확률을 높일 수 있습니다.</szName>
+    <items>1</items>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>25</uiIndex>
+    <szName>용병이 총격을 받고 후퇴할 수 없나요? 연막탄으로 엄호해 주세요.</szName>
+    <items>1</items>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>26</uiIndex>
+    <szName>설정에 따라 총기를 완전히 수리하면 총기 청소 효과도 함께 얻을 수 있습니다.</szName>
+    <items>1</items>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>27</uiIndex>
+    <szName>상점들은 장비를 판매할 뿐만 아니라, 일부 장비는 매입하기도 합니다. 하지만 구매 기준이 꽤 까다로울 수 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>28</uiIndex>
+    <szName>적이 방해할까 봐 두려우신가요? 적의 다리를 쏴서 쓰러뜨리세요.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>29</uiIndex>
+    <szName>달리는 적을 맞추기는 더 어렵습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>30</uiIndex>
+    <szName>[CTRL]+[.] 키를 눌러 유용한 섹터 메뉴를 엽니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>31</uiIndex>
+    <szName>[마우스 오른쪽 버튼]을 눌러 자동 사격 시 발사되는 총알 수를 늘리세요.</szName>
+    <weapons>1</weapons>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>32</uiIndex>
+    <szName>술과 헝겊을 조합해 화염병을 만드세요.</szName>
+    <items>1</items>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>33</uiIndex>
+    <szName>일부 NPC는 뇌물을 줄 수 있습니다...</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>34</uiIndex>
+    <szName>달리면서 몰래 움직이는 건 직관적이지 않아 보이지만, 효과가 있다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>35</uiIndex>
+    <szName>엎드린 적은 칼로 빠르게 처치할 수 있습니다.</szName>
+    <weapons>1</weapons>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>36</uiIndex>
+    <szName>적군이 경계 태세를 갖추면 증원군을 요청할 수도 있습니다...</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>37</uiIndex>
+    <szName>바비 레이의 웹사이트는 배송을 받을 곳을 찾으시면 이용하실 수 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>38</uiIndex>
+    <szName>눈치채지 못한 적에게 몰래 접근하는 것은 민첩성을 기르는 데 도움이 되지만, 위험 부담도 큽니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>39</uiIndex>
+    <szName>주먹질은 손재주와 근력을 향상시켜 줍니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>40</uiIndex>
+    <szName>치료와 폭탄 설치는 지혜를 향상시킵니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>41</uiIndex>
+    <szName>원격 폭탄은 원격 기폭 장치를 이용해 폭발시킬 수 있습니다. 기폭 장치를 손에 쥐고 마우스 오른쪽 버튼을 누르세요.</szName>
+    <items>1</items>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>42</uiIndex>
+    <szName>아이템을 자동으로 옮기려면 도시 안에서 MOVEITEM 임무를 사용할 수 있습니다.</szName>
+    <items>1</items>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>43</uiIndex>
+    <szName>[B] 키를 눌러 사격 모드를 전환할 수 있습니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>44</uiIndex>
+    <szName>전술 화면에서 [SHIFT]+[R]을 누르면 팀 전체가 재장전합니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>45</uiIndex>
+    <szName>[S] 키를 눌러 서서 걷고, [C] 키를 눌러 웅크리고, [P] 키를 눌러 엎드리고, [R] 키를 눌러 서서 달립니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>46</uiIndex>
+    <szName>[Z] 키를 눌러 은신 모드를 전환하세요.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>47</uiIndex>
+    <szName>투척 나이프는 적이 경계하지 않은 상태라면 즉사시킬 수 있습니다.</szName>
+    <weapons>1</weapons>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>48</uiIndex>
+    <szName>아이템을 마우스 오른쪽 버튼으로 클릭하면 유용한 설명 상자를 열 수 있습니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>49</uiIndex>
+    <szName>장기 용병 계약은 장기적으로 볼 때 더 저렴합니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>50</uiIndex>
+    <szName>M.E.R.C. 요금을 미납하면 결과가 따를 수 있습니다...</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>51</uiIndex>
+    <szName>적이 당신의 구역을 점령하면 당신의 물자를 빼앗아 갈 수도 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>52</uiIndex>
+    <szName>의사들은 수술을 통해 손실된 생명력을 즉시 되살릴 수 있지만, 이는 의료 용품을 많이 소모하게 됩니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>53</uiIndex>
+    <szName>약물을 과다 복용하면 부작용이 있습니다.</szName>
+    <items>1</items>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>54</uiIndex>
+    <szName>비행하게 된다면 지대공 미사일 기지를 잊지 마세요.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>55</uiIndex>
+    <szName>전투 시작 시 [SHIFT]+[B] 단축키를 사용하여 용병들이 소지한 모든 배낭을 내려놓으세요. 전투 종료 시 [CTRL]+[SHIFT]+[F] 단축키를 사용하여 모든 배낭을 다시 주워 담으세요.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>56</uiIndex>
+    <szName>지뢰 위에 있는 파란색 깃발은 수류탄을 던져 파괴할 수 있습니다. 적군은 깃발이 없는 지뢰를 밟을 수도 있고, 당신도 밟을 수 있습니다.</szName>
+    <items>1</items>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>57</uiIndex>
+    <szName>[L] 키를 눌러 방향을 확인하세요. [L] 키를 다시 누르면 무기를 조준하고, 총에 조준경이나 가늠쇠가 있다면 조준경을 통해 조준할 수 있습니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>58</uiIndex>
+    <szName>항상 용병들이 최소한 웅크린 자세를 유지한 채로 턴을 종료하도록 하세요. 의도치 않은 아군 오사를 방지할 수 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>59</uiIndex>
+    <szName>자동 사격으로 넓은 지역에 총알을 퍼부을 수 있습니다. 자동 사격을 선택하고 발사할 총알 수를 정한 다음, 첫 번째 목표물에 마우스 왼쪽 버튼을 길게 누르고 원하는 위치로 드래그하세요.</szName>
+    <weapons>1</weapons>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>60</uiIndex>
+    <szName>캄브리아에는 용병들을 치료할 수 있는 병원이 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>61</uiIndex>
+    <szName>양각대는 엎드린 자세이거나 총을 무언가에 고정했을 때만 보너스를 제공합니다.</szName>
+    <weapons>1</weapons>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>62</uiIndex>
+    <szName>중화기는 발사하거나 서 있는 자세로 준비 자세를 유지하는 것만으로도 많은 에너지를 소모합니다. 에너지를 절약하려면 엎드린 자세를 취하세요.</szName>
+    <weapons>1</weapons>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>63</uiIndex>
+    <szName>가능하면 언제나 엄폐물을 활용하세요.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>64</uiIndex>
+    <szName>반군 민병대는 용병들이 받는 적의 공격을 어느 정도 덜어줄 수 있습니다. 하지만 모든 일을 그들에게 맡기지는 마세요.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>65</uiIndex>
+    <szName>기동 민병대는 지도에서 용병 부대와 한 구역 거리 안에 있으면 그 부대를 따라 이동할 수 있습니다. 민병대가 현재 위치에 도착할 때까지 기다리세요.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>66</uiIndex>
+    <szName>민병대 재배치 메뉴에서 [CTRL]을 누르면 민병대 5명이 이동하고, [SHIFT]를 누르면 구역의 민병대 전원이 이동합니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>67</uiIndex>
+    <szName>기동 민병대는 마을을 공격할 때 유용하게 쓰일 수 있습니다. 단, 이들을 항상 곁에 두고 전투 전에 증원군으로 소집해야 합니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>68</uiIndex>
+    <szName>구역 인벤토리 화면 위쪽에는 아이템 정렬과 필터링을 돕는 버튼이 있습니다. 각 버튼에 마우스를 올리면 기능 설명이 표시됩니다.</szName>
+    <lore>1</lore>
+    <items>1</items>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>69</uiIndex>
+    <szName>HP탄은 큰 피해를 주지만 방탄복에 쉽게 막힙니다. AP탄은 방탄복을 관통할 수 있지만 피해량은 HP탄보다 적습니다.</szName>
+    <items>1</items>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>70</uiIndex>
+    <szName>HP 탄약을 사용하여 블러드캣을 처치하세요.</szName>
+    <items>1</items>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>71</uiIndex>
+    <szName>지역 주민들을 돕는 것은 그들의 충성도를 높이는 데 도움이 됩니다. 또한 그들과 대화를 나누다 보면 유용한 정보를 얻을 수도 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>72</uiIndex>
+    <szName>마을에서 민병대를 훈련시키려면 먼저 해당 마을 주민들과의 일정 수준의 충성도를 확보해야 합니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>73</uiIndex>
+    <szName>교육 능력을 갖춘 용병은 민병대를 더 빠르게 훈련시킬 수 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>74</uiIndex>
+    <szName>[O] 키를 누르면 게임 내 옵션 메뉴가 열립니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>75</uiIndex>
+    <szName>[ALT]+[S] 키를 눌러 퀵세이브 슬롯에 게임을 퀵세이브하세요. [ALT]+[L] 키를 누르면 퀵세이브 슬롯에서 게임을 퀵로드할 수 있습니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>76</uiIndex>
+    <szName>[CTRL]+[S]를 누르면 저장 메뉴가 즉시 열립니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>77</uiIndex>
+    <szName>메인 메뉴에서 [ALT] 키를 누른 상태로 '저장된 게임 계속하기' 옵션을 클릭하면 마지막으로 저장한 게임이 즉시 불러와집니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>78</uiIndex>
+    <szName>노란 셔츠를 입은 사람들은 장비와 무기가 열악한 행정 병력과 경찰이며, 아룰코에 도착한 지 얼마 안 되어 정규군으로 교체됩니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>79</uiIndex>
+    <szName>붉은 셔츠를 입은 병사들은 데이드라나의 정규군이며, 여러분이 가장 흔히 마주하게 될 적입니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>80</uiIndex>
+    <szName>검은 셔츠단은 데이드라나가 고용한 정예 용병들입니다. 최고의 장비, 무기, 그리고 뛰어난 능력을 갖추고 있죠. 난이도가 높아질수록 검은 셔츠단의 수도 늘어납니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>81</uiIndex>
+    <szName>녹색 민병대는 추가 훈련을 통해 정규 민병대로 전환할 수 있습니다. 정규 민병대는 더 유용하지만 훈련 및 유지 비용이 더 많이 듭니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>82</uiIndex>
+    <szName>베테랑 민병대는 훈련으로 얻을 수 있는 것이 아닙니다. 민병대는 전투에서 뛰어난 활약을 펼친 후에야 비로소 베테랑이 될 수 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>83</uiIndex>
+    <szName>쓰러져가는 용병을 발견하면 최대한 빨리 붕대를 감아주세요. 그렇지 않으면 과다 출혈로 사망할 수 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>84</uiIndex>
+    <szName>저격수에게는 항상 보조 무기를 지급하도록 노력하십시오. 저격수는 근접 전투 상황에서 활용도가 제한적입니다.</szName>
+    <weapons>1</weapons>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>85</uiIndex>
+    <szName>기절 수류탄은 적을 무력화하는 데 도움이 됩니다. 무력화된 적에게서 장비를 훔칠 수도 있습니다.</szName>
+    <weapons>1</weapons>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>86</uiIndex>
+    <szName>적에게 최루탄을 던지기 전에 먼저 기절시키거나 제압하십시오. 그러면 적들이 가스 구름에서 벗어나거나 방독면을 사용하는 것을 막을 수 있습니다.</szName>
+    <weapons>1</weapons>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>87</uiIndex>
+    <szName>최루탄을 사용하기 전에 적이 방독면을 착용했는지 확인하세요. 적을 조준한 상태에서 [ALT] 키를 누르면 상세 정보를 볼 수 있습니다. 표시되는 정보의 수준은 선택한 용병과 적 사이의 거리에 따라 달라집니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>88</uiIndex>
+    <szName>[ALT]+[R]을 눌러 총에 항상 탄약이 가득 차 있는지 확인하십시오.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>89</uiIndex>
+    <szName>엄폐물을 사용하는 것을 잊지 마세요.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>90</uiIndex>
+    <szName>나무가 시야를 가릴 경우 [T] 키를 눌러 시야를 확보하세요. [DELETE] 키를 누르면 주변 상황을 더 잘 파악할 수 있습니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>91</uiIndex>
+    <szName>LBE는 하중 지지 장비(Load Bearing Equipment)의 약자입니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>92</uiIndex>
+    <szName>[TAB] 키를 사용하여 지상 목표물과 옥상 목표물 사이를 전환하세요.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>93</uiIndex>
+    <szName>엄폐물 뒤에서 사격할 때는 다시 몸을 숨기는 데 필요한 행동력(AP)이 얼마나 되는지 확인하세요.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>94</uiIndex>
+    <szName>용병들이 듣는 소리에 주의를 기울이세요. 적이 어디에서 오는지 알면 큰 피해를 피할 수 있습니다!</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>95</uiIndex>
+    <szName>주변에서 소리가 들리는 위치에 흰색 "핑" 표시가 깜빡이는 것을 볼 수 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>96</uiIndex>
+    <szName>무기를 발사해 적의 주의를 끌면 부상당했거나 위험에 깊이 빠진 용병에게 쏠린 공격을 분산시킬 수 있습니다!</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>97</uiIndex>
+    <szName>밤에는 불빛을 피하고, 불빛을 오히려 유리하게 활용하세요.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>98</uiIndex>
+    <szName>[ALT]+[Z]를 눌러 모든 용병에게 은신 모드를 명령하고, [=]를 눌러 모든 용병을 선택합니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>99</uiIndex>
+    <szName>밤에는 소리에 의존하는 것이 훨씬 더 중요합니다. 적절한 장비가 없으면 보이는 것보다 들리는 것에 더 의존하게 될 것입니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>100</uiIndex>
+    <szName>권총과 기관단총을 사용한다면 초반에는 야간 작전이 가장 좋은 선택일 것입니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>101</uiIndex>
+    <szName>[CTRL]+[ALT]+[G]를 눌러 용병 주변의 인공 조명을 켜거나 끌 수 있습니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>102</uiIndex>
+    <szName>천둥번개가 치는 폭풍우에 갇히게 되면 항상 경계해야 합니다. 번개가 번쩍이면 위치가 노출될 수 있고, 비 때문에 시야가 더욱 가려지기 때문입니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>103</uiIndex>
+    <szName>뭉쳐 있지 마세요. 빗나간 총탄이나 수류탄 하나가 분대 전체에 심각한 피해를 줄 수 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>104</uiIndex>
+    <szName>당신의 모든 움직임이 전투의 전개에 영향을 미칩니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>105</uiIndex>
+    <szName>다른 계획을 실행하기 전에 항상 현재의 위협에 대처하십시오.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>106</uiIndex>
+    <szName>옥상에서 이동할 때는 직선으로 이동하는 것이 좋습니다. 대각선으로 이동하면 속도가 느려질 수 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>107</uiIndex>
+    <szName>주먹싸움에서 구슬은 의외로 유용할 수 있다.</szName>
+    <items>1</items>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>108</uiIndex>
+    <szName>빠르게 이동해야 할 때는 용병의 적재량이 100%를 넘지 않도록 주의하세요. 적재량이 너무 많으면 분대의 속도가 느려집니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>109</uiIndex>
+    <szName>전투 중에 총알 수를 세는 건 어려운 일입니다. 용병들이 남은 총알 수를 잊어버린다고 해도 놀라지 마세요.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>110</uiIndex>
+    <szName>각 용병은 NPC와 대화할 때 효과가 다릅니다. 배경 또한 영향을 미칠 수 있습니다. 비프가 사람들을 위협하는 데 효과적일 거라고 기대하지 마세요.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>111</uiIndex>
+    <szName>각 용병은 에너지를 완전히 회복하는 데 3시간에서 12시간까지 다양한 수면 패턴을 가지고 있습니다. "야간 작전" 특성은 이 시간을 단축시켜 줍니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>112</uiIndex>
+    <szName>각 용병은 용병 사망자 수와 아룰코에서의 당신의 평판에 대해 서로 다른 허용치를 가지고 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>113</uiIndex>
+    <szName>서로 사이가 나쁜 두 사람을 한 시간 넘게 같은 구역에 두지 마세요.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>114</uiIndex>
+    <szName>일부 용병은 능력치를 전혀 올릴 수 없습니다. 늙은 개에게 새로운 재주를 가르칠 수는 없죠.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>115</uiIndex>
+    <szName>게임 설명서, 단축키 목록, 맵 에디터 사용법 등 유용한 문서는 JA2 설치 디렉토리의 "Docs" 폴더에서 찾을 수 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>116</uiIndex>
+    <szName>게임 해상도 및 인트로 영상 재생 여부는 "Ja2.ini" 파일에서 조정할 수 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>117</uiIndex>
+    <szName>실제 플레이어와 대결하고 싶으신가요, 아니면 친구들과 팀워크를 발휘하고 싶으신가요? 1.13 버전의 멀티플레이어 모드를 플레이해 보세요.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>118</uiIndex>
+    <szName>[G] 키를 눌러 용병 진형 이동 기능을 켜고 끌 수 있습니다. 이 기능이 켜져 있고 용병을 두 명 이상 선택하면 현재 진형을 유지합니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>119</uiIndex>
+    <szName>[CTRL]+[SHIFT]+[S]를 눌러 현재 구역의 인벤토리에 있는 모든 아이템을 한 번에 판매하세요.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>120</uiIndex>
+    <szName>[CTRL]+[SHIFT]+[E]를 누르면 현재 구역에서 가능한 한 많은 아이템을 차량에 실을 수 있습니다. [SHIFT]+[E]를 누르면 차량에 실린 모든 아이템을 현재 구역에 하역합니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>121</uiIndex>
+    <szName>용병이 현재 위치에서 목표물을 맞출 수 없다면 자동 사격으로 제압 사격을 한 후 더 나은 위치로 이동하세요.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>122</uiIndex>
+    <szName>농장과 도시 구역을 탐색하면 차량용 연료 같은 유용한 아이템을 많이 발견할 수 있습니다.</szName>
+    <lore>1</lore>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>123</uiIndex>
+    <szName>전술 화면에서 용병 위에 마우스 오른쪽 버튼을 길게 누르면 전략 화면과 유사한 메뉴가 열립니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>124</uiIndex>
+    <szName>[CTRL]+[C]를 눌러 엄폐 표시 메뉴를 엽니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>125</uiIndex>
+    <szName>[CTRL]+[V]를 눌러 유용한 인벤토리 조작 메뉴를 여세요.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>126</uiIndex>
+    <szName>구역 내에 적이 있을 경우 [D] 키를 누르면 즉시 턴제 모드로 전환됩니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>127</uiIndex>
+    <szName>[CTRL]+[D]를 눌러 인터럽트를 종료하면 다음 턴까지 인터럽트가 발생하지 않습니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>128</uiIndex>
+    <szName>[ALT]+[마우스 오른쪽 클릭]을 누르면 스킬 메뉴가 열리고, 무전병이 증원군이나 포격 지원을 요청할 수 있습니다.</szName>
+    <keybind>1</keybind>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>129</uiIndex>
+    <szName>방어용 지뢰밭은 점령한 마을이나 지대공 미사일 기지에 안전하게 설치할 수 있습니다. 용병과 민병대는 이를 회피할 것이기 때문입니다.</szName>
+    <items>1</items>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>130</uiIndex>
+    <szName>덫을 해제하기 전에 먼저 살펴볼 수 있습니다. 현재 가지고 있는 팔다리의 개수에 만족한다면 추천합니다.</szName>
+    <items>1</items>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>131</uiIndex>
+    <szName>파란 깃발을 손 커서로 클릭하면 해제 메뉴에서 깃발을 제거하거나 함정을 조사할 수 있습니다.</szName>
+    <items>1</items>
+  </LOADSCREENHINT>
+  <LOADSCREENHINT>
+    <uiIndex>132</uiIndex>
+    <szName>지뢰, 가시철조망 또는 모래주머니를 설치할 때 [SHIFT] 키를 누르면 용병의 인벤토리에서 새 아이템을 일일이 꺼내지 않아도 됩니다.</szName>
+	  <keybind>1</keybind>
+  </LOADSCREENHINT>
+</LOADSCREENHINTS>

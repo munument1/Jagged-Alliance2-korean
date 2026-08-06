@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>시간 때우기!</szText>
+    <attack>1</attack>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>널 죽여버릴 거야!</szText>
+    <attack>1</attack>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>당신의 실력을 보여주세요!</szText>
+    <attack>1</attack>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>이거 받아라, 이 구더기 같은 놈아!</szText>
+    <attack>1</attack>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>자, 이게 네 자유다, 이 개자식아!</szText>
+    <attack>1</attack>
+    <army>1</army>
+    <elite>1</elite>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>널 박살내주겠어!</szText>
+    <aggressive>1</aggressive>
+    <attack>1</attack>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>죽는 건 삶이라고 할 수 없단다, 얘야!</szText>
+    <attack>1</attack>
+    <target_male>1</target_male>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>죽는 건 삶이라고 할 수 없잖아, 얘야!</szText>
+    <attack>1</attack>
+    <target_female>1</target_female>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>저를 믿으세요. 저는 전문가니까요!</szText>
+    <attack>1</attack>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>당신이 질병이고 내가 치료제입니다.</szText>
+    <attack>1</attack>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>호구!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>이거 빨아먹어!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>덤벼!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>넌 내 거야!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>죽어!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>겁먹었냐, 이 개자식아?</szText>
+    <szText>겁먹었냐, 이 자식아?</szText>
+    <fire_gun>1</fire_gun>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>이거 엄청 아플 거야!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>엿이나 먹고 죽어라!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>지옥에서 엽서 한 장 보내줘!</szText>
+    <fire_gun>1</fire_gun>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>이거 재밌게 보실 것 같아요.</szText>
+    <fire_gun>1</fire_gun>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>20</uiIndex>
+    <szText>아빠한테 와!</szText>
+    <fire_gun>1</fire_gun>
+    <male>1</male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>21</uiIndex>
+    <szText>엄마한테 와!</szText>
+    <fire_gun>1</fire_gun>
+    <female>1</female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>22</uiIndex>
+    <szText>여왕님을 위한 것입니다!</szText>
+    <fire_gun>1</fire_gun>
+    <army>1</army>
+    <elite>1</elite>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>23</uiIndex>
+    <szText>넌 금세 땅속에 묻히게 될 거야!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>24</uiIndex>
+    <szText>이 패배자야, 관에 넣어서 집으로 보내주겠어!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>25</uiIndex>
+    <szText>야, 같이 놀래?</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>26</uiIndex>
+    <szText>혁명 만세!</szText>
+    <fire_gun>1</fire_gun>
+    <militia>1</militia>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>27</uiIndex>
+    <szText>자, 이제 네 차례야, 이 비열한 놈!</szText>
+    <fire_gun>1</fire_gun>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>28</uiIndex>
+    <szText>집에 있었어야지, 이년아!</szText>
+    <fire_gun>1</fire_gun>
+    <target_female>1</target_female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>29</uiIndex>
+    <szText>집에 있었어야지, 이 개자식아!</szText>
+    <szTextCensored>집에 있었어야지, 바보야!</szTextCensored>
+    <fire_gun>1</fire_gun>
+    <target_male>1</target_male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>30</uiIndex>
+    <szText>죽어라, 해충아!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>31</uiIndex>
+    <szText>무서우세요?</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>32</uiIndex>
+    <szText>나를 위해 춤춰줘!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>33</uiIndex>
+    <szText>정말 재밌겠네요!</szText>
+    <fire_gun>1</fire_gun>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>34</uiIndex>
+    <szText>다카다카다카!</szText>
+    <fire_gun>1</fire_gun>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>35</uiIndex>
+    <szText>총이 사람을 죽이는 게 아니야, 내가 죽이는 거지!</szText>
+    <fire_gun>1</fire_gun>
+    <aggressive>1</aggressive>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>36</uiIndex>
+    <szText>내가 최고야!</szText>
+    <fire_gun>1</fire_gun>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>37</uiIndex>
+    <szText>내 앞에 무릎 꿇어라, 패배자야!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>38</uiIndex>
+    <szText>어서! 나 시간 없어!</szText>
+    <fire_gun>1</fire_gun>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>39</uiIndex>
+    <szText>납탄이나 먹어라!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>40</uiIndex>
+    <szText>내가 너보다 훨씬 나아!</szText>
+    <fire_gun>1</fire_gun>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>41</uiIndex>
+    <szText>넌 잘못된 사람을 건드렸어!</szText>
+    <szTextCensored>넌 잘못된 사람을 건드렸어!</szTextCensored>
+    <fire_gun>1</fire_gun>
+    <aggressive>1</aggressive>
+    <brave>1</brave>
+    <male>1</male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>42</uiIndex>
+    <szText>넌 잘못된 여자를 건드렸어!</szText>
+    <szTextCensored>당신은 잘못된 여자를 건드렸어요!</szTextCensored>
+    <fire_gun>1</fire_gun>
+    <aggressive>1</aggressive>
+    <brave>1</brave>
+    <female>1</female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>43</uiIndex>
+    <szText>내 시간 낭비하지 마!</szText>
+    <fire_gun>1</fire_gun>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>44</uiIndex>
+    <szText>당신은 그럴 자격이 있어요!</szText>
+    <fire_gun>1</fire_gun>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>45</uiIndex>
+    <szText>응!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>46</uiIndex>
+    <szText>좋아요!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>47</uiIndex>
+    <szText>넌 죽었어.</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>48</uiIndex>
+    <szText>어때요?</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>49</uiIndex>
+    <szText>자업자득이야!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>50</uiIndex>
+    <szText>안녕하세요!</szText>
+    <fire_gun>1</fire_gun>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>51</uiIndex>
+    <szText>"치즈!"라고 외쳐 보세요!</szText>
+    <fire_gun>1</fire_gun>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>52</uiIndex>
+    <szText>이피 키-야이, 팔콘 씨!</szText>
+    <fire_gun>1</fire_gun>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>53</uiIndex>
+    <szText>제발 죽어줘.</szText>
+    <fire_gun>1</fire_gun>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>54</uiIndex>
+    <szText>쓰레기 버리는 날!</szText>
+    <fire_gun>1</fire_gun>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>55</uiIndex>
+    <szText>네 못생긴 얼굴을 없애버리는 건 세상에 좋은 일을 하는 거야!</szText>
+    <fire_gun>1</fire_gun>
+    <target_appearance>1</target_appearance>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>56</uiIndex>
+    <szText>이봐 자기, 전화번호 알려주면 총을 그만 쏠게!</szText>
+    <cunning>1</cunning>
+    <male>1</male>
+    <fire_gun>1</fire_gun>
+    <target_female>1</target_female>
+    <target_appearance>4</target_appearance>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>57</uiIndex>
+    <szText>이봐, 잘생긴 양반. 전화번호 알려주면 총을 그만 쏠게!</szText>
+    <cunning>1</cunning>
+    <female>1</female>
+    <fire_gun>1</fire_gun>
+    <target_male>1</target_male>
+    <target_appearance>4</target_appearance>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>58</uiIndex>
+    <szText>널 파멸시키겠다!</szText>
+    <aggressive>0</aggressive>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>59</uiIndex>
+    <szText>죽었든 살았든, 넌 나와 함께 가야 해.</szText>
+    <fire_gun>1</fire_gun>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>60</uiIndex>
+    <szText>널 찾았고, 드디어 찾았으니 이제 널 죽이겠다!</szText>
+    <fire_gun>1</fire_gun>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>61</uiIndex>
+    <szText>누군가는 다칠 거야. 하지만 난 아닐 거야!</szText>
+    <fire_gun>1</fire_gun>
+    <brave>1</brave>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>62</uiIndex>
+    <szText>네 인생 끝났어, 이 멍청아!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>63</uiIndex>
+    <szText>나는 정의를 구현한다... 한 발 한 발씩!</szText>
+    <fire_gun>1</fire_gun>
+    <militia>1</militia>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>64</uiIndex>
+    <szText>혁명 만세!</szText>
+    <fire_gun>1</fire_gun>
+    <militia>1</militia>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>65</uiIndex>
+    <szText>자, 이제 네 차례야, 이 비열한 놈!</szText>
+    <fire_gun>1</fire_gun>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>66</uiIndex>
+    <szText>네 머리를 날려버릴 거야!</szText>
+    <fire_gun>1</fire_gun>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>67</uiIndex>
+    <szText>너희 카우보이들은 끝났어!</szText>
+    <fire_gun>1</fire_gun>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>68</uiIndex>
+    <szText>여왕 만세!</szText>
+    <fire_gun>1</fire_gun>
+    <army>1</army>
+    <elite>1</elite>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>69</uiIndex>
+    <szText>여왕이 말한다: 죽어라!</szText>
+    <fire_gun>1</fire_gun>
+    <army>1</army>
+    <elite>1</elite>
+    <aggressive>1</aggressive>
+    <brave>1</brave>
+  </TAUNT>
+</TAUNTS>

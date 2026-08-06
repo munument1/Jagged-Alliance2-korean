@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>나랑 결혼해줘!</szText>
+    <cunning>1</cunning>
+    <male>1</male>
+    <got_missed>1</got_missed>
+    <target_female>1</target_female>
+    <target_appearance>4</target_appearance>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>한심하군!</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>어디 다시 해봐.</szText>
+    <got_missed>1</got_missed>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>날 거기까지 가게 하지 마!</szText>
+    <got_missed>1</got_missed>
+    <brave>1</brave>
+    <aggressive>1</aggressive>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <got_missed_throwing_knife>1</got_missed_throwing_knife>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>당신은 방금 엄청난 실수를 저질렀어요!</szText>
+    <got_missed>1</got_missed>
+    <aggressive>1</aggressive>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>네 손이 차갑게 식으면 그 총을 빼앗아주지!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>빗맞힌 걸 후회하게 될 거다!</szText>
+    <got_missed>1</got_missed>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>누구를 향해 쏜 거야?</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>누가 당신에게 사격하는 법을 가르쳐줬나요?</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>넌 그 대가를 치르게 될 거야!</szText>
+    <got_missed>1</got_missed>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>개자식!</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>너 정말 형편없어!</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>형편없군!</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>당신은 노력이라도 하고 있는 건가요?</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>하, 꿈 깨!</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>초보자야, 사격법부터 배워!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>꿈 깨세요!</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>별거 없군!</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>그런 일은 일어나지 않을 거예요.</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>부우우!</szText>
+    <got_missed>1</got_missed>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>20</uiIndex>
+    <szText>아이들은 총을 가지고 놀아서는 안 됩니다!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>21</uiIndex>
+    <szText>시도는 좋았어!</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>22</uiIndex>
+    <szText>우리 할머니가 사격을 더 잘하세요!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>23</uiIndex>
+    <szText>형편없는 사격이었어. 부끄러운 줄 알아!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>24</uiIndex>
+    <szText>거의 비슷하네요.</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>25</uiIndex>
+    <szText>어림없지!</szText>
+    <got_missed>1</got_missed>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>26</uiIndex>
+    <szText>실망감에 너무 휩싸이지 마세요.</szText>
+    <got_missed>1</got_missed>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>27</uiIndex>
+    <szText>여자분, 당신이 있어야 할 부엌으로 돌아가세요!</szText>
+    <got_missed>1</got_missed>
+    <brave>1</brave>
+    <target_male>1</target_male>
+    <target_female>1</target_female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>28</uiIndex>
+    <szText>아슬아슬했네요.</szText>
+    <got_missed>1</got_missed>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>29</uiIndex>
+    <szText>더 열심히 해봐!</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>30</uiIndex>
+    <szText>아휴!</szText>
+    <got_missed>1</got_missed>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>31</uiIndex>
+    <szText>절대 안 돼!</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>32</uiIndex>
+    <szText>다음엔 될지도 모르지!</szText>
+    <got_missed>1</got_missed>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>33</uiIndex>
+    <szText>오늘은 안 돼!</szText>
+    <got_missed>1</got_missed>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>34</uiIndex>
+    <szText>아쉽지만, 실패했네요.</szText>
+    <got_missed>1</got_missed>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>35</uiIndex>
+    <szText>그 소리에 잠이 깼어요.</szText>
+    <got_missed>1</got_missed>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>36</uiIndex>
+    <szText>그게 당신이 할 수 있는 최선인가요?</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>37</uiIndex>
+    <szText>예쁘긴 한데, 싸울 줄은 아나?</szText>
+    <got_missed>1</got_missed>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>38</uiIndex>
+    <szText>젠장, 젠장, 젠장...</szText>
+    <got_missed>1</got_missed>
+    <morale_lt>35</morale_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>39</uiIndex>
+    <szText>우리 모두 죽을 거예요.</szText>
+    <got_missed>1</got_missed>
+    <morale_lt>35</morale_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>40</uiIndex>
+    <szText>하느님, 저를 도와주세요.</szText>
+    <got_missed>1</got_missed>
+    <morale_lt>35</morale_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>41</uiIndex>
+    <szText>우리 지금 아주 제대로 엿 됐어!</szText>
+    <got_missed>1</got_missed>
+    <morale_lt>35</morale_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>42</uiIndex>
+    <szText>이건 꿈이 아니야! 정말로 일어나고 있는 일이야!</szText>
+    <got_missed>1</got_missed>
+    <morale_lt>35</morale_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>43</uiIndex>
+    <szText>빌어먹을 지원군은 어디 있는 거야?</szText>
+    <got_missed>1</got_missed>
+    <morale_lt>35</morale_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>44</uiIndex>
+    <szText>날 화나게 하지 마!</szText>
+    <aggressive>1</aggressive>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>45</uiIndex>
+    <szText>그게 당신이 할 수 있는 최선인가요?</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>46</uiIndex>
+    <szText>정말 예쁘시네요, 그런데 싸움은 잘하세요?</szText>
+    <got_missed>1</got_missed>
+    <brave>1</brave>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>47</uiIndex>
+    <szText>정말 대단한 실력이군. 웃음이 다 나네!</szText>
+    <got_missed>1</got_missed>
+    <brave>1</brave>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>48</uiIndex>
+    <szText>그게 최선인가요?</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>49</uiIndex>
+    <szText>공식 판정이다. 넌 형편없어!</szText>
+    <got_missed>1</got_missed>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>50</uiIndex>
+    <szText>당신은 날 해칠 수 없어!</szText>
+    <got_missed>1</got_missed>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>51</uiIndex>
+    <szText>아, 왜 그렇게 심각해? 농담도 못 받아들여?</szText>
+    <got_missed>1</got_missed>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>52</uiIndex>
+    <szText>별것도 아닌 일을 너무 심각하게 받아들이지 말자!</szText>
+    <got_missed>1</got_missed>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>53</uiIndex>
+    <szText>지금 날 화나게 하려는 거야?</szText>
+    <got_missed>1</got_missed>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>54</uiIndex>
+    <szText>나를 일부러 해치고 싶은 거야?</szText>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>55</uiIndex>
+    <szText>아... 지금 당장 너를 한 대 때려주고 싶다!</szText>
+    <got_missed>1</got_missed>
+    <got_hit>1</got_hit>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>56</uiIndex>
+    <szText>와, 넌 겉모습보다 훨씬 멍청하구나.</szText>
+    <got_missed>1</got_missed>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>57</uiIndex>
+    <szText>멍청이들! 사방에 멍청이들뿐이네!</szText>
+    <got_missed>1</got_missed>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>58</uiIndex>
+    <szText>너는 싸움을 너무 못해서 양파조차 울 정도야.</szText>
+    <got_missed>1</got_missed>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>59</uiIndex>
+    <szText>네 유일한 팬은 천장에 달린 선풍기뿐이겠군.</szText>
+    <got_missed>1</got_missed>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>60</uiIndex>
+    <szText>당신은 항상 자신을 그렇게 심각하게 생각하시나요?</szText>
+    <got_missed>1</got_missed>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>61</uiIndex>
+    <szText>이봐, 광대야, 날 즐겁게 해주려고 여기 온 거야?</szText>
+    <brave>1</brave>
+    <got_missed>1</got_missed>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>62</uiIndex>
+    <szText>다음번엔 눈 뜨고 쏴 봐!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>63</uiIndex>
+    <szText>너 평소에도 이렇게 멍청한 거야, 아니면 오늘이 특별한 날이야?</szText>
+    <brave>1</brave>
+    <got_missed_gunfire>1</got_missed_gunfire>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>64</uiIndex>
+    <szText>이제 제 관심을 사로잡으셨군요!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>65</uiIndex>
+    <szText>총 쏘려고 할 때 너 정말 귀엽다!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <brave>1</brave>
+    <male>1</male>
+    <target_female>1</target_female>
+    <target_appearance>5</target_appearance>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>66</uiIndex>
+    <szText>총 쏘려고 할 때 너 정말 귀엽다!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <brave>1</brave>
+    <female>1</female>
+    <target_male>1</target_male>
+    <target_appearance>5</target_appearance>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>67</uiIndex>
+    <szText>이봐 자기야, 이제 날 만족시키는 법을 알아야지...</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <brave>1</brave>
+    <male>1</male>
+    <target_female>1</target_female>
+    <target_appearance>5</target_appearance>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>68</uiIndex>
+    <szText>젠장! 총알을 너무 많이 써서 내가 헷갈리잖아!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>69</uiIndex>
+    <szText>어때요? 저한테 초능력이 있었는데, 저는 그것조차 몰랐어요. 총알을 피할 수 있다니!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>70</uiIndex>
+    <szText>날 쏘면 네 문제가 해결될 거라고 생각하는 거야?</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>71</uiIndex>
+    <szText>지루해! 지루해! 지루해! 너 진짜 지루해...</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>72</uiIndex>
+    <szText>날 쏘려고 하는 거야, 아니면 총이 방귀를 뀐 거야?</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>73</uiIndex>
+    <szText>절대 포기하지 마세요. 누가 알아요, 기적이 일어날지도 모르잖아요!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>74</uiIndex>
+    <szText>다시 해봐, 자기! 부담 갖지 마. 판단하지도 않을게. 내가 옆에 있잖아!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <brave>1</brave>
+    <male>1</male>
+    <target_female>1</target_female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>75</uiIndex>
+    <szText>다시 해봐, 자기! 부담 갖지 마. 판단하지도 않을게. 내가 옆에 있잖아!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <brave>1</brave>
+    <female>1</female>
+    <target_male>1</target_male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>76</uiIndex>
+    <szText>좋아, 계속 쏴. 뭐 맞히면 하품할게!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>77</uiIndex>
+    <szText>야, 쏘지 마! 엄마랑 통화 중이야!</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>78</uiIndex>
+    <szText>아야, 맞았어, 맞았어... 아니, 농담이야!</szText>
+    <got_missed>1</got_missed>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>79</uiIndex>
+    <szText>여러분, 이 녀석을 어떻게 할까요? 총살할까요, 아니면 굶겨 죽일까요?</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <brave>1</brave>
+    <target_male>1</target_male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>80</uiIndex>
+    <szText>여러분, 이 여자를 어떻게 할까요? 총으로 쏴 죽일까요, 아니면 굶겨 죽일까요?</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <brave>1</brave>
+    <target_female>1</target_female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>81</uiIndex>
+    <szText>세상에, 심장이 멎을 뻔했어!</szText>
+    <got_missed>1</got_missed>
+    <morale_lt>35</morale_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>82</uiIndex>
+    <szText>너무 무서워 죽겠어요!</szText>
+    <got_missed>1</got_missed>
+    <morale_lt>30</morale_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>83</uiIndex>
+    <szText>와, 소름 돋았어!</szText>
+    <got_missed>1</got_missed>
+    <morale_lt>35</morale_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>84</uiIndex>
+    <szText>호랑이도 제 말하면 온다더니!</szText>
+    <got_missed>1</got_missed>
+    <morale_lt>35</morale_lt>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>85</uiIndex>
+    <szText>솔직히 말해서, 난 전혀 상관없어!</szText>
+    <got_missed>1</got_missed>
+    <cunning>1</cunning>
+    <male>1</male>
+    <target_female>1</target_female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>86</uiIndex>
+    <szText>그건 어디서 나온 거죠?</szText>
+    <got_missed_gunfire>1</got_missed_gunfire>
+    <got_missed_throwing_knife>1</got_missed_throwing_knife>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>87</uiIndex>
+    <szText>내 생각도 그랬어. 넌 비겁한 놈이야!</szText>
+    <got_missed_blade>1</got_missed_blade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>88</uiIndex>
+    <szText>그 칼날에 조준경이 필요하세요?</szText>
+    <got_missed_blade>1</got_missed_blade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>89</uiIndex>
+    <szText>그거 나한테 줘, 내가 직접 할게!</szText>
+    <got_missed_blade>1</got_missed_blade>
+    <elite>1</elite>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>90</uiIndex>
+    <szText>난 네 샌드백이 아니야, 꼬맹아!</szText>
+    <got_missed_hth>1</got_missed_hth>
+    <aggressive>1</aggressive>
+    <target_male>1</target_male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>91</uiIndex>
+    <szText>난 네 샌드백이 아니야, 꼬맹아!</szText>
+    <got_missed_hth>1</got_missed_hth>
+    <aggressive>1</aggressive>
+    <target_female>1</target_female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>92</uiIndex>
+    <szText>어머, 무하마드 알리가 아니신가... 취했네!</szText>
+    <got_missed_hth>1</got_missed_hth>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>93</uiIndex>
+    <szText>권투... 네 강점은 아닌 것 같군, 그렇지?</szText>
+    <got_missed_hth>1</got_missed_hth>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>94</uiIndex>
+    <szText>너 여자처럼 싸우잖아!</szText>
+    <got_missed_hth>1</got_missed_hth>
+    <brave>1</brave>
+    <target_male>1</target_male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>95</uiIndex>
+    <szText>너 여자처럼 싸우는구나... 아, 됐어.</szText>
+    <got_missed_hth>1</got_missed_hth>
+    <brave>1</brave>
+    <target_female>1</target_female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>96</uiIndex>
+    <szText>지금이 가장 적절한 시기인지는 모르겠지만, 멘토스를 꼭 사보세요!</szText>
+    <got_missed_hth>1</got_missed_hth>
+    <got_missed_blade>1</got_missed_blade>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>97</uiIndex>
+    <szText>저는 그들이 저항하려고 할 때가 제일 좋아요!</szText>
+    <got_missed>1</got_missed>
+    <aggressive>1</aggressive>
+  </TAUNT>
+</TAUNTS>
