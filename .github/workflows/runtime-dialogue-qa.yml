@@ -3,17 +3,27 @@ name: Runtime dialogue QA
 on:
   push:
     paths:
+      - 'Patch/Data/MercEdt/**'
       - 'Patch/Data/NPCData/**'
+      - 'Patch/Data-1.13/MercEdt/**'
+      - 'Patch/Data-1.13/NpcData/**'
+      - 'Patch/Data-1.13/BinaryData/MERCBIOS.EDT'
       - 'Patch/Data/TableData/EnemyTaunts/**'
       - 'Patch/Data-1.13/TableData/EnemyTaunts/**'
       - 'tools/check_runtime_dialogue.py'
+      - 'tools/verify_runtime_dialogue_zero.py'
       - '.github/workflows/runtime-dialogue-qa.yml'
   pull_request:
     paths:
+      - 'Patch/Data/MercEdt/**'
       - 'Patch/Data/NPCData/**'
+      - 'Patch/Data-1.13/MercEdt/**'
+      - 'Patch/Data-1.13/NpcData/**'
+      - 'Patch/Data-1.13/BinaryData/MERCBIOS.EDT'
       - 'Patch/Data/TableData/EnemyTaunts/**'
       - 'Patch/Data-1.13/TableData/EnemyTaunts/**'
       - 'tools/check_runtime_dialogue.py'
+      - 'tools/verify_runtime_dialogue_zero.py'
       - '.github/workflows/runtime-dialogue-qa.yml'
 
 jobs:
@@ -21,5 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate civilian and EnemyTaunts resources
+      - name: Validate civilian and EnemyTaunts resource structure
         run: python3 tools/check_runtime_dialogue.py
+      - name: Assert zero untranslated runtime dialogue
+        run: python3 tools/verify_runtime_dialogue_zero.py
