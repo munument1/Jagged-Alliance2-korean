@@ -1,6 +1,7 @@
 name: Runtime dialogue QA
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'Patch/Data/MercEdt/**'
