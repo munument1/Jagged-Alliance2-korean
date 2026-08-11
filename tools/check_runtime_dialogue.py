@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import hashlib
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -10,6 +11,9 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_TAUNTS = ROOT / "Patch" / "Data" / "TableData" / "EnemyTaunts"
 V113_TAUNTS = ROOT / "Patch" / "Data-1.13" / "TableData" / "EnemyTaunts"
 NPCDATA = ROOT / "Patch" / "Data" / "NPCData"
+VERIFIED_CIV = {
+    "civ52.edt": "1b52df9618f9a52288739b516148035e083ecc02",
+}
 
 
 def fail(message: str) -> None:
@@ -17,10 +21,28 @@ def fail(message: str) -> None:
     raise SystemExit(1)
 
 
+def git_blob_sha(data: bytes) -> str:
+    header = f"blob {len(data)}\0".encode("ascii")
+    return hashlib.sha1(header + data).hexdigest()
+
+
 def main() -> None:
-    civ_files = sorted(NPCDATA.glob("civ*.edt")) + sorted(NPCDATA.glob("CIV*.EDT"))
-    if civ_files:
-        fail("placeholder/loose CIV EDT files must not be shipped: " + ", ".join(p.name for p in civ_files))
+    civ_files = {
+        p.name.lower(): p
+        for p in NPCDATA.iterdir()
+        if p.is_file() and p.name.lower().startswith("civ") and p.suffix.lower() == ".edt"
+    }
+    if set(civ_files) != set(VERIFIED_CIV):
+        fail(
+            "unexpected CIV EDT set; expected="
+            + repr(sorted(VERIFIED_CIV))
+            + ", actual="
+            + repr(sorted(civ_files))
+        )
+    for name, expected_sha in VERIFIED_CIV.items():
+        actual_sha = git_blob_sha(civ_files[name].read_bytes())
+        if actual_sha != expected_sha:
+            fail(f"verified CIV EDT changed unexpectedly: {name}: {actual_sha}")
 
     if not DATA_TAUNTS.is_dir() or not V113_TAUNTS.is_dir():
         fail("both Data and Data-1.13 EnemyTaunts directories must exist")
@@ -62,7 +84,7 @@ def main() -> None:
                 warnings.append(f"{name}: uiIndex {index} has duplicate szText; install.ps1 treats the second as censored text")
 
     print(f"OK: {len(data_files)} EnemyTaunts XML files mirrored identically in Data and Data-1.13")
-    print("OK: no loose civ*.edt placeholders are shipped")
+    print("OK: only the verified Korean civ52.edt is shipped as loose civilian dialogue")
     for warning in warnings:
         print(f"WARN: {warning}")
 
