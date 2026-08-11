@@ -10,23 +10,75 @@ Jagged Alliance 2 v1.13 **r7609 영어판**을 대상으로 제작 중인 한국
 - 한국어 메인 메뉴 로고
 - 유니코드 한글 출력을 위한 Galmuri 비트맵 글꼴
 
-## 설치
+# 설치 방법
 
-1. Jagged Alliance 2 v1.13 r7609 영어판을 준비합니다.
-2. 게임을 종료합니다.
-3. 릴리즈 ZIP의 압축을 풉니다.
-4. 압축을 푼 폴더의 `Patch`, `install.bat`, `install.ps1`을 **`ja2.exe`가 있는 게임 설치 폴더에 놓습니다.**
-5. 게임 설치 폴더에서 **`install.bat`을 더블클릭**합니다.
+## 권장 설치 — install.bat 더블클릭
 
-`install.bat`은 자신이 있는 현재 폴더를 자동으로 JA2 설치 경로로 사용하므로 별도의 경로 입력이 필요하지 않습니다. `ja2.exe`, `Ja2.ini`, `Patch` 폴더가 모두 있는지 먼저 확인한 뒤 PowerShell 설치기를 실행합니다.
+1. GitHub Releases에서 `JA2_r7609_Korean_Patch_v0.1.3-alpha.zip`을 다운로드합니다.
+2. ZIP의 압축을 풉니다.
+3. 압축을 풀면 다음과 같은 구조가 나옵니다.
 
-자동 설치기는 기존 `ja2.exe`와 `Ja2.ini`를 타임스탬프가 붙은 파일로 백업한 뒤 `Patch`의 내용을 게임 폴더에 복사하고 한국어 글꼴 설정을 갱신합니다. 또한 이전 알파에서 설치된 것으로 확인되는 CIV 더미 EDT만 식별하여 제거하고, EnemyTaunts 번역 파일을 r7609의 `Data-1.13` 우선 VFS 계층에도 배치합니다.
+```text
+JA2_r7609_Korean_Patch_v0.1.3-alpha\
+├─ install.bat
+├─ install.ps1
+├─ Patch\
+├─ README.md
+└─ RELEASE_NOTES_v0.1.3-alpha.md
+```
 
-게임이 `Program Files` 아래에 있어 쓰기 권한 오류가 발생하면 `install.bat`을 우클릭해 **관리자 권한으로 실행**하세요.
+4. **`install.bat`, `install.ps1`, `Patch` 폴더**를 Jagged Alliance 2 v1.13 r7609 설치 폴더로 복사합니다.
+5. 설치 폴더는 **`ja2.exe`와 `Ja2.ini`가 들어 있는 폴더**입니다.
 
-수동 설치가 필요하면 `Patch` 안에 있는 `Data`, `Data-1.13`, `ja2.exe`, `Ja2.ini`를 게임 설치 폴더에 그대로 복사하고 덮어쓸 수도 있습니다. 다만 이전 알파의 삭제 대상 파일은 남을 수 있으므로 업그레이드 설치에는 `install.bat` 사용을 권장합니다.
+예시:
 
-기존 `ja2.exe`와 `Ja2.ini`는 자동 설치 시 백업됩니다. 릴리즈의 `Ja2.ini`는 한국어 글꼴과 전체 화면 실행이 이미 설정되어 있습니다.
+```text
+D:\Games\Jagged Alliance 2\
+├─ ja2.exe
+├─ Ja2.ini
+├─ install.bat
+├─ install.ps1
+├─ Patch\
+├─ Data\
+└─ Data-1.13\
+```
+
+6. Jagged Alliance 2가 실행 중이라면 종료합니다.
+7. 위 게임 폴더에서 **`install.bat`을 더블클릭**합니다.
+8. 게임 경로를 따로 입력할 필요는 없습니다. BAT가 자신이 있는 폴더를 자동으로 게임 설치 경로로 사용합니다.
+9. 설치가 정상적으로 끝나면 `Installation completed successfully.` 메시지가 표시됩니다.
+10. 설치 창을 닫고 `ja2.exe`를 실행합니다.
+
+### 권한 오류가 나는 경우
+
+게임이 `Program Files`처럼 쓰기 권한이 제한되는 위치에 설치되어 있다면 `install.bat`을 우클릭하고 **관리자 권한으로 실행**하세요.
+
+### 자동 설치기가 하는 일
+
+- 현재 폴더에 `ja2.exe`, `Ja2.ini`, `Patch`가 있는지 확인
+- 기존 `ja2.exe`와 `Ja2.ini`를 타임스탬프가 붙은 백업 파일로 보존
+- `Patch` 안의 한국어 파일을 게임 폴더에 덮어쓰기
+- 이전 알파 버전이 남긴 가짜 CIV placeholder EDT만 선별 제거
+- EnemyTaunts 번역 파일을 `Data-1.13` 우선 VFS 계층에도 적용
+- Galmuri 한국어 글꼴 설정 적용
+
+**이전 알파 버전을 설치한 적이 있다면 `install.bat` 사용을 특히 권장합니다.** 일반적인 파일 덮어쓰기만으로는 예전 알파에서 생성된 삭제 대상 파일이 남을 수 있습니다.
+
+## 수동 설치
+
+BAT를 사용하지 않으려면 압축을 푼 뒤 `Patch` 폴더 **안의 내용물**을 JA2 r7609 설치 폴더로 복사하고 덮어씁니다.
+
+```text
+Patch\
+├─ Data\
+├─ Data-1.13\
+├─ ja2.exe
+└─ Ja2.ini
+```
+
+즉 `Patch` 폴더 자체를 게임 폴더 안에 넣는 것이 아니라, **`Patch` 안의 `Data`, `Data-1.13`, `ja2.exe`, `Ja2.ini`가 기존 게임 폴더의 같은 항목과 합쳐지도록 복사**하면 됩니다.
+
+수동 설치 전에는 기존 `ja2.exe`와 `Ja2.ini`를 직접 백업하는 것을 권장합니다. 이전 알파 설치 환경은 구형 CIV 더미 파일이 남을 수 있으므로 수동 설치보다는 `install.bat`을 권장합니다.
 
 `v0.1.1-alpha`부터 r7609 실행 파일이 요구하는 INI 기본값을 함께 제공하므로, 이전 알파에서 나타났던 시작 화면의 붉은 INI 경고 없이 실행할 수 있습니다.
 
