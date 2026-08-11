@@ -1,0 +1,20 @@
+name: Audit NPC 229
+
+on:
+  push:
+    branches:
+      - audit/runtime-dialogue-full
+    paths:
+      - 'tools/audit_npc229.py'
+      - '.github/workflows/audit-npc229.yml'
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audit/runtime-dialogue-full
+      - name: Decode NPC 229
+        run: python3 tools/audit_npc229.py
