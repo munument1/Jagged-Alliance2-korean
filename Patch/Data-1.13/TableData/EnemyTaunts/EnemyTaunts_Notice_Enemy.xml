@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>환상적이에요.</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>“설마 감히 널 공격하겠어.” 그래, 잘도 그렇겠다.</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>모두 침착하세요. 우리는 이 위기를 극복할 수 있을 겁니다.</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>다프프...!</szText>
+    <noticed_unseen>1</noticed_unseen>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>큰 실수였어!</szText>
+    <noticed_unseen>1</noticed_unseen>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>세상에!</szText>
+    <noticed_unseen>1</noticed_unseen>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>적!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>적!!!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>하나 있어요!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>침입자다!</szText>
+    <noticed_unseen>1</noticed_unseen>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>세상에!</szText>
+    <noticed_unseen>1</noticed_unseen>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>내 작은 눈으로 봤어!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <inform_about>1</inform_about>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>목격했어요!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <inform_about>1</inform_about>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>적군이다!</szText>
+    <noticed_unseen>1</noticed_unseen>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>적이 발견되었습니다!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+    <alert>1</alert>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>적이 여기 있다!</szText>
+    <noticed_unseen>1</noticed_unseen>
+    <inform_about>1</inform_about>
+    <alert>1</alert>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>맙소사! 번식하기 전에 죽여버려!</szText>
+    <say_hi>1</say_hi>
+    <target_appearance>1</target_appearance>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>기분 나쁘게 듣진 마, 아가씨. 그래도 막대기로도 널 건드리고 싶진 않군!</szText>
+    <say_hi>1</say_hi>
+    <male>1</male>
+    <defensive>1</defensive>
+    <target_female>1</target_female>
+    <target_appearance>1</target_appearance>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>누가 소풍에 ​​왔는지 봐!</szText>
+    <say_hi>1</say_hi>
+    <noticed_unseen>1</noticed_unseen>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>여기 오는 사람은 미쳤어!</szText>
+    <elite>1</elite>
+    <noticed_unseen>1</noticed_unseen>
+    <say_hi>1</say_hi>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>20</uiIndex>
+    <szText>이리 와, 이 멍청이들아!</szText>
+    <inform_about>1</inform_about>
+    <brave>1</brave>
+  </TAUNT>
+</TAUNTS>

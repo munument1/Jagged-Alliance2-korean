@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>엄호해 줘, 재장전 중이야!</szText>
+    <reload>1</reload>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>탄 떨어졌다, 재장전 중!</szText>
+    <reload>1</reload>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>재장전해야 해!</szText>
+    <reload>1</reload>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>재장전 중!</szText>
+    <reload>1</reload>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>내 살상 무기에 새 배터리를 넣어야겠어!</szText>
+    <reload>1</reload>
+    <cunning>1</cunning>
+  </TAUNT>
+</TAUNTS>

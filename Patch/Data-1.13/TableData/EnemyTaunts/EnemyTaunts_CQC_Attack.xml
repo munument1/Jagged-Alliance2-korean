@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>이 피냐타 안에 뭐가 들어있는지 한번 볼까요!</szText>
+    <attack_hth>1</attack_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>내가 끝내고 나면 넌 소프라노로 노래하게 될 거다!</szText>
+    <attack_hth>1</attack_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>어머, 신발끈이 풀렸네요!</szText>
+    <attack_hth>1</attack_hth>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>셔츠에 겨자가 묻었잖아!</szText>
+    <attack_hth>1</attack_hth>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>네 몸의 뼈를 하나도 남김없이 부러뜨려주겠어!</szText>
+    <attack_hth>1</attack_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>코 성형이 필요하세요?</szText>
+    <attack_hth>1</attack_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>평소라면 여자를 때리지 않겠지만… 아, 내가 무슨 소리를 하는 거야!</szText>
+    <attack_hth>1</attack_hth>
+    <brave>1</brave>
+    <male>1</male>
+    <target_female>1</target_female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>응징!</szText>
+    <attack_hth>1</attack_hth>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>이거 재밌게 보실 것 같아요.</szText>
+    <attack_hth>1</attack_hth>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>널 벌레처럼 밟아 뭉개 버릴 거야!</szText>
+    <aggressive>1</aggressive>
+    <attack_hth>1</attack_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>네가 '아야, 죽었어!'라고 말할 때까지 찔러줄게!</szText>
+    <attack_blade>1</attack_blade>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>널 닭처럼 갈기갈기 찢어버릴 거야!</szText>
+    <attack_blade>1</attack_blade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>나를 위해 피를 흘려라!</szText>
+    <attack_blade>1</attack_blade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>이걸 하면서 돈을 받다니 믿을 수가 없어!</szText>
+    <attack_blade>1</attack_blade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>싹둑싹둑!</szText>
+    <aggressive>1</aggressive>
+    <attack_blade>1</attack_blade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>네놈 배를 물고기처럼 갈라주마!</szText>
+    <attack_blade>1</attack_blade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>면도 좀 하셔야겠어요!</szText>
+    <attack_blade>1</attack_blade>
+    <target_male>1</target_male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>할복할 시간이야, 이 개자식아!</szText>
+    <attack_blade>1</attack_blade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>네 살아있는 내장을 도려내 버릴 거야!</szText>
+    <attack_blade>1</attack_blade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+</TAUNTS>
