@@ -1,0 +1,70 @@
+name: Normalize EnemyTaunts source
+
+on:
+  push:
+    branches:
+      - fix/runtime-dialogue-taunts
+    paths:
+      - '.github/workflows/normalize-enemy-taunts-source.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/runtime-dialogue-taunts
+          fetch-depth: 0
+
+      - name: Normalize source XML and mirror VFS layer
+        shell: python
+        run: |
+          import re
+          import shutil
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          source = Path('Patch/Data/TableData/EnemyTaunts')
+          target = Path('Patch/Data-1.13/TableData/EnemyTaunts')
+          target.mkdir(parents=True, exist_ok=True)
+
+          for path in sorted(source.glob('EnemyTaunts*.xml')):
+              text = path.read_text(encoding='utf-8-sig')
+              text = text.replace('<szTextCensored>', '<szCensoredText>')
+              text = text.replace('</szTextCensored>', '</szCensoredText>')
+
+              def fix_taunt(match):
+                  block = match.group(0)
+                  normal = list(re.finditer(r'<szText>.*?</szText>', block, re.S))
+                  censored = list(re.finditer(r'<szCensoredText>.*?</szCensoredText>', block, re.S))
+                  if len(normal) > 2:
+                      raise RuntimeError(f'{path}: TAUNT has more than two szText nodes')
+                  if len(normal) == 2:
+                      if censored:
+                          raise RuntimeError(f'{path}: duplicate szText plus szCensoredText')
+                      second = normal[1]
+                      replacement = second.group(0).replace('<szText>', '<szCensoredText>', 1).replace('</szText>', '</szCensoredText>', 1)
+                      block = block[:second.start()] + replacement + block[second.end():]
+                  return block
+
+              text = re.sub(r'<TAUNT>.*?</TAUNT>', fix_taunt, text, flags=re.S)
+              ET.fromstring(text.encode('utf-8'))
+              path.write_text(text, encoding='utf-8', newline='\n')
+              shutil.copyfile(path, target / path.name)
+
+      - name: Commit normalized source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Patch/Data/TableData/EnemyTaunts Patch/Data-1.13/TableData/EnemyTaunts
+          if git diff --cached --quiet; then
+            echo "No normalization changes needed"
+            exit 0
+          fi
+          git commit -m "Normalize EnemyTaunts XML source"
+          git push origin HEAD:fix/runtime-dialogue-taunts
