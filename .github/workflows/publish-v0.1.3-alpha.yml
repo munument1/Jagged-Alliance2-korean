@@ -39,6 +39,7 @@ jobs:
           test -d Patch/Data-1.13
           test -f Patch/ja2.exe
           test -f Patch/Ja2.ini
+          test -f install.bat
           test -f install.ps1
           test -f README.md
           test -f RELEASE_NOTES_v0.1.3-alpha.md
@@ -59,14 +60,15 @@ jobs:
           rm -rf "${stage}" "/tmp/${name}.zip" "/tmp/${name}.zip.sha256"
           mkdir -p "${stage}"
           cp -a Patch "${stage}/Patch"
-          cp install.ps1 README.md RELEASE_NOTES_v0.1.3-alpha.md "${stage}/"
+          cp install.bat install.ps1 README.md RELEASE_NOTES_v0.1.3-alpha.md "${stage}/"
           cd /tmp
           zip -qr "${name}.zip" "${name}"
           sha256sum "${name}.zip" > "${name}.zip.sha256"
           unzip -tq "${name}.zip"
+          unzip -l "${name}.zip" | grep -F "${name}/install.bat"
           cat "${name}.zip.sha256"
 
-      - name: Publish prerelease
+      - name: Publish or refresh prerelease
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
@@ -74,13 +76,20 @@ jobs:
           set -euo pipefail
           name="JA2_r7609_Korean_Patch_v0.1.3-alpha"
           if gh release view v0.1.3-alpha >/dev/null 2>&1; then
-            echo "v0.1.3-alpha already exists; refusing to overwrite it"
-            exit 1
+            gh release upload v0.1.3-alpha \
+              "/tmp/${name}.zip" \
+              "/tmp/${name}.zip.sha256" \
+              --clobber
+            gh release edit v0.1.3-alpha \
+              --prerelease \
+              --title "JA2 r7609 Korean Patch v0.1.3-alpha" \
+              --notes-file RELEASE_NOTES_v0.1.3-alpha.md
+          else
+            gh release create v0.1.3-alpha \
+              "/tmp/${name}.zip" \
+              "/tmp/${name}.zip.sha256" \
+              --target "${GITHUB_SHA}" \
+              --prerelease \
+              --title "JA2 r7609 Korean Patch v0.1.3-alpha" \
+              --notes-file RELEASE_NOTES_v0.1.3-alpha.md
           fi
-          gh release create v0.1.3-alpha \
-            "/tmp/${name}.zip" \
-            "/tmp/${name}.zip.sha256" \
-            --target "${GITHUB_SHA}" \
-            --prerelease \
-            --title "JA2 r7609 Korean Patch v0.1.3-alpha" \
-            --notes-file RELEASE_NOTES_v0.1.3-alpha.md
