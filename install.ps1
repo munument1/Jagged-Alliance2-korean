@@ -27,6 +27,73 @@ Get-ChildItem -LiteralPath $patchPath -Force | ForEach-Object {
     Copy-Item -LiteralPath $_.FullName -Destination $resolvedGamePath -Recurse -Force
 }
 
+# Older alpha builds accidentally shipped placeholder CIV EDT files.  Remove only
+# those recognizable placeholders so a real loose NPCData override is not touched.
+$npcDataPath = Join-Path $resolvedGamePath 'Data\NPCData'
+if (Test-Path -LiteralPath $npcDataPath -PathType Container) {
+    Get-ChildItem -LiteralPath $npcDataPath -Filter 'civ*.edt' -File | ForEach-Object {
+        if ($_.Length -eq 4800) {
+            $bytes = [System.IO.File]::ReadAllBytes($_.FullName)
+            if ($bytes.Length -ge 12) {
+                $prefix = [System.Text.Encoding]::Unicode.GetString($bytes, 0, 12)
+                if ($prefix.StartsWith('rvpuf ')) {
+                    Remove-Item -LiteralPath $_.FullName -Force
+                    Write-Host "구형 CIV 더미 제거: $($_.Name)"
+                }
+            }
+        }
+    }
+}
+
+# r7609's JA2113 VFS resolves Data-1.13 above Data.  Mirror the Korean taunts to
+# the higher-priority layer and normalize two malformed censorship-tag patterns
+# found in the generated translation files.
+$tauntSourcePath = Join-Path $resolvedGamePath 'Data\TableData\EnemyTaunts'
+$tauntTargetPath = Join-Path $resolvedGamePath 'Data-1.13\TableData\EnemyTaunts'
+if (Test-Path -LiteralPath $tauntSourcePath -PathType Container) {
+    New-Item -ItemType Directory -Path $tauntTargetPath -Force | Out-Null
+
+    Get-ChildItem -LiteralPath $tauntSourcePath -Filter 'EnemyTaunts*.xml' -File | ForEach-Object {
+        $text = [System.IO.File]::ReadAllText($_.FullName)
+        $text = $text.Replace('<szTextCensored>', '<szCensoredText>')
+        $text = $text.Replace('</szTextCensored>', '</szCensoredText>')
+
+        $text = [regex]::Replace(
+            $text,
+            '(?s)<TAUNT>.*?</TAUNT>',
+            {
+                param($match)
+                $block = $match.Value
+                $normalTexts = [regex]::Matches($block, '<szText>.*?</szText>', [System.Text.RegularExpressions.RegexOptions]::Singleline)
+                $censoredTexts = [regex]::Matches($block, '<szCensoredText>.*?</szCensoredText>', [System.Text.RegularExpressions.RegexOptions]::Singleline)
+
+                if ($normalTexts.Count -gt 2) {
+                    throw "EnemyTaunts XML에 szText가 3개 이상인 TAUNT가 있습니다: $($_.FullName)"
+                }
+                if ($normalTexts.Count -eq 2) {
+                    if ($censoredTexts.Count -ne 0) {
+                        throw "EnemyTaunts XML에 중복 szText와 szCensoredText가 동시에 있습니다: $($_.FullName)"
+                    }
+                    $second = $normalTexts[1]
+                    $replacement = $second.Value.Replace('<szText>', '<szCensoredText>').Replace('</szText>', '</szCensoredText>')
+                    $block = $block.Remove($second.Index, $second.Length).Insert($second.Index, $replacement)
+                }
+                return $block
+            }
+        )
+
+        # Parse before writing so a malformed file cannot silently replace r7609 data.
+        $xmlCheck = New-Object System.Xml.XmlDocument
+        $xmlCheck.PreserveWhitespace = $true
+        $xmlCheck.LoadXml($text)
+
+        $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+        [System.IO.File]::WriteAllText($_.FullName, $text, $utf8NoBom)
+        $targetFile = Join-Path $tauntTargetPath $_.Name
+        [System.IO.File]::WriteAllText($targetFile, $text, $utf8NoBom)
+    }
+}
+
 $fontSettings = [ordered]@{
     'LargeFont1'            = @('Name = Galmuri11Bitmap', 'Height = -11')
     'SmallFont1'            = @('Name = Galmuri9Bitmap', 'Height = -9')
@@ -68,4 +135,3 @@ foreach ($section in $fontSettings.Keys) {
 [System.IO.File]::WriteAllText($iniPath, $ini, [System.Text.UTF8Encoding]::new($false))
 Write-Host "한국어 패치 설치 완료: $resolvedGamePath"
 Write-Host "백업 시각: $stamp"
-
