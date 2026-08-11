@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>전원 주목! 적과 접촉할 가능성이 있다!</szText>
+    <suspicious>1</suspicious>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>여러분, 지금 이상한 일이 벌어지고 있어요.</szText>
+    <suspicious>1</suspicious>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>누가 이 소음들을 확인해 줄 수 있을까요?</szText>
+    <suspicious>1</suspicious>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>적일지도 몰라! 제발 그놈들이었으면 좋겠군. 오래도록 아무것도 못 죽였거든.</szText>
+    <suspicious>1</suspicious>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>제 생각엔 또 오해였던 것 같네요.</szText>
+    <suspicious>1</suspicious>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>다른 분도 확인해 주시겠어요?</szText>
+    <suspicious>1</suspicious>
+    <cunning>1</cunning>
+  </TAUNT>
+</TAUNTS>

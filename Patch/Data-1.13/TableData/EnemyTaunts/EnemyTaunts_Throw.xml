@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>받아라!</szText>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>자, 여기 있어요!</szText>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>위즐이 펑 하고 터지는군.</szText>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>이건 당신을 위한 거예요.</szText>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>무하하하!</szText>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>이거나 받아라, 돼지야!</szText>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>이거나 처먹어!</szText>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>침술 치료는 어떠세요?</szText>
+    <throw_knife>1</throw_knife>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>감사의 마음을 담아 작은 선물을 드립니다!</szText>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>반짝이는 것을 좋아하시나요?</szText>
+    <throw_knife>1</throw_knife>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>자, 이거 가지세요!</szText>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>반품 불가!</szText>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>아직 더 있으니 걱정 마!</szText>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>이거 좀 핥아, 이 건방진 놈아!</szText>
+    <szTextCensored>이 자식아, 건방진 놈아, 엿이나 먹어!</szTextCensored>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>이거 받아라, 이 구더기 같은 놈아!</szText>
+    <attack>1</attack>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>오늘은 크리스마스야! 그런데 넌 정말 못됐어!</szText>
+    <throw_grenade>1</throw_grenade>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>이거 삼켜버려!</szText>
+    <throw_grenade>1</throw_grenade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>날아온다!</szText>
+    <throw_grenade>1</throw_grenade>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>엄폐해!</szText>
+    <throw_grenade>1</throw_grenade>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>수류탄!</szText>
+    <throw_grenade>1</throw_grenade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>20</uiIndex>
+    <szText>폭발한다!</szText>
+    <throw_grenade>1</throw_grenade>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>21</uiIndex>
+    <szText>누군가는 다칠 거야. 하지만 난 아닐 거야!</szText>
+    <throw_grenade>1</throw_grenade>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>22</uiIndex>
+    <szText>네 인생 끝났어, 이 멍청아!</szText>
+    <throw_grenade>1</throw_grenade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>23</uiIndex>
+    <szText>젠장, 순간 핀을 던진 줄 알았어...</szText>
+    <throw_grenade>1</throw_grenade>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>24</uiIndex>
+    <szText>누가 내 맥주 좀 들고 있어줘, 그리고 이거 좀 봐!</szText>
+    <throw_grenade>1</throw_grenade>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>25</uiIndex>
+    <szText>특별 할인! 하나 가격으로 두 개!</szText>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>26</uiIndex>
+    <szText>특별 배송!</szText>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>27</uiIndex>
+    <szText>우리 제품 무료 견본이다. 받아라!</szText>
+    <throw_knife>1</throw_knife>
+    <throw_grenade>1</throw_grenade>
+    <cunning>1</cunning>
+  </TAUNT>
+</TAUNTS>

@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>겁먹었냐, 이 개자식아?</szText>
+    <szTextCensored>겁먹었냐, 이 자식아?</szTextCensored>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>이거 엄청 아플 거야!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>아빠한테 와!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+    <male>1</male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>엄마한테 와!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+    <female>1</female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>네 불알을 잘라버리겠어!</szText>
+    <aggressive>1</aggressive>
+    <charge_blade>1</charge_blade>
+    <target_male>1</target_male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>야, 같이 놀래?</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>네 머리 가죽을 벗겨버릴 거야, 이 얼간아!</szText>
+    <charge_blade>1</charge_blade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>아빠한테 와.</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+    <male>1</male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>네 내장을 보여줘!</szText>
+    <charge_blade>1</charge_blade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>널 갈기갈기 찢어버리겠어!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>개자식아!</szText>
+    <szTextCensored>원숭이 전사!</szTextCensored>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>네 두려움이 느껴져!</szText>
+    <charge_blade>1</charge_blade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>돌격!</szText>
+    <charge_blade>1</charge_blade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>총은 겁쟁이들이나 쓰는 거야!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>네 엉덩이는 내 거야!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>고통의 세계에 오신 것을 환영합니다. 제가 안내해 드리겠습니다!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>널 망고처럼 썰어버릴 거야!</szText>
+    <charge_blade>1</charge_blade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>목이 날아갈 거다!</szText>
+    <charge_blade>1</charge_blade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>점점 가까워지고 있어!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>준비됐든 안 됐든, 내가 간다!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>20</uiIndex>
+    <szText>직접 붙어볼 시간이군!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>21</uiIndex>
+    <szText>날 막을 수 있으면 막아봐!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>22</uiIndex>
+    <szText>너와 나! 규칙은 없어! 자, 겁쟁이!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>23</uiIndex>
+    <szText>당신은 내게 선택의 여지를 남겨두지 않는군요!</szText>
+    <charge_blade>1</charge_blade>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>24</uiIndex>
+    <szText>어차피 총이 뭐가 필요해?</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>25</uiIndex>
+    <szText>네가 "아야, 죽었어!"라고 말할 때까지 찔러줄게!</szText>
+    <charge_blade>1</charge_blade>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>26</uiIndex>
+    <szText>얼굴 성형은 어떠세요?</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>27</uiIndex>
+    <szText>오늘은 크리스마스야! 그런데 넌 정말 못됐어!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>28</uiIndex>
+    <szText>포옹!</szText>
+    <charge_blade>1</charge_blade>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>29</uiIndex>
+    <szText>별로 아프지 않을 거라고 약속할게요.</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>30</uiIndex>
+    <szText>잡았다!</szText>
+    <charge_hth>1</charge_hth>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>31</uiIndex>
+    <szText>젠장, 내가 이걸 하고 있다니 믿을 수가 없어!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>32</uiIndex>
+    <szText>고통받을 준비를 하세요!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>33</uiIndex>
+    <szText>널 파멸시키겠다!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>34</uiIndex>
+    <szText>널 찾았고, 드디어 찾았으니 이제 널 죽이겠다!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>35</uiIndex>
+    <szText>누군가는 다칠 거야. 하지만 난 아닐 거야!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+    <brave>1</brave>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>36</uiIndex>
+    <szText>네 인생 끝났어, 이 멍청아!</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>37</uiIndex>
+    <szText>조니가 온다!</szText>
+    <aggressive>1</aggressive>
+    <charge_blade>1</charge_blade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>38</uiIndex>
+    <szText>네가 병이라면 내가 치료제다.</szText>
+    <charge_blade>1</charge_blade>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>39</uiIndex>
+    <szText>널 죽도록 패줄 거야!</szText>
+    <charge_hth>1</charge_hth>
+    <charge_blade>1</charge_blade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>40</uiIndex>
+    <szText>널 주먹으로 때리고, 칼로 찌르고, 목을 졸라버릴 거야! 알잖아... 그게 바로 친구 사이잖아!</szText>
+    <charge_hth>1</charge_hth>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>41</uiIndex>
+    <szText>나는 여왕을 위해 싸운다!</szText>
+    <charge_hth>1</charge_hth>
+    <army>1</army>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>42</uiIndex>
+    <szText>경고하는데! 난 '용쟁호투'를 두 번이나 봤어!</szText>
+    <charge_hth>1</charge_hth>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>43</uiIndex>
+    <szText>네 다리를 엉덩이에서 뽑아버려 버릴 거야!</szText>
+    <szTextCensored>네 다리를 엉덩이에서 뜯어버려 버릴 거야!</szTextCensored>
+    <charge_hth>1</charge_hth>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>44</uiIndex>
+    <szText>네 머리를 박살내주겠어!</szText>
+    <charge_hth>1</charge_hth>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>45</uiIndex>
+    <szText>네 머리를 밟아 죽여버리겠다!</szText>
+    <charge_hth>1</charge_hth>
+  </TAUNT>
+</TAUNTS>

@@ -1,0 +1,771 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>자네와 접촉했다! 죽을 준비를 하라!</szText>
+    <riposte_quote>0</riposte_quote>
+    <target_merc_profile>240</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>커플이냐고요? 저희는 결혼 안 했어요!</szText>
+    <riposte_quote>2</riposte_quote>
+    <target_merc_profile>240</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>글쎄, 널 죽인 후에 이력서를 보낼지도 몰라!</szText>
+    <riposte_quote>22</riposte_quote>
+    <target_merc_profile>240</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>PX? 그게 도대체 무슨 뜻이야?</szText>
+    <szTextCensored>PX? 그게 도대체 무슨 뜻이야?</szTextCensored>
+    <riposte_quote>22</riposte_quote>
+    <target_merc_profile>240</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>당연한 소리 하지 마, 셜록!</szText>
+    <riposte_quote>20</riposte_quote>
+    <target_merc_profile>240</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>너한테는 편도행이 될 거다!</szText>
+    <riposte_quote>1</riposte_quote>
+    <target_merc_profile>2</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>그래, 그럼! 엄폐물 밖으로 나와 봐!</szText>
+    <riposte_quote>20</riposte_quote>
+    <target_merc_profile>2</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>운은 겁쟁이들이나 믿는 거야. 진짜 프로는 실력으로 승부하지!</szText>
+    <riposte_quote>2</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>2</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>뭐라고? 이 멍청아, 너도 보이고 네 목소리도 들려!</szText>
+    <riposte_quote>1</riposte_quote>
+    <target_merc_profile>220</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>네, 그리고 점심시간은 아예 생각도 하지 마세요!</szText>
+    <riposte_quote>2</riposte_quote>
+    <target_merc_profile>220</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>죄송합니다, 이름을 못 들었네요!</szText>
+    <riposte_quote>22</riposte_quote>
+    <cunning>1</cunning>
+    <target_merc_profile>220</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>상관없어, 어차피 곧 죽을 테니까.</szText>
+    <riposte_quote>22</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>220</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>그래서 그녀가 내 엽서를 받지 못했던 거였구나.</szText>
+    <riposte_quote>20</riposte_quote>
+    <cunning>1</cunning>
+    <target_merc_profile>220</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>물론이죠!</szText>
+    <riposte_quote>0</riposte_quote>
+    <target_merc_profile>221</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>그런 동물은 없다는 거 알잖아, 그렇지?</szText>
+    <riposte_heavy_fire>1</riposte_heavy_fire>
+    <defensive>1</defensive>
+    <target_merc_profile>221</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>아직은 아니에요. 하지만 곧 만나게 될 거예요!</szText>
+    <riposte_quote>22</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>0</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>말썽은 내 중간 이름이지!</szText>
+    <riposte_quote>2</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>0</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>불독처럼!</szText>
+    <riposte_quote>2</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>1</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>당연히 그래야죠!</szText>
+    <riposte_quote>22</riposte_quote>
+    <aggressive>1</aggressive>
+    <brave>1</brave>
+    <target_merc_profile>1</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>당신의 소원은 제 명령입니다!</szText>
+    <riposte_quote>0</riposte_quote>
+    <target_merc_profile>3</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>20</uiIndex>
+    <szText>아무도 그러지 않아요.</szText>
+    <riposte_quote>22</riposte_quote>
+    <defensive>1</defensive>
+    <target_merc_profile>3</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>21</uiIndex>
+    <szText>기다려 봐. 이 말썽이 네게 달려들 테니까!</szText>
+    <riposte_quote>20</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>3</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>22</uiIndex>
+    <szText>악당이라고? 네 그 말을 후회하게 만들어주겠어!</szText>
+    <riposte_quote>0</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>23</uiIndex>
+    <szText>아니요, 괜찮습니다!</szText>
+    <riposte_quote>1</riposte_quote>
+    <cunning>1</cunning>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>24</uiIndex>
+    <szText>누가 누구를 가르칠지 두고 보자!</szText>
+    <riposte_quote>1</riposte_quote>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>25</uiIndex>
+    <szText>맞아요!</szText>
+    <riposte_quote>2</riposte_quote>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>26</uiIndex>
+    <szText>당신은 기회를 받을 자격이 없어요!</szText>
+    <riposte_quote>20</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>27</uiIndex>
+    <szText>점성술은 거짓말이에요!</szText>
+    <riposte_quote>22</riposte_quote>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>28</uiIndex>
+    <szText>딩동!</szText>
+    <riposte_quote>2</riposte_quote>
+    <cunning>1</cunning>
+    <target_merc_profile>5</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>29</uiIndex>
+    <szText>아직 늦지 않았어요!</szText>
+    <riposte_quote>22</riposte_quote>
+    <target_merc_profile>5</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>30</uiIndex>
+    <szText>저희가 직접 확인해 보겠습니다!</szText>
+    <riposte_quote>22</riposte_quote>
+    <target_merc_profile>6</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>31</uiIndex>
+    <szText>거품이 필요하세요, 손님?</szText>
+    <riposte_quote>2</riposte_quote>
+    <cunning>1</cunning>
+    <target_merc_profile>6</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>32</uiIndex>
+    <szText>방금 나보고 바보라고 했어?!</szText>
+    <riposte_quote>1</riposte_quote>
+    <defensive>1</defensive>
+    <target_merc_profile>7</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>33</uiIndex>
+    <szText>어쩌라고.</szText>
+    <riposte_quote>20</riposte_quote>
+    <target_merc_profile>7</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>34</uiIndex>
+    <szText>나는 한 마디도 알아듣지 못했어!</szText>
+    <riposte_quote>20</riposte_quote>
+    <target_merc_profile>7</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>35</uiIndex>
+    <szText>점점 더 가까워질 거예요!</szText>
+    <riposte_quote>22</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>7</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>36</uiIndex>
+    <szText>저는 사실 악한 사람이 아니에요... 단지 오해받고 있을 뿐이죠.</szText>
+    <riposte_quote>1</riposte_quote>
+    <riposte_quote>0</riposte_quote>
+    <cunning>1</cunning>
+    <target_merc_profile>8</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>37</uiIndex>
+    <szText>이제 본 공연으로 넘어갈 참이군!</szText>
+    <riposte_quote>22</riposte_quote>
+    <target_merc_profile>8</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>38</uiIndex>
+    <szText>"멍청한 바보들"이라고요? 제대로 노력이라도 하고 있는 건가요?</szText>
+    <riposte_quote>20</riposte_quote>
+    <defensive>1</defensive>
+    <target_merc_profile>8</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>39</uiIndex>
+    <szText>원하시는 대로 해 드리겠습니다!</szText>
+    <riposte_quote>1</riposte_quote>
+    <target_merc_profile>9</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>40</uiIndex>
+    <szText>어이! 나 여자야!</szText>
+    <riposte_quote>0</riposte_quote>
+    <female>1</female>
+    <target_merc_profile>9</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>41</uiIndex>
+    <szText>내가 하나 파줄게! 땅속 6피트 아래에!</szText>
+    <riposte_quote>22</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>9</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>42</uiIndex>
+    <szText>걱정 마세요, 제가 보내드릴게요!</szText>
+    <riposte_quote>13</riposte_quote>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>43</uiIndex>
+    <szText>제가 보여드릴게요!</szText>
+    <riposte_quote>14</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>44</uiIndex>
+    <szText>묻지 말았어야 했다고 후회하게 될 거예요!</szText>
+    <riposte_quote>14</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>45</uiIndex>
+    <szText>당신이 틀렸어요, 제가 바로잡아 드릴게요!</szText>
+    <riposte_quote>14</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>46</uiIndex>
+    <szText>그건 수사적인 질문이었나요?</szText>
+    <riposte_quote>14</riposte_quote>
+    <cunning>1</cunning>
+    <defensive>1</defensive>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>47</uiIndex>
+    <szText>네 망할 상관이 중고 총을 사온 게 누구 잘못이겠어?</szText>
+    <szTextCensored>네 짠돌이 상관이 중고 총을 사온 게 누구 잘못이겠어?</szTextCensored>
+    <riposte_quote>19</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>48</uiIndex>
+    <szText>곧 당신도 그렇게 될 거예요!</szText>
+    <riposte_quote>19</riposte_quote>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>49</uiIndex>
+    <szText>여기서 조용히 있는 건 너뿐이야, 이년아!</szText>
+    <riposte_quote>20</riposte_quote>
+    <aggressive>1</aggressive>
+    <brave>1</brave>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>50</uiIndex>
+    <szText>그래 맞아, 그래서 땀을 흘리는 거잖아!</szText>
+    <riposte_quote>21</riposte_quote>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>51</uiIndex>
+    <szText>오늘의 조언: 장거리 여행, 새로운 인간관계, 그리고 총알은 피하세요!</szText>
+    <riposte_quote>22</riposte_quote>
+    <cunning>1</cunning>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>52</uiIndex>
+    <szText>내 예언에는 오늘 내가 많은 사람을 죽일 거라고 했어! 나도 그게 이루어졌으면 좋겠어!</szText>
+    <riposte_quote>22</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>53</uiIndex>
+    <szText>사람들이 정말 그런 것들을 믿는 건가요? 한심하네요.</szText>
+    <riposte_quote>22</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>54</uiIndex>
+    <szText>어렵다고? 난 눈 감고도 저 정도는 맞히겠다.</szText>
+    <riposte_quote>23</riposte_quote>
+    <brave>1</brave>
+    <elite>1</elite>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>55</uiIndex>
+    <szText>이건 단지 시작일 뿐입니다!</szText>
+    <riposte_quote>24</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>56</uiIndex>
+    <szText>그는 더 이상 당신을 사랑하지 않아요!</szText>
+    <riposte_quote>24</riposte_quote>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>57</uiIndex>
+    <szText>좋아, 이건 끝났어. 다음!</szText>
+    <riposte_quote>26</riposte_quote>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>58</uiIndex>
+    <szText>그렇게 말하면 후회할 거예요!</szText>
+    <riposte_quote>26</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>59</uiIndex>
+    <szText>자, 이제 숨바꼭질을 할 수 있겠네요!</szText>
+    <riposte_quote>56</riposte_quote>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>60</uiIndex>
+    <szText>맞아! 중대 전체가 몰려왔어!</szText>
+    <riposte_quote>59</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>4</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>61</uiIndex>
+    <szText>복수형을 썼어야지! 놈들이야, 엄청 많아!</szText>
+    <riposte_quote>0</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>62</uiIndex>
+    <szText>두고 보면 알겠죠...</szText>
+    <riposte_quote>1</riposte_quote>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>63</uiIndex>
+    <szText>아니요, 그렇지 않아요. 하지만 걱정 마세요, 저희가 살살 다룰게요!</szText>
+    <riposte_quote>2</riposte_quote>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>64</uiIndex>
+    <szText>문법 참 좋네, 이 멍청아!</szText>
+    <riposte_quote>2</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>65</uiIndex>
+    <szText>필요한 거 있어, 이 미친놈아?</szText>
+    <riposte_quote>13</riposte_quote>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>66</uiIndex>
+    <szText>자, 제가 좀 드릴게요!</szText>
+    <riposte_quote>13</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>67</uiIndex>
+    <szText>아니, 넌 그냥 형편없는 거야! 공기를 빨아들인다는 뜻은 아니고!</szText>
+    <riposte_quote>14</riposte_quote>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>68</uiIndex>
+    <szText>이해가 안 가네. 총싸움에 칼을 들고 가는 이유가 뭐야?</szText>
+    <riposte_quote>15</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>69</uiIndex>
+    <szText>정말 웃겼지. 그놈을 표적 삼아 사격 연습하며 얼마나 즐거웠는지!</szText>
+    <riposte_quote>16</riposte_quote>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>70</uiIndex>
+    <szText>나도 농담 하나 알아. 예를 들면, 너 같은 농담거리 말이야!</szText>
+    <riposte_quote>16</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>71</uiIndex>
+    <szText>이봐, 총이 멍청한 게 아니라 네가 멍청한 거야!</szText>
+    <riposte_quote>19</riposte_quote>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>72</uiIndex>
+    <szText>너한테 아주 잘 어울리네, 그렇지?</szText>
+    <riposte_quote>19</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>73</uiIndex>
+    <szText>진정해! 왜 이렇게 호들갑을 떠는 거야?</szText>
+    <riposte_quote>20</riposte_quote>
+    <cunning>1</cunning>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>74</uiIndex>
+    <szText>네가 얻을 수 있는 건 엉덩이를 걷어차이는 것뿐이야!</szText>
+    <riposte_quote>21</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>75</uiIndex>
+    <szText>오, 그래요? 다음 것도 기대하세요!</szText>
+    <riposte_quote>22</riposte_quote>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>76</uiIndex>
+    <szText>그건 경고 사격이었을 뿐이야!</szText>
+    <riposte_quote>22</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>77</uiIndex>
+    <szText>널 할퀴어 죽여버릴 거야!</szText>
+    <riposte_quote>24</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>78</uiIndex>
+    <szText>저건 긁힌 자국이 아니야. 완전 협곡이라고!</szText>
+    <szTextCensored>저건 긁힌 자국이 아니야. 완전 협곡이라고!</szTextCensored>
+    <riposte_quote>24</riposte_quote>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>79</uiIndex>
+    <szText>아니. 넌 죽어야 해!</szText>
+    <riposte_quote>26</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>80</uiIndex>
+    <szText>그걸로 네 무덤도 파주지!</szText>
+    <riposte_quote>27</riposte_quote>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>81</uiIndex>
+    <szText>내 엉덩이나 핥아!</szText>
+    <riposte_quote>62</riposte_quote>
+    <aggressive>1</aggressive>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>82</uiIndex>
+    <szText>파이어볼? 이게 대체 무슨 비디오 게임인 줄 알아?</szText>
+    <szTextCensored>파이어볼? 이게 대체 무슨 비디오 게임인 줄 알아?</szTextCensored>
+    <riposte_quote>56</riposte_quote>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>83</uiIndex>
+    <szText>괜찮아요, 제가 여기 있어요. 제 목소리를 따라오세요!</szText>
+    <riposte_quote>56</riposte_quote>
+    <target_merc_profile>13</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>84</uiIndex>
+    <szText>그 여자도 그렇게 말했지!</szText>
+    <riposte_quote>0</riposte_quote>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>85</uiIndex>
+    <szText>제발, 아주 섹시한 만남이기를!</szText>
+    <riposte_quote>0</riposte_quote>
+    <cunning>1</cunning>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>86</uiIndex>
+    <szText>당신이 준비되면 언제든 저도 준비됐어요!</szText>
+    <riposte_quote>1</riposte_quote>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>87</uiIndex>
+    <szText>아, 아, 우리 기분 상하게 하지 마세요!</szText>
+    <riposte_quote>2</riposte_quote>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>88</uiIndex>
+    <szText>이봐, 새로운 걸 시도할 여지는 언제나 있잖아!</szText>
+    <riposte_quote>2</riposte_quote>
+    <cunning>1</cunning>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>89</uiIndex>
+    <szText>이리 와 봐, 좀 줄게.</szText>
+    <riposte_quote>13</riposte_quote>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>90</uiIndex>
+    <szText>요즘 그걸 그렇게 부르나요?</szText>
+    <riposte_quote>13</riposte_quote>
+    <cunning>1</cunning>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>91</uiIndex>
+    <szText>그런 말을 해보신 건 처음이시겠네요!</szText>
+    <riposte_quote>14</riposte_quote>
+    <brave>1</brave>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>92</uiIndex>
+    <szText>어머, 이제 질투 나네요.</szText>
+    <riposte_quote>15</riposte_quote>
+    <target_merc_profile>14</target_merc_profile>
+    <male>1</male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>93</uiIndex>
+    <szText>원하신다면 슬픔을 극복하는 데 도움을 드릴 수 있어요!</szText>
+    <riposte_quote>15</riposte_quote>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>94</uiIndex>
+    <szText>어디? 어디?</szText>
+    <riposte_quote>19</riposte_quote>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>95</uiIndex>
+    <szText>제가 도와드릴 수 있을지도 몰라요.</szText>
+    <riposte_quote>19</riposte_quote>
+    <target_merc_profile>14</target_merc_profile>
+    <male>1</male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>96</uiIndex>
+    <szText>약실을 비워야 합니다...</szText>
+    <riposte_quote>19</riposte_quote>
+    <cunning>1</cunning>
+    <target_merc_profile>14</target_merc_profile>
+    <male>1</male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>97</uiIndex>
+    <szText>하지만 그건 당신에게 새로운 일이 아니잖아요, 그렇죠?</szText>
+    <riposte_quote>20</riposte_quote>
+    <brave>1</brave>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>98</uiIndex>
+    <szText>젠장, 이건 재치 있는 답변조차 받을 가치가 없잖아!</szText>
+    <riposte_quote>20</riposte_quote>
+    <cunning>1</cunning>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>99</uiIndex>
+    <szText>당신은 지금 당신이 하는 말을 듣고 있는 건가요?</szText>
+    <riposte_quote>20</riposte_quote>
+    <defensive>1</defensive>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>100</uiIndex>
+    <szText>오, 하나 줄게요! 두고 보세요!</szText>
+    <riposte_quote>21</riposte_quote>
+    <aggressive>1</aggressive>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>101</uiIndex>
+    <szText>마사지사를 바꿔 보는 게 어때? 내가 자원하지!</szText>
+    <riposte_quote>21</riposte_quote>
+    <cunning>1</cunning>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>102</uiIndex>
+    <szText>그래, 네가 그랬을 거라고 확신해. 세상에.</szText>
+    <riposte_quote>21</riposte_quote>
+    <female>1</female>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>103</uiIndex>
+    <szText>어휴. 오늘은 안 돼!</szText>
+    <riposte_quote>24</riposte_quote>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>104</uiIndex>
+    <szText>아니요!</szText>
+    <riposte_quote>26</riposte_quote>
+    <aggressive>1</aggressive>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>105</uiIndex>
+    <szText>공주님을 위해서라면 뭐든지 할게요.</szText>
+    <riposte_quote>26</riposte_quote>
+    <cunning>1</cunning>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>106</uiIndex>
+    <szText>여자한텐 이 방법이 먹히더군.</szText>
+    <riposte_quote>26</riposte_quote>
+    <brave>1</brave>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>107</uiIndex>
+    <szText>이거 일부러 하는 거야?</szText>
+    <riposte_quote>27</riposte_quote>
+    <defensive>1</defensive>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>108</uiIndex>
+    <szText>흥.</szText>
+    <riposte_quote>51</riposte_quote>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>109</uiIndex>
+    <szText>흥.</szText>
+    <riposte_quote>53</riposte_quote>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>110</uiIndex>
+    <szText>난 못 들은 척할 거야.</szText>
+    <defensive>1</defensive>
+    <riposte_quote>53</riposte_quote>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>111</uiIndex>
+    <szText>잠깐만요! 옷 벗고 구조 튜브 가져와서 바로 달려갈게요!</szText>
+    <riposte_quote>77</riposte_quote>
+    <cunning>1</cunning>
+    <male>1</male>
+    <target_merc_profile>14</target_merc_profile>
+  </TAUNT>
+</TAUNTS>

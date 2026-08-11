@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>혁명 만세!</szText>
+    <fire_gun>1</fire_gun>
+    <kill>1</kill>
+    <militia>1</militia>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>당신의 여왕을 위해 지옥에 자리를 마련해 두세요!</szText>
+    <kill>1</kill>
+    <militia>1</militia>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>그리고 당신은 죽었습니다.</szText>
+    <kill>1</kill>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>다음!</szText>
+    <kill>1</kill>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>이건 시작에 불과해, 이 개자식들아!</szText>
+    <szTextCensored>이건 시작에 불과해, 이 개자식들아!</szTextCensored>
+    <aggressive>1</aggressive>
+    <kill>1</kill>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>시체를 뒤져야겠군.</szText>
+    <cunning>1</cunning>
+    <kill>1</kill>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>잘했어, 덕분에 죽었네.</szText>
+    <cunning>1</cunning>
+    <kill>1</kill>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>괜찮아? 너 완전 죽은 사람 같아 보여!</szText>
+    <cunning>1</cunning>
+    <kill>1</kill>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>내 컬렉션에 또 하나가 추가됐네요.</szText>
+    <kill>1</kill>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>적어도 품위 있게 죽으려고 노력이라도 해볼 수는 있잖아요.</szText>
+    <kill>1</kill>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>한심하군.</szText>
+    <kill>1</kill>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>아마추어.</szText>
+    <kill>1</kill>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>이것을 여러분 모두에게 교훈으로 삼으십시오!</szText>
+    <kill>1</kill>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>네가 자초한 일이야.</szText>
+    <kill>1</kill>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>운이 다했네요.</szText>
+    <kill>1</kill>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>이제 대가를 치를 시간이다!</szText>
+    <kill>1</kill>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>누가 가서 맥박 좀 확인해 줘.</szText>
+    <kill>1</kill>
+    <target_male>1</target_male>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>누가 가서 맥박 좀 확인해 줘.</szText>
+    <kill>1</kill>
+    <target_female>1</target_female>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>안녕히 가세요!</szText>
+    <kill>1</kill>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>전 세계 모든 남성을 대표하여: 당신이 그리울 겁니다.</szText>
+    <cunning>1</cunning>
+    <kill>1</kill>
+    <male>1</male>
+    <target_female>1</target_female>
+    <target_appearance>5</target_appearance>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>20</uiIndex>
+    <szText>아, 안됐네. 꽤 귀여웠는데.</szText>
+    <kill>1</kill>
+    <cunning>1</cunning>
+    <male>1</male>
+    <target_female>1</target_female>
+    <target_appearance>4</target_appearance>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>21</uiIndex>
+    <szText>잘 자요, 사랑하는 왕자님.</szText>
+    <cunning>1</cunning>
+    <kill>1</kill>
+    <female>1</female>
+    <target_male>1</target_male>
+    <target_appearance>5</target_appearance>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>22</uiIndex>
+    <szText>진단 결과: 음성!</szText>
+    <cunning>1</cunning>
+    <kill>1</kill>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>23</uiIndex>
+    <szText>이렇게 끝날 필요는 없었잖아!</szText>
+    <defensive>1</defensive>
+    <kill>1</kill>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>24</uiIndex>
+    <szText>그래! 그럼 이만!</szText>
+    <kill>1</kill>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>25</uiIndex>
+    <szText>네가 날 이렇게 만들었어...</szText>
+    <defensive>1</defensive>
+    <kill>1</kill>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>26</uiIndex>
+    <szText>고양이 가죽을 벗기는 방법도 여러 가지가 있죠!</szText>
+    <kill_hth>1</kill_hth>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>27</uiIndex>
+    <szText>투쟁은 적이지만, 납은 치료제다!</szText>
+    <kill_gunfire>1</kill_gunfire>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>28</uiIndex>
+    <szText>사망 원인: 급성 납 중독!</szText>
+    <kill_gunfire>1</kill_gunfire>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>29</uiIndex>
+    <szText>너만 빼고 모두가 행복한 결말을 맞이할 자격이 있어!</szText>
+    <kill>1</kill>
+    <cunning>1</cunning>
+    <elite>1</elite>
+    <female>1</female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>30</uiIndex>
+    <szText>하하하! 맙소사, 걔가 이상하게 넘어졌네!</szText>
+    <aggressive>1</aggressive>
+    <target_male>1</target_male>
+    <kill>1</kill>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>31</uiIndex>
+    <szText>하하하! 세상에, 걔가 이상하게 넘어졌네!</szText>
+    <aggressive>1</aggressive>
+    <target_female>1</target_female>
+    <kill>1</kill>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>32</uiIndex>
+    <szText>이제 손을 씻어야겠어!</szText>
+    <kill_hth>1</kill_hth>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>33</uiIndex>
+    <szText>내 셔츠 좀 봐, 이걸 아내한테 어떻게 설명해야 하지?</szText>
+    <male>1</male>
+    <kill_hth>1</kill_hth>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>34</uiIndex>
+    <szText>명중!</szText>
+    <kill_throwing_knife>1</kill_throwing_knife>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>35</uiIndex>
+    <szText>내가 최고야!</szText>
+    <kill>1</kill>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>36</uiIndex>
+    <szText>모든 건 반사신경에 달려있어!</szText>
+    <kill_throwing_knife>1</kill_throwing_knife>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>37</uiIndex>
+    <szText>무력화되었습니다!</szText>
+    <kill>1</kill>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>38</uiIndex>
+    <szText>목표 제거!</szText>
+    <kill>1</kill>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>39</uiIndex>
+    <szText>또 한 명이 쓰러졌군!</szText>
+    <kill>1</kill>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>40</uiIndex>
+    <szText>나는 그들의 눈을 바라보는 것을 좋아한다...</szText>
+    <kill_hth>1</kill_hth>
+    <kill_blade>1</kill_blade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>41</uiIndex>
+    <szText>하나 처리했고, 이제 60억 명 남았군...</szText>
+    <kill>1</kill>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>42</uiIndex>
+    <szText>바짝 붙어서 끝내는 거지. 딱 내 취향이야!</szText>
+    <kill_hth>1</kill_hth>
+    <kill_blade>1</kill_blade>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>43</uiIndex>
+    <szText>마치... 다중인격 장애 같네요!</szText>
+    <kill_blade>1</kill_blade>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>44</uiIndex>
+    <szText>당신의 부모님은 생존한 자녀가 있으셨나요?</szText>
+    <kill>1</kill>
+    <defensive>1</defensive>
+  </TAUNT>
+</TAUNTS>

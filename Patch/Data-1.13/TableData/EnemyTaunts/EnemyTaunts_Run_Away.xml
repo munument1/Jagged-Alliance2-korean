@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>이 모든 건 내 계획의 일부였어!</szText>
+    <run_away>1</run_away>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>이제 정말 질렸어!</szText>
+    <run_away>1</run_away>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>맙소사!</szText>
+    <run_away>1</run_away>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>이런 개고생을 하기엔 돈을 너무 적게 받아...</szText>
+    <run_away>1</run_away>
+    <defensive>1</defensive>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>언제부터 상황이 이렇게 잘못되었을까?</szText>
+    <run_away>1</run_away>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>친구들 데리고 돌아올 테다!</szText>
+    <run_away>1</run_away>
+    <aggressive>1</aggressive>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>넌 이 일에 대한 대가를 훗날 치르게 될 거야!</szText>
+    <run_away>1</run_away>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>반칙이잖아!</szText>
+    <run_away>1</run_away>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>널 용서할 거라고 생각하지 마!</szText>
+    <run_away>1</run_away>
+    <aggressive>1</aggressive>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>엄마!</szText>
+    <run_away>1</run_away>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>이 개자식아, 네가 전혀 예상하지 못할 때 다시 돌아올 거야!</szText>
+    <szTextCensored>이 녀석아, 네가 전혀 예상하지 못할 때 다시 돌아오겠다!</szTextCensored>
+    <run_away>1</run_away>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>널 살려두겠어... 적어도 지금은.</szText>
+    <run_away>1</run_away>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>이제 그만!</szText>
+    <run_away>1</run_away>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>됐어! 나 여기 떠날래!</szText>
+    <run_away>1</run_away>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>젠장! 난 진짜 군인도 아니잖아!</szText>
+    <run_away>1</run_away>
+    <admin>1</admin>
+    <green>1</green>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>전술적 후퇴!</szText>
+    <run_away>1</run_away>
+    <brave>1</brave>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>난 이제 충분히 봤어.</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>아니요, 아니요, 아니요.</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>산으로 도망쳐!</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>무승부로 합시다.</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>20</uiIndex>
+    <szText>“군대에 가라”고 했지, 이런 꼴을 보라고 하진 않았잖아!</szText>
+    <run_away>1</run_away>
+    <defensive>1</defensive>
+    <cunning>1</cunning>
+    <army>1</army>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>21</uiIndex>
+    <szText>나는 아무것도 후회하지 않아!</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>22</uiIndex>
+    <szText>게임 끝났어!</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>23</uiIndex>
+    <szText>우리 친구하자!</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>24</uiIndex>
+    <szText>파티는 끝났어!</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>25</uiIndex>
+    <szText>폭력은 해결책이 아닙니다!</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>26</uiIndex>
+    <szText>나는 죽기엔 너무 아름다워!</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>27</uiIndex>
+    <szText>너희들 다 꺼져, 난 집에 갈 거야!</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>28</uiIndex>
+    <szText>전쟁 말고 사랑을!</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>29</uiIndex>
+    <szText>어, 제가 집에 불 켜놓고 나왔어요. 가봐야겠어요!</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>30</uiIndex>
+    <szText>전화번호 남겨. 내가 연락할게!</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>31</uiIndex>
+    <szText>더 이상 못 참겠어!</szText>
+    <run_away>1</run_away>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>32</uiIndex>
+    <szText>난 여기서 당장 나가버릴 거야!</szText>
+    <run_away>1</run_away>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>33</uiIndex>
+    <szText>저놈들과 혼자 싸우진 않겠어!</szText>
+    <run_away>1</run_away>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>34</uiIndex>
+    <szText>난 이제 여기를 떠날 거야.</szText>
+    <run_away>1</run_away>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>35</uiIndex>
+    <szText>군대라니... 이럴 줄 알았어야지!</szText>
+    <army>1</army>
+    <run_away>1</run_away>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>36</uiIndex>
+    <szText>여기 오다니... 내가 대체 무슨 생각을 했던 걸까?</szText>
+    <run_away>1</run_away>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>37</uiIndex>
+    <szText>온통 바보들뿐이야! 난 여기서 나가야겠어!</szText>
+    <run_away>1</run_away>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>38</uiIndex>
+    <szText>무기도 없고! 친구도 없고! 희망도 없다!</szText>
+    <run_away>1</run_away>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>39</uiIndex>
+    <szText>저는 군대에 가고 싶었던 적이 전혀 없었어요! 엄마가 억지로 보내셨어요!</szText>
+    <run_away>1</run_away>
+    <army>1</army>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>40</uiIndex>
+    <szText>내 형이 이 소식을 들으면 가만 안 둘 거야!</szText>
+    <run_away>1</run_away>
+    <admin>1</admin>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>41</uiIndex>
+    <szText>때로는 사람들이 잘 가지 않는 길에는 그럴 만한 이유가 있는 법입니다!</szText>
+    <run_away>1</run_away>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>42</uiIndex>
+    <szText>좋아, 이제 더 이상 참을 수 없어!</szText>
+    <run_away>1</run_away>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>43</uiIndex>
+    <szText>너 반칙하고 있잖아!</szText>
+    <run_away>1</run_away>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>44</uiIndex>
+    <szText>이제 은퇴를 생각해 볼 때입니다...</szText>
+    <run_away>1</run_away>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>45</uiIndex>
+    <szText>아직 끝이 아니야! 네가 어디로 가든 끝까지 쫓아갈 거야!</szText>
+    <run_away>1</run_away>
+    <aggressive>1</aggressive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>46</uiIndex>
+    <szText>우리는 왜 사이좋게 지낼 수 없을까요?</szText>
+    <run_away>1</run_away>
+    <cunning>1</cunning>
+  </TAUNT>
+</TAUNTS>

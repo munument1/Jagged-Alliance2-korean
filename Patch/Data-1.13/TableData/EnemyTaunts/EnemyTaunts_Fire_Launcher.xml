@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAUNTS>
+  <TAUNT>
+    <uiIndex>0</uiIndex>
+    <szText>내 작은 친구에게 인사해!</szText>
+    <fire_launcher>1</fire_launcher>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>1</uiIndex>
+    <szText>바비큐 시간이에요!</szText>
+    <fire_launcher>1</fire_launcher>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>2</uiIndex>
+    <szText>꿀꺽 삼켜!</szText>
+    <fire_launcher>1</fire_launcher>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>3</uiIndex>
+    <szText>빵!</szText>
+    <fire_launcher>1</fire_launcher>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>4</uiIndex>
+    <szText>쾅!</szText>
+    <fire_launcher>1</fire_launcher>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>5</uiIndex>
+    <szText>이거나 피해 봐!</szText>
+    <fire_launcher>1</fire_launcher>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>6</uiIndex>
+    <szText>좋아요!</szText>
+    <fire_launcher>1</fire_launcher>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>7</uiIndex>
+    <szText>하하하!</szText>
+    <fire_launcher>1</fire_launcher>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>8</uiIndex>
+    <szText>불에 타 죽어라, 이년아!</szText>
+    <fire_launcher>1</fire_launcher>
+    <aggressive>1</aggressive>
+    <target_female>1</target_female>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>9</uiIndex>
+    <szText>불에 타 죽어라, 이 개자식아!</szText>
+    <fire_launcher>1</fire_launcher>
+    <aggressive>1</aggressive>
+    <target_male>1</target_male>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>10</uiIndex>
+    <szText>기도하세요!</szText>
+    <fire_launcher>1</fire_launcher>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>11</uiIndex>
+    <szText>완전 좋아!</szText>
+    <fire_launcher>1</fire_launcher>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>12</uiIndex>
+    <szText>과잉 살상만큼 효과적인 살상은 없다!</szText>
+    <fire_launcher>1</fire_launcher>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>13</uiIndex>
+    <szText>내 총이 네 총보다 커!</szText>
+    <fire_launcher>1</fire_launcher>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>14</uiIndex>
+    <szText>너에게 줄 선물이 있어!</szText>
+    <fire_launcher>1</fire_launcher>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>15</uiIndex>
+    <szText>보고 배우세요.</szText>
+    <fire_launcher>1</fire_launcher>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>16</uiIndex>
+    <szText>특별 배송!</szText>
+    <fire_launcher>1</fire_launcher>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>17</uiIndex>
+    <szText>지금 네 얼굴 좀 봐!</szText>
+    <fire_launcher>1</fire_launcher>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>18</uiIndex>
+    <szText>이건 전혀 예상 못했지, 그렇지?</szText>
+    <fire_launcher>1</fire_launcher>
+    <brave>1</brave>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>19</uiIndex>
+    <szText>체크메이트!</szText>
+    <fire_launcher>1</fire_launcher>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>20</uiIndex>
+    <szText>저는 항상 이걸 해보고 싶었어요.</szText>
+    <fire_launcher>1</fire_launcher>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>21</uiIndex>
+    <szText>힘을 통한 평화!</szText>
+    <fire_launcher>1</fire_launcher>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>22</uiIndex>
+    <szText>이 일은 그렇게 나쁘지 않아.</szText>
+    <fire_launcher>1</fire_launcher>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>23</uiIndex>
+    <szText>이제야 내가 왜 군대에 입대했는지 기억이 나네!</szText>
+    <fire_launcher>1</fire_launcher>
+    <regular>1</regular>
+    <defensive>1</defensive>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>24</uiIndex>
+    <szText>어머, 누가 좀 말려줘요!</szText>
+    <fire_launcher>1</fire_launcher>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>25</uiIndex>
+    <szText>천만에요!</szText>
+    <fire_launcher>1</fire_launcher>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>26</uiIndex>
+    <szText>동네가 난리 났네!</szText>
+    <fire_launcher>1</fire_launcher>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>27</uiIndex>
+    <szText>안 되지!</szText>
+    <fire_launcher>1</fire_launcher>
+    <cunning>1</cunning>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>28</uiIndex>
+    <szText>내 맥주 좀 들고 있어 봐, 이거 봐!</szText>
+    <brave>1</brave>
+    <fire_launcher>1</fire_launcher>
+    <throw_grenade>1</throw_grenade>
+  </TAUNT>
+  <TAUNT>
+    <uiIndex>29</uiIndex>
+    <szText>만약 내게 남성기가 있었다면, 바로 이때 너에게 내 성기를 빨라고 했을 거야!</szText>
+    <fire_launcher>1</fire_launcher>
+    <aggressive>1</aggressive>
+    <female>1</female>
+    <target_male>1</target_male>
+  </TAUNT>
+</TAUNTS>
