@@ -1,0 +1,25 @@
+name: Runtime dialogue QA
+
+on:
+  push:
+    paths:
+      - 'Patch/Data/NPCData/**'
+      - 'Patch/Data/TableData/EnemyTaunts/**'
+      - 'Patch/Data-1.13/TableData/EnemyTaunts/**'
+      - 'tools/check_runtime_dialogue.py'
+      - '.github/workflows/runtime-dialogue-qa.yml'
+  pull_request:
+    paths:
+      - 'Patch/Data/NPCData/**'
+      - 'Patch/Data/TableData/EnemyTaunts/**'
+      - 'Patch/Data-1.13/TableData/EnemyTaunts/**'
+      - 'tools/check_runtime_dialogue.py'
+      - '.github/workflows/runtime-dialogue-qa.yml'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate civilian and EnemyTaunts resources
+        run: python3 tools/check_runtime_dialogue.py
