@@ -57,7 +57,6 @@ def main() -> None:
         extra_high = sorted(set(v113_files) - set(data_files))
         fail(f"EnemyTaunts mirror mismatch; missing in Data-1.13={missing_high}, extra={extra_high}")
 
-    warnings = []
     for name in sorted(data_files):
         low = data_files[name]
         high = v113_files[name]
@@ -75,18 +74,19 @@ def main() -> None:
             fail(f"unexpected root tag in {name}: {root.tag}")
 
         text = low_bytes.decode("utf-8-sig")
-        if "<szTextCensored>" in text:
-            warnings.append(f"{name}: legacy szTextCensored tag will be normalized by install.ps1")
+        if "<szTextCensored>" in text or "</szTextCensored>" in text:
+            fail(f"legacy szTextCensored tag remains in {name}")
 
         for taunt in root.findall("TAUNT"):
-            if len(taunt.findall("szText")) > 1:
-                index = taunt.findtext("uiIndex", default="?")
-                warnings.append(f"{name}: uiIndex {index} has duplicate szText; install.ps1 treats the second as censored text")
+            index = taunt.findtext("uiIndex", default="?")
+            if len(taunt.findall("szText")) != 1:
+                fail(f"{name}: uiIndex {index} must contain exactly one szText")
+            if len(taunt.findall("szCensoredText")) > 1:
+                fail(f"{name}: uiIndex {index} contains duplicate szCensoredText")
 
     print(f"OK: {len(data_files)} EnemyTaunts XML files mirrored identically in Data and Data-1.13")
+    print("OK: EnemyTaunts censorship tags and text-node structure are normalized")
     print("OK: only the verified Korean civ52.edt is shipped as loose civilian dialogue")
-    for warning in warnings:
-        print(f"WARN: {warning}")
 
 
 if __name__ == "__main__":
