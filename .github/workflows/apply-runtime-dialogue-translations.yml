@@ -1,0 +1,41 @@
+name: Apply runtime dialogue translations
+
+on:
+  push:
+    branches:
+      - audit/runtime-dialogue-full
+    paths:
+      - '.github/workflows/apply-runtime-dialogue-translations.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audit/runtime-dialogue-full
+          fetch-depth: 0
+
+      - name: Inject Korean EDT records and VFS mirrors
+        run: python3 tools/apply_runtime_dialogue_translations.py
+
+      - name: Assert zero untranslated runtime dialogue
+        run: python3 tools/verify_runtime_dialogue_zero.py
+
+      - name: Commit generated runtime resources
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Patch/Data/MercEdt Patch/Data-1.13/MercEdt Patch/Data-1.13/BinaryData/MERCBIOS.EDT qa/runtime_dialogue_final_audit.tsv
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+            exit 0
+          fi
+          git commit -m "Translate all remaining runtime dialogue"
+          git push origin HEAD:audit/runtime-dialogue-full
