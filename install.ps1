@@ -27,7 +27,7 @@ Get-ChildItem -LiteralPath $patchPath -Force | ForEach-Object {
     Copy-Item -LiteralPath $_.FullName -Destination $resolvedGamePath -Recurse -Force
 }
 
-# Older alpha builds accidentally shipped placeholder CIV EDT files.  Remove only
+# Older alpha builds accidentally shipped placeholder CIV EDT files. Remove only
 # those recognizable placeholders so a real loose NPCData override is not touched.
 $npcDataPath = Join-Path $resolvedGamePath 'Data\NPCData'
 if (Test-Path -LiteralPath $npcDataPath -PathType Container) {
@@ -45,7 +45,7 @@ if (Test-Path -LiteralPath $npcDataPath -PathType Container) {
     }
 }
 
-# r7609's JA2113 VFS resolves Data-1.13 above Data.  Mirror the Korean taunts to
+# r7609's JA2113 VFS resolves Data-1.13 above Data. Mirror the Korean taunts to
 # the higher-priority layer and normalize two malformed censorship-tag patterns
 # found in the generated translation files.
 $tauntSourcePath = Join-Path $resolvedGamePath 'Data\TableData\EnemyTaunts'
@@ -54,7 +54,9 @@ if (Test-Path -LiteralPath $tauntSourcePath -PathType Container) {
     New-Item -ItemType Directory -Path $tauntTargetPath -Force | Out-Null
 
     Get-ChildItem -LiteralPath $tauntSourcePath -Filter 'EnemyTaunts*.xml' -File | ForEach-Object {
-        $text = [System.IO.File]::ReadAllText($_.FullName)
+        $sourceFile = $_.FullName
+        $sourceName = $_.Name
+        $text = [System.IO.File]::ReadAllText($sourceFile)
         $text = $text.Replace('<szTextCensored>', '<szCensoredText>')
         $text = $text.Replace('</szTextCensored>', '</szCensoredText>')
 
@@ -68,11 +70,11 @@ if (Test-Path -LiteralPath $tauntSourcePath -PathType Container) {
                 $censoredTexts = [regex]::Matches($block, '<szCensoredText>.*?</szCensoredText>', [System.Text.RegularExpressions.RegexOptions]::Singleline)
 
                 if ($normalTexts.Count -gt 2) {
-                    throw "EnemyTaunts XML에 szText가 3개 이상인 TAUNT가 있습니다: $($_.FullName)"
+                    throw "EnemyTaunts XML에 szText가 3개 이상인 TAUNT가 있습니다: $sourceFile"
                 }
                 if ($normalTexts.Count -eq 2) {
                     if ($censoredTexts.Count -ne 0) {
-                        throw "EnemyTaunts XML에 중복 szText와 szCensoredText가 동시에 있습니다: $($_.FullName)"
+                        throw "EnemyTaunts XML에 중복 szText와 szCensoredText가 동시에 있습니다: $sourceFile"
                     }
                     $second = $normalTexts[1]
                     $replacement = $second.Value.Replace('<szText>', '<szCensoredText>').Replace('</szText>', '</szCensoredText>')
@@ -88,8 +90,8 @@ if (Test-Path -LiteralPath $tauntSourcePath -PathType Container) {
         $xmlCheck.LoadXml($text)
 
         $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
-        [System.IO.File]::WriteAllText($_.FullName, $text, $utf8NoBom)
-        $targetFile = Join-Path $tauntTargetPath $_.Name
+        [System.IO.File]::WriteAllText($sourceFile, $text, $utf8NoBom)
+        $targetFile = Join-Path $tauntTargetPath $sourceName
         [System.IO.File]::WriteAllText($targetFile, $text, $utf8NoBom)
     }
 }
