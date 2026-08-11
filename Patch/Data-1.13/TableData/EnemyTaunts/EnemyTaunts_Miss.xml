@@ -9,7 +9,7 @@
   <TAUNT>
     <uiIndex>1</uiIndex>
     <szText>이 개자식아!</szText>
-    <szTextCensored>이 괴물아!</szTextCensored>
+    <szCensoredText>이 괴물아!</szCensoredText>
     <got_hit>1</got_hit>
     <aggressive>1</aggressive>
     <miss>1</miss>

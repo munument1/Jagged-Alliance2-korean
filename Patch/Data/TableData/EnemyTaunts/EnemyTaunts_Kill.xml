@@ -26,7 +26,7 @@
   <TAUNT>
     <uiIndex>4</uiIndex>
     <szText>이건 시작에 불과해, 이 개자식들아!</szText>
-    <szTextCensored>이건 시작에 불과해, 이 개자식들아!</szTextCensored>
+    <szCensoredText>이건 시작에 불과해, 이 개자식들아!</szCensoredText>
     <aggressive>1</aggressive>
     <kill>1</kill>
   </TAUNT>

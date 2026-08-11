@@ -3,7 +3,7 @@
   <TAUNT>
     <uiIndex>0</uiIndex>
     <szText>겁먹었냐, 이 개자식아?</szText>
-    <szTextCensored>겁먹었냐, 이 자식아?</szTextCensored>
+    <szCensoredText>겁먹었냐, 이 자식아?</szCensoredText>
     <charge_blade>1</charge_blade>
     <charge_hth>1</charge_hth>
     <aggressive>1</aggressive>
@@ -67,7 +67,7 @@
   <TAUNT>
     <uiIndex>10</uiIndex>
     <szText>개자식아!</szText>
-    <szTextCensored>원숭이 전사!</szTextCensored>
+    <szCensoredText>원숭이 전사!</szCensoredText>
     <charge_blade>1</charge_blade>
     <charge_hth>1</charge_hth>
     <aggressive>1</aggressive>
@@ -276,7 +276,7 @@
   <TAUNT>
     <uiIndex>43</uiIndex>
     <szText>네 다리를 엉덩이에서 뽑아버려 버릴 거야!</szText>
-    <szTextCensored>네 다리를 엉덩이에서 뜯어버려 버릴 거야!</szTextCensored>
+    <szCensoredText>네 다리를 엉덩이에서 뜯어버려 버릴 거야!</szCensoredText>
     <charge_hth>1</charge_hth>
     <aggressive>1</aggressive>
   </TAUNT>

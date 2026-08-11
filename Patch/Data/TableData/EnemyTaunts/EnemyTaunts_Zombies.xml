@@ -24,7 +24,7 @@
   <TAUNT>
     <uiIndex>3</uiIndex>
     <szText>좋아, 이 나라에 딱 필요한 게 바로 그거야. 빌어먹을 좀비 대재앙이라니!</szText>
-    <szTextCensored>좋아, 바로 이 나라에 필요한 거야. 좀비 대재앙이라니!</szTextCensored>
+    <szCensoredText>좋아, 바로 이 나라에 필요한 거야. 좀비 대재앙이라니!</szCensoredText>
     <noticed_unseen>1</noticed_unseen>
     <say_hi>1</say_hi>
     <target_zombie>1</target_zombie>
@@ -46,7 +46,7 @@
   <TAUNT>
     <uiIndex>6</uiIndex>
     <szText>이건 정말 끔찍해!</szText>
-    <szTextCensored>이건 완전히 잘못됐잖아!</szTextCensored>
+    <szCensoredText>이건 완전히 잘못됐잖아!</szCensoredText>
     <noticed_unseen>1</noticed_unseen>
     <say_hi>1</say_hi>
     <target_zombie>1</target_zombie>
@@ -174,7 +174,7 @@
   <TAUNT>
     <uiIndex>23</uiIndex>
     <szText>젠장, 약 먹는 걸 깜빡한 것 같아.</szText>
-    <szTextCensored>젠장, 약 먹는 걸 깜빡한 것 같아.</szTextCensored>
+    <szCensoredText>젠장, 약 먹는 걸 깜빡한 것 같아.</szCensoredText>
     <noticed_unseen>1</noticed_unseen>
     <say_hi>1</say_hi>
     <aggressive>1</aggressive>
@@ -199,7 +199,7 @@
   <TAUNT>
     <uiIndex>26</uiIndex>
     <szText>너 진짜 소름 끼치는 놈이구나.</szText>
-    <szTextCensored>너 진짜 소름 끼치는 녀석이구나.</szTextCensored>
+    <szCensoredText>너 진짜 소름 끼치는 녀석이구나.</szCensoredText>
     <noticed_unseen>1</noticed_unseen>
     <say_hi>1</say_hi>
     <inform_about>1</inform_about>
@@ -224,7 +224,7 @@
   <TAUNT>
     <uiIndex>29</uiIndex>
     <szText>지구 온난화 따위는 집어치워, 우리에겐 진짜 심각한 문제들이 있다고!</szText>
-    <szTextCensored>지구 온난화 따위는 집어치워, 우리에겐 진짜 심각한 문제들이 있다고!</szTextCensored>
+    <szCensoredText>지구 온난화 따위는 집어치워, 우리에겐 진짜 심각한 문제들이 있다고!</szCensoredText>
     <noticed_unseen>1</noticed_unseen>
     <say_hi>1</say_hi>
     <target_zombie>1</target_zombie>

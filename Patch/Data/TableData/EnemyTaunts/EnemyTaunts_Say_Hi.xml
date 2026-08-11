@@ -122,7 +122,7 @@
   <TAUNT>
     <uiIndex>17</uiIndex>
     <szText>우리도 썩 잘난 얼굴은 아니지만, 넌 대체 무슨 일을 당한 거냐?</szText>
-    <szTextCensored>우리도 썩 잘난 얼굴은 아니지만, 넌 대체 무슨 일을 당한 거냐?</szTextCensored>
+    <szCensoredText>우리도 썩 잘난 얼굴은 아니지만, 넌 대체 무슨 일을 당한 거냐?</szCensoredText>
     <say_hi>1</say_hi>
     <defensive>1</defensive>
     <target_appearance>1</target_appearance>
@@ -149,7 +149,7 @@
   <TAUNT>
     <uiIndex>21</uiIndex>
     <szText>와, 너 진짜... 존나 못생겼다!</szText>
-    <szTextCensored>와, 너 진짜... 엄청 못생겼다!</szTextCensored>
+    <szCensoredText>와, 너 진짜... 엄청 못생겼다!</szCensoredText>
     <say_hi>1</say_hi>
     <cunning>1</cunning>
     <target_appearance>1</target_appearance>
@@ -252,7 +252,7 @@
   <TAUNT>
     <uiIndex>35</uiIndex>
     <szText>내 평생 이렇게 후진적인 시골뜨기들을 많이 본 적이 없어.</szText>
-    <szTextCensored>살면서 이렇게 후진적인 시골뜨기들을 많이 본 적이 없어.</szTextCensored>
+    <szCensoredText>살면서 이렇게 후진적인 시골뜨기들을 많이 본 적이 없어.</szCensoredText>
     <say_hi>1</say_hi>
     <brave>1</brave>
   </TAUNT>

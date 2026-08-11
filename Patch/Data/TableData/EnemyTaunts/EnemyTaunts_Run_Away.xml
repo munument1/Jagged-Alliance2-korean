@@ -64,7 +64,7 @@
   <TAUNT>
     <uiIndex>10</uiIndex>
     <szText>이 개자식아, 네가 전혀 예상하지 못할 때 다시 돌아올 거야!</szText>
-    <szTextCensored>이 녀석아, 네가 전혀 예상하지 못할 때 다시 돌아오겠다!</szTextCensored>
+    <szCensoredText>이 녀석아, 네가 전혀 예상하지 못할 때 다시 돌아오겠다!</szCensoredText>
     <run_away>1</run_away>
     <aggressive>1</aggressive>
   </TAUNT>

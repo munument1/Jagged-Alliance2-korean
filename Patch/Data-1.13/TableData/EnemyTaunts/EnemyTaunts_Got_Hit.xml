@@ -51,7 +51,7 @@
   <TAUNT>
     <uiIndex>9</uiIndex>
     <szText>이 개자식아!</szText>
-    <szTextCensored>이 개자식아!</szTextCensored>
+    <szCensoredText>이 개자식아!</szCensoredText>
     <got_hit>1</got_hit>
     <aggressive>1</aggressive>
     <miss>1</miss>
@@ -59,21 +59,21 @@
   <TAUNT>
     <uiIndex>10</uiIndex>
     <szText>이 빌어먹을 놈아!</szText>
-    <szTextCensored>오, 이 녀석 정말...</szTextCensored>
+    <szCensoredText>오, 이 녀석 정말...</szCensoredText>
     <got_hit>1</got_hit>
     <aggressive>1</aggressive>
   </TAUNT>
   <TAUNT>
     <uiIndex>11</uiIndex>
     <szText>젠장, 넌 그 대가를 치르게 될 거야!</szText>
-    <szTextCensored>젠장, 넌 그 대가를 치르게 될 거야!</szTextCensored>
+    <szCensoredText>젠장, 넌 그 대가를 치르게 될 거야!</szCensoredText>
     <got_hit>1</got_hit>
     <aggressive>1</aggressive>
   </TAUNT>
   <TAUNT>
     <uiIndex>12</uiIndex>
     <szText>넌 잘못된 사람을 건드렸어!</szText>
-    <szTextCensored>넌 잘못된 사람을 건드렸어!</szTextCensored>
+    <szCensoredText>넌 잘못된 사람을 건드렸어!</szCensoredText>
     <got_hit>1</got_hit>
     <aggressive>1</aggressive>
     <brave>1</brave>
@@ -193,7 +193,7 @@
   <TAUNT>
     <uiIndex>31</uiIndex>
     <szText>이제 넌 죽었어!</szText>
-    <szTextCensored>이제 넌 죽었어!</szTextCensored>
+    <szCensoredText>이제 넌 죽었어!</szCensoredText>
     <got_hit>1</got_hit>
     <aggressive>1</aggressive>
   </TAUNT>

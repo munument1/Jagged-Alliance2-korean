@@ -85,7 +85,7 @@
   <TAUNT>
     <uiIndex>13</uiIndex>
     <szText>이거 좀 핥아, 이 건방진 놈아!</szText>
-    <szTextCensored>이 자식아, 건방진 놈아, 엿이나 먹어!</szTextCensored>
+    <szCensoredText>이 자식아, 건방진 놈아, 엿이나 먹어!</szCensoredText>
     <throw_knife>1</throw_knife>
     <throw_grenade>1</throw_grenade>
     <aggressive>1</aggressive>

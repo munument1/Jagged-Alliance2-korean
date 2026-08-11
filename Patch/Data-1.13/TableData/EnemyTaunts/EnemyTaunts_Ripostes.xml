@@ -21,7 +21,7 @@
   <TAUNT>
     <uiIndex>3</uiIndex>
     <szText>PX? 그게 도대체 무슨 뜻이야?</szText>
-    <szTextCensored>PX? 그게 도대체 무슨 뜻이야?</szTextCensored>
+    <szCensoredText>PX? 그게 도대체 무슨 뜻이야?</szCensoredText>
     <riposte_quote>22</riposte_quote>
     <target_merc_profile>240</target_merc_profile>
   </TAUNT>
@@ -315,7 +315,7 @@
   <TAUNT>
     <uiIndex>47</uiIndex>
     <szText>네 망할 상관이 중고 총을 사온 게 누구 잘못이겠어?</szText>
-    <szTextCensored>네 짠돌이 상관이 중고 총을 사온 게 누구 잘못이겠어?</szTextCensored>
+    <szCensoredText>네 짠돌이 상관이 중고 총을 사온 게 누구 잘못이겠어?</szCensoredText>
     <riposte_quote>19</riposte_quote>
     <brave>1</brave>
     <target_merc_profile>4</target_merc_profile>
@@ -523,7 +523,7 @@
   <TAUNT>
     <uiIndex>78</uiIndex>
     <szText>저건 긁힌 자국이 아니야. 완전 협곡이라고!</szText>
-    <szTextCensored>저건 긁힌 자국이 아니야. 완전 협곡이라고!</szTextCensored>
+    <szCensoredText>저건 긁힌 자국이 아니야. 완전 협곡이라고!</szCensoredText>
     <riposte_quote>24</riposte_quote>
     <target_merc_profile>13</target_merc_profile>
   </TAUNT>
@@ -550,7 +550,7 @@
   <TAUNT>
     <uiIndex>82</uiIndex>
     <szText>파이어볼? 이게 대체 무슨 비디오 게임인 줄 알아?</szText>
-    <szTextCensored>파이어볼? 이게 대체 무슨 비디오 게임인 줄 알아?</szTextCensored>
+    <szCensoredText>파이어볼? 이게 대체 무슨 비디오 게임인 줄 알아?</szCensoredText>
     <riposte_quote>56</riposte_quote>
     <target_merc_profile>13</target_merc_profile>
   </TAUNT>

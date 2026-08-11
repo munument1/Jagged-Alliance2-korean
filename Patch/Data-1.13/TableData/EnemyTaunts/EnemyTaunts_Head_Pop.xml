@@ -23,14 +23,14 @@
   <TAUNT>
     <uiIndex>3</uiIndex>
     <szText>하하하! 진짜 끝내준다!</szText>
-    <szTextCensored>하하하! 완전 멋지다!</szTextCensored>
+    <szCensoredText>하하하! 완전 멋지다!</szCensoredText>
     <aggressive>1</aggressive>
     <head_pop>1</head_pop>
   </TAUNT>
   <TAUNT>
     <uiIndex>4</uiIndex>
     <szText>그래, 맞아! 이 직업 너무 좋아!</szText>
-    <szTextCensored>완전 좋아! 이 직업이 너무 마음에 들어!</szTextCensored>
+    <szCensoredText>완전 좋아! 이 직업이 너무 마음에 들어!</szCensoredText>
     <aggressive>1</aggressive>
     <head_pop>1</head_pop>
   </TAUNT>

@@ -282,7 +282,7 @@
   <TAUNT>
     <uiIndex>35</uiIndex>
     <szText>맙소사, 거스 타볼스잖아! 우린 망했어!</szText>
-    <szTextCensored>맙소사, 거스 타볼스잖아! 우린 망했어!</szTextCensored>
+    <szCensoredText>맙소사, 거스 타볼스잖아! 우린 망했어!</szCensoredText>
     <elite>1</elite>
     <noticed_unseen>1</noticed_unseen>
     <target_merc_profile>16</target_merc_profile>

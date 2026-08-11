@@ -3,7 +3,7 @@
   <TAUNT>
     <uiIndex>0</uiIndex>
     <szText>젠장, 내 눈알!</szText>
-    <szTextCensored>젠장, 내 눈알!</szTextCensored>
+    <szCensoredText>젠장, 내 눈알!</szCensoredText>
     <got_blinded>1</got_blinded>
   </TAUNT>
   <TAUNT>
