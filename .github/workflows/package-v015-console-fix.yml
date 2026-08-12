@@ -1,1 +1,64 @@
 name: Package v0.1.5-alpha console fix
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/package-v015-console-fix.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out current main
+        uses: actions/checkout@v4
+
+      - name: Validate package inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -d Patch/Data
+          test -d Patch/Data-1.13
+          test ! -d Patch/Data-UB
+          test -f Patch/ja2.exe
+          test -f Patch/Ja2.ini
+          test -f install.bat
+          test -f install.ps1
+          test -f README.md
+          if LC_ALL=C grep -n '[^ -~\t\r]' install.ps1; then
+            echo 'install.ps1 still contains non-ASCII characters'
+            exit 1
+          fi
+          grep -F 'Korean patch installation completed:' install.ps1
+          for id in 170 171 172 173 174 177 192 193 194; do
+            test -f "Patch/Data-1.13/MercEdt/${id}.EDT"
+          done
+
+      - name: Build release ZIP
+        shell: bash
+        run: |
+          set -euo pipefail
+          name='JA2_r7609_Korean_Patch_v0.1.5-alpha'
+          stage="/tmp/${name}"
+          rm -rf "${stage}" "/tmp/${name}.zip" "/tmp/${name}.zip.sha256"
+          mkdir -p "${stage}"
+          cp -a Patch "${stage}/Patch"
+          cp install.bat install.ps1 README.md "${stage}/"
+          cd /tmp
+          zip -qr "${name}.zip" "${name}"
+          sha256sum "${name}.zip" > "${name}.zip.sha256"
+          unzip -tq "${name}.zip"
+          cat "${name}.zip.sha256"
+
+      - name: Upload release package
+        uses: actions/upload-artifact@v4
+        with:
+          name: JA2_r7609_Korean_Patch_v0.1.5-alpha-console-fixed
+          path: |
+            /tmp/JA2_r7609_Korean_Patch_v0.1.5-alpha.zip
+            /tmp/JA2_r7609_Korean_Patch_v0.1.5-alpha.zip.sha256
+          retention-days: 1
