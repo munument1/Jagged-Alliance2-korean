@@ -12,10 +12,10 @@ $exePath = Join-Path $resolvedGamePath 'ja2.exe'
 $stamp = Get-Date -Format 'yyyyMMdd_HHmmss'
 
 if (-not (Test-Path -LiteralPath $patchPath -PathType Container)) {
-    throw "Patch 폴더를 찾을 수 없습니다: $patchPath"
+    throw "Patch folder was not found: $patchPath"
 }
 if (-not (Test-Path -LiteralPath $iniPath -PathType Leaf)) {
-    throw "Ja2.ini를 찾을 수 없습니다: $iniPath"
+    throw "Ja2.ini was not found: $iniPath"
 }
 
 if (Test-Path -LiteralPath $exePath -PathType Leaf) {
@@ -38,7 +38,7 @@ if (Test-Path -LiteralPath $npcDataPath -PathType Container) {
                 $prefix = [System.Text.Encoding]::Unicode.GetString($bytes, 0, 12)
                 if ($prefix.StartsWith('rvpuf ')) {
                     Remove-Item -LiteralPath $_.FullName -Force
-                    Write-Host "구형 CIV 더미 제거: $($_.Name)"
+                    Write-Host "Removed legacy CIV placeholder: $($_.Name)"
                 }
             }
         }
@@ -70,11 +70,11 @@ if (Test-Path -LiteralPath $tauntSourcePath -PathType Container) {
                 $censoredTexts = [regex]::Matches($block, '<szCensoredText>.*?</szCensoredText>', [System.Text.RegularExpressions.RegexOptions]::Singleline)
 
                 if ($normalTexts.Count -gt 2) {
-                    throw "EnemyTaunts XML에 szText가 3개 이상인 TAUNT가 있습니다: $sourceFile"
+                    throw "EnemyTaunts XML contains a TAUNT with more than two szText elements: $sourceFile"
                 }
                 if ($normalTexts.Count -eq 2) {
                     if ($censoredTexts.Count -ne 0) {
-                        throw "EnemyTaunts XML에 중복 szText와 szCensoredText가 동시에 있습니다: $sourceFile"
+                        throw "EnemyTaunts XML contains duplicate szText and szCensoredText elements: $sourceFile"
                     }
                     $second = $normalTexts[1]
                     $replacement = $second.Value.Replace('<szText>', '<szCensoredText>').Replace('</szText>', '</szCensoredText>')
@@ -135,5 +135,5 @@ foreach ($section in $fontSettings.Keys) {
 }
 
 [System.IO.File]::WriteAllText($iniPath, $ini, [System.Text.UTF8Encoding]::new($false))
-Write-Host "한국어 패치 설치 완료: $resolvedGamePath"
-Write-Host "백업 시각: $stamp"
+Write-Host "Korean patch installation completed: $resolvedGamePath"
+Write-Host "Backup timestamp: $stamp"
