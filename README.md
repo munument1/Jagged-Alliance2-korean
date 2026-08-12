@@ -14,17 +14,17 @@ Jagged Alliance 2 v1.13 **r7609 영어판**을 대상으로 제작 중인 한국
 
 ## 권장 설치 — install.bat 더블클릭
 
-1. GitHub Releases에서 `JA2_r7609_Korean_Patch_v0.1.3-alpha.zip`을 다운로드합니다.
+1. GitHub Releases에서 `JA2_r7609_Korean_Patch_v0.1.4-alpha.zip`을 다운로드합니다.
 2. ZIP의 압축을 풉니다.
 3. 압축을 풀면 다음과 같은 구조가 나옵니다.
 
 ```text
-JA2_r7609_Korean_Patch_v0.1.3-alpha\
+JA2_r7609_Korean_Patch_v0.1.4-alpha\
 ├─ install.bat
 ├─ install.ps1
 ├─ Patch\
 ├─ README.md
-└─ RELEASE_NOTES_v0.1.3-alpha.md
+└─ RELEASE_NOTES_v0.1.4-alpha.md
 ```
 
 4. **`install.bat`, `install.ps1`, `Patch` 폴더**를 Jagged Alliance 2 v1.13 r7609 설치 폴더로 복사합니다.
@@ -82,21 +82,18 @@ Patch\
 
 `v0.1.1-alpha`부터 r7609 실행 파일이 요구하는 INI 기본값을 함께 제공하므로, 이전 알파에서 나타났던 시작 화면의 붉은 INI 경고 없이 실행할 수 있습니다.
 
-## v0.1.3-alpha 런타임 대사 수정
+## v0.1.4-alpha BASE NPC 대사 완성
 
-실제 게임이 읽는 EDT/XML을 다시 복호화·파싱해 기존 패치에서 영어로 남아 있던 런타임 대사를 전수 감사했습니다.
+기존 v0.1.3-alpha의 런타임 용병/적군 대사 수정에 이어, r7609 기본 `Data/NPCData`를 전수 정리했습니다.
 
-- 실제 미번역 런타임 대사 **239개를 한국어로 교체**했습니다.
-- `Data/MercEdt`에만 있던 한국어 용병 EDT 11개를 `Data-1.13/MercEdt`에도 동일하게 배치해 상위 VFS에서 영어 원본이 다시 선택되는 문제를 막았습니다.
-- 적군 전투 대사 `EnemyTaunts*.xml` 29개를 `Data`와 `Data-1.13` 양쪽에 동일하게 배치했습니다.
-- 잘못된 `szTextCensored` 태그와 중복 `szText`를 정식 `szCensoredText` 구조로 수정했습니다.
-- 초기 작업에서 생성됐던 가짜 주민 대사 `civ*.edt` placeholder 479개를 제거했습니다.
-- 실제 한국어 주민 대사가 들어 있는 `civ52.edt`는 보존했습니다.
-- `NpcData/229.EDT`는 별도 480-byte 레코드 형식으로 확인했으며 27개 대사가 모두 한국어였습니다.
+- BASE NPCData **160개 EDT 파일**을 한국어판으로 재구성했습니다.
+- 실제 영문 대사 **3,233개**를 모두 한국어로 반영했습니다.
+- 원래 공란인 레코드 **201개**는 그대로 공란으로 보존했습니다.
+- 총 **3,434개 레코드**의 순서, 고정 레코드 크기(320/480 bytes), 파일 크기를 검증했습니다.
+- JA2 EDT 인코딩 규칙으로 재인코딩한 뒤 전 레코드 역복호화 비교를 수행해 번역 문자열과 1:1 일치를 확인했습니다.
+- v0.1.3-alpha에서 적용한 용병 대사, EnemyTaunts, VFS 우선순위 보정, 설치기 수정은 그대로 유지됩니다.
 
-자동 QA는 `MercEdt`, `NPCData`, `MERCBIOS.EDT`, `EnemyTaunts`를 실제 런타임 형식으로 검사하며 **`RUNTIME_UNTRANSLATED=0`**을 통과해야 합니다.
-
-상세 변경 사항은 `RELEASE_NOTES_v0.1.3-alpha.md`를 참고하세요.
+상세 변경 사항은 `RELEASE_NOTES_v0.1.4-alpha.md`를 참고하세요.
 
 ## 런타임 대사 리소스
 

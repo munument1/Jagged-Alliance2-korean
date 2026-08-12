@@ -1,0 +1,42 @@
+name: Build BASE NPC Korean EDT
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/build_base_npc_v014.yml
+      - tools/build_base_npc_from_drive.py
+      - README.md
+      - RELEASE_NOTES_v0.1.4-alpha.md
+
+permissions:
+  contents: write
+
+jobs:
+  build-base-npc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build and verify BASE NPC EDT
+        run: python tools/build_base_npc_from_drive.py --output-root .
+
+      - name: Commit generated translations
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Patch/Data/NPCData qa/JA2_r7609_BASE_NPC_Translation_Queue_FINAL.tsv qa/base_npc_v014_manifest.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+          git commit -m "Add complete BASE NPC Korean translations"
+          git push
