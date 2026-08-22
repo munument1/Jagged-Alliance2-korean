@@ -10,7 +10,8 @@ Baseline:
 Hotfixes:
   1) Allow Hangul characters in the I.M.P. full-name/nickname input filter.
   2) Expand Fleuropa/Florist destination mouse hitboxes to cover the complete
-     visual row used by the WinFont-based Korean build.
+     visual row used by the WinFont-based Korean build without overlapping
+     adjacent rows.
 
 The script deliberately patches only the two known source files and refuses to
 continue if the expected baseline snippets are not found.
@@ -78,9 +79,9 @@ REPLACEMENTS = (
 \t\t\t\tMSYS_DefineRegion( &gSelectedFlowerDropDownRegion[i], usPosX, (UINT16)(usPosY+4), (UINT16)(usPosX+FLOWER_ORDER_DROP_DOWN_LOCATION_WIDTH), (UINT16)(usPosY+usFontHeight), MSYS_PRIORITY_HIGH+3,
 """,
         new_lf="""\
-\t\t\t\t// The highlight and glyphs extend below the old click strip. Cover the
-\t\t\t\t// complete visual row so WinFont text remains reliably selectable.
-\t\t\t\tMSYS_DefineRegion( &gSelectedFlowerDropDownRegion[i], usPosX, usPosY, (UINT16)(usPosX+FLOWER_ORDER_DROP_DOWN_LOCATION_WIDTH), (UINT16)(usPosY+usFontHeight+4), MSYS_PRIORITY_HIGH+3,
+\t\t\t\t// Cover the whole visual row while ending exactly at the next row's
+\t\t\t\t// start, avoiding any overlap between adjacent city hitboxes.
+\t\t\t\tMSYS_DefineRegion( &gSelectedFlowerDropDownRegion[i], usPosX, usPosY, (UINT16)(usPosX+FLOWER_ORDER_DROP_DOWN_LOCATION_WIDTH), (UINT16)(usPosY+usFontHeight+2), MSYS_PRIORITY_HIGH+3,
 """,
     ),
 )
