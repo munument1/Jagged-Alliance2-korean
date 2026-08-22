@@ -1,0 +1,93 @@
+name: Publish v0.1.6-alpha
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/publish-v0.1.6-alpha.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-v0.1.6-alpha
+  cancel-in-progress: false
+
+jobs:
+  validate-package-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate final runtime executable
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f Patch/ja2.exe
+          test "$(stat -c %s Patch/ja2.exe)" -eq 8407552
+          python3 tools/patch_current_korean_exe.py Patch/ja2.exe --check
+          echo "a3480fd92a6c5e4e184b367cf29705d52b8b129a616c6a6a80affd062ee77582  Patch/ja2.exe" | sha256sum --check --strict
+
+      - name: Validate runtime dialogue and package layout
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 tools/check_runtime_dialogue.py
+          python3 tools/verify_runtime_dialogue_zero.py
+          test -d Patch/Data
+          test -d Patch/Data-1.13
+          test -f Patch/Ja2.ini
+          test -f install.bat
+          test -f install.ps1
+          test -f README.md
+          test -f RELEASE_NOTES_v0.1.6-alpha.md
+          test ! -d Patch/Data-UB
+
+      - name: Build release archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          name="JA2_r7609_Korean_Patch_v0.1.6-alpha"
+          stage="/tmp/${name}"
+          rm -rf "${stage}" "/tmp/${name}.zip" "/tmp/${name}.zip.sha256"
+          mkdir -p "${stage}"
+          cp -a Patch "${stage}/Patch"
+          cp install.bat install.ps1 README.md RELEASE_NOTES_v0.1.6-alpha.md "${stage}/"
+          cd /tmp
+          zip -qr "${name}.zip" "${name}"
+          sha256sum "${name}.zip" > "${name}.zip.sha256"
+          unzip -tq "${name}.zip"
+          unzip -l "${name}.zip" | grep -F "${name}/install.bat"
+          unzip -l "${name}.zip" | grep -F "${name}/Patch/ja2.exe"
+          cat "${name}.zip.sha256"
+
+      - name: Publish or refresh prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          name="JA2_r7609_Korean_Patch_v0.1.6-alpha"
+          if gh release view v0.1.6-alpha >/dev/null 2>&1; then
+            gh release upload v0.1.6-alpha \
+              "/tmp/${name}.zip" \
+              "/tmp/${name}.zip.sha256" \
+              --clobber
+            gh release edit v0.1.6-alpha \
+              --prerelease \
+              --title "JA2 r7609 Korean Patch v0.1.6-alpha" \
+              --notes-file RELEASE_NOTES_v0.1.6-alpha.md
+          else
+            gh release create v0.1.6-alpha \
+              "/tmp/${name}.zip" \
+              "/tmp/${name}.zip.sha256" \
+              --target "${GITHUB_SHA}" \
+              --prerelease \
+              --title "JA2 r7609 Korean Patch v0.1.6-alpha" \
+              --notes-file RELEASE_NOTES_v0.1.6-alpha.md
+          fi
