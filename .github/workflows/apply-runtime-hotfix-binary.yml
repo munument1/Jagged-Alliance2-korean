@@ -1,0 +1,34 @@
+name: Verify r7609 Korean runtime hotfix binary
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - Patch/ja2.exe
+      - tools/patch_current_korean_exe.py
+      - .github/workflows/apply-runtime-hotfix-binary.yml
+  pull_request:
+    paths:
+      - Patch/ja2.exe
+      - tools/patch_current_korean_exe.py
+      - .github/workflows/apply-runtime-hotfix-binary.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-exe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Verify final reviewed hotfix executable
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 tools/patch_current_korean_exe.py Patch/ja2.exe --check
+          test "$(stat -c %s Patch/ja2.exe)" -eq 8407552
+          echo "a3480fd92a6c5e4e184b367cf29705d52b8b129a616c6a6a80affd062ee77582  Patch/ja2.exe" | sha256sum --check --strict
