@@ -1,56 +1,34 @@
-name: Apply final r7609 Korean runtime hotfix binary
+name: Verify r7609 Korean runtime hotfix binary
 
 on:
   push:
     branches:
-      - fix/runtime-florist-imp-input
+      - main
     paths:
+      - Patch/ja2.exe
+      - tools/patch_current_korean_exe.py
+      - .github/workflows/apply-runtime-hotfix-binary.yml
+  pull_request:
+    paths:
+      - Patch/ja2.exe
       - tools/patch_current_korean_exe.py
       - .github/workflows/apply-runtime-hotfix-binary.yml
   workflow_dispatch:
 
 permissions:
-  contents: write
-
-concurrency:
-  group: r7609-korean-runtime-hotfix-final
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  patch-exe:
+  verify-exe:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out hotfix branch
+      - name: Check out repository
         uses: actions/checkout@v4
-        with:
-          ref: fix/runtime-florist-imp-input
-          fetch-depth: 0
 
-      - name: Verify recognized input executable
+      - name: Verify final reviewed hotfix executable
         shell: bash
         run: |
           set -euo pipefail
           python3 tools/patch_current_korean_exe.py Patch/ja2.exe --check
           test "$(stat -c %s Patch/ja2.exe)" -eq 8407552
-
-      - name: Apply final reviewed machine-code patch
-        shell: bash
-        run: |
-          set -euo pipefail
-          python3 tools/patch_current_korean_exe.py Patch/ja2.exe --in-place
-          python3 tools/patch_current_korean_exe.py Patch/ja2.exe --check
           echo "a3480fd92a6c5e4e184b367cf29705d52b8b129a616c6a6a80affd062ee77582  Patch/ja2.exe" | sha256sum --check --strict
-
-      - name: Commit final executable
-        shell: bash
-        run: |
-          set -euo pipefail
-          if git diff --quiet -- Patch/ja2.exe; then
-            echo "Patch/ja2.exe is already the final reviewed hotfix build."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Patch/ja2.exe
-          git commit -m "Finalize florist and IMP runtime hotfix executable"
-          git push origin HEAD:fix/runtime-florist-imp-input
