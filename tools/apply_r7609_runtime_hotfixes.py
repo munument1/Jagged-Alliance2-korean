@@ -9,8 +9,8 @@ Baseline:
 
 Hotfixes:
   1) Allow Hangul characters in the I.M.P. full-name/nickname input filter.
-  2) Expand Fleuropa/Florist destination mouse hitboxes for WinFont builds and
-     raise the closed dropdown's activation-region priority by one level.
+  2) Expand Fleuropa/Florist destination mouse hitboxes to cover the complete
+     visual row used by the WinFont-based Korean build.
 
 The script deliberately patches only the two known source files and refuses to
 continue if the expected baseline snippets are not found.
@@ -73,24 +73,14 @@ REPLACEMENTS = (
     ),
     Replacement(
         path="Laptop/florist Order Form.cpp",
-        label="Florist destination activation priority",
-        old_lf="""\
-\tMSYS_DefineRegion( &gSelectedFloristDropDownRegion, FLOWER_ORDER_DELIVERY_LOCATION_X, FLOWER_ORDER_DELIVERY_LOCATION_Y, (UINT16)(FLOWER_ORDER_DELIVERY_LOCATION_X + FLOWER_ORDER_DELIVERY_LOCATION_WIDTH), (UINT16)(FLOWER_ORDER_DELIVERY_LOCATION_Y + FLOWER_ORDER_DELIVERY_LOCATION_HEIGHT), MSYS_PRIORITY_HIGH,
-""",
-        new_lf="""\
-\tMSYS_DefineRegion( &gSelectedFloristDropDownRegion, FLOWER_ORDER_DELIVERY_LOCATION_X, FLOWER_ORDER_DELIVERY_LOCATION_Y, (UINT16)(FLOWER_ORDER_DELIVERY_LOCATION_X + FLOWER_ORDER_DELIVERY_LOCATION_WIDTH), (UINT16)(FLOWER_ORDER_DELIVERY_LOCATION_Y + FLOWER_ORDER_DELIVERY_LOCATION_HEIGHT), MSYS_PRIORITY_HIGH+1,
-""",
-    ),
-    Replacement(
-        path="Laptop/florist Order Form.cpp",
         label="Florist destination row hitboxes",
         old_lf="""\
 \t\t\t\tMSYS_DefineRegion( &gSelectedFlowerDropDownRegion[i], usPosX, (UINT16)(usPosY+4), (UINT16)(usPosX+FLOWER_ORDER_DROP_DOWN_LOCATION_WIDTH), (UINT16)(usPosY+usFontHeight), MSYS_PRIORITY_HIGH+3,
 """,
         new_lf="""\
-\t\t\t\t// WinFont can report a taller glyph box than the legacy bitmap font.
-\t\t\t\t// Cover the whole visual row instead of leaving only a narrow click strip.
-\t\t\t\tMSYS_DefineRegion( &gSelectedFlowerDropDownRegion[i], usPosX, usPosY, (UINT16)(usPosX+FLOWER_ORDER_DROP_DOWN_LOCATION_WIDTH), (UINT16)(usPosY+usFontHeight+2), MSYS_PRIORITY_HIGH+3,
+\t\t\t\t// The highlight and glyphs extend below the old click strip. Cover the
+\t\t\t\t// complete visual row so WinFont text remains reliably selectable.
+\t\t\t\tMSYS_DefineRegion( &gSelectedFlowerDropDownRegion[i], usPosX, usPosY, (UINT16)(usPosX+FLOWER_ORDER_DROP_DOWN_LOCATION_WIDTH), (UINT16)(usPosY+usFontHeight+4), MSYS_PRIORITY_HIGH+3,
 """,
     ),
 )
