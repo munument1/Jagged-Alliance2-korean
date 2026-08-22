@@ -14,17 +14,17 @@ Jagged Alliance 2 v1.13 **r7609 영어판**을 대상으로 제작 중인 한국
 
 ## 권장 설치 — install.bat 더블클릭
 
-1. GitHub Releases에서 `JA2_r7609_Korean_Patch_v0.1.4-alpha.zip`을 다운로드합니다.
+1. GitHub Releases에서 `JA2_r7609_Korean_Patch_v0.1.6-alpha.zip`을 다운로드합니다.
 2. ZIP의 압축을 풉니다.
 3. 압축을 풀면 다음과 같은 구조가 나옵니다.
 
 ```text
-JA2_r7609_Korean_Patch_v0.1.4-alpha\
+JA2_r7609_Korean_Patch_v0.1.6-alpha\
 ├─ install.bat
 ├─ install.ps1
 ├─ Patch\
 ├─ README.md
-└─ RELEASE_NOTES_v0.1.4-alpha.md
+└─ RELEASE_NOTES_v0.1.6-alpha.md
 ```
 
 4. **`install.bat`, `install.ps1`, `Patch` 폴더**를 Jagged Alliance 2 v1.13 r7609 설치 폴더로 복사합니다.
@@ -82,6 +82,18 @@ Patch\
 
 `v0.1.1-alpha`부터 r7609 실행 파일이 요구하는 INI 기본값을 함께 제공하므로, 이전 알파에서 나타났던 시작 화면의 붉은 INI 경고 없이 실행할 수 있습니다.
 
+## v0.1.6-alpha 런타임 핫픽스
+
+이번 버전에서는 기존 한국어 실행 파일의 번역과 WinFont 수정사항을 유지한 채 두 가지 런타임 문제를 보정했습니다.
+
+- I.M.P. 캐릭터 생성 화면에서 한글 이름과 별명을 입력할 수 있도록 Unicode 입력 필터 수정
+- Fleuropa 꽃집 배송지 드롭다운의 클릭 영역을 WinFont 표시 영역에 맞게 확대
+- Meduna / Deidranna 꽃다발 이스터에그 로직은 기존 r7609 데이터 그대로 유지
+- 최종 `ja2.exe` SHA-256: `a3480fd92a6c5e4e184b367cf29705d52b8b129a616c6a6a80affd062ee77582`
+- r7609 기준 소스와 재현 가능한 소스/바이너리 패치 도구를 저장소에 보존
+
+상세 변경 사항은 `RELEASE_NOTES_v0.1.6-alpha.md`와 `R7609_SOURCE_RECOVERY.md`를 참고하세요.
+
 ## v0.1.4-alpha BASE NPC 대사 완성
 
 기존 v0.1.3-alpha의 런타임 용병/적군 대사 수정에 이어, r7609 기본 `Data/NPCData`를 전수 정리했습니다.
@@ -102,7 +114,7 @@ Patch\
 - 적군 전투 대사: `TableData/EnemyTaunts/*.xml`
 - 용병 소개: `BinaryData/MERCBIOS.EDT`
 
-이번 릴리스의 `RUNTIME_UNTRANSLATED=0` 판정은 위의 현재 활성 런타임 대사 계열을 대상으로 합니다. 다른 모드나 별도 외부 리소스를 추가하면 그쪽에 영어가 남아 있을 수 있습니다.
+`RUNTIME_UNTRANSLATED=0` 판정은 위의 현재 활성 런타임 대사 계열을 대상으로 합니다. 다른 모드나 별도 외부 리소스를 추가하면 그쪽에 영어가 남아 있을 수 있습니다.
 
 ## 알려진 사항
 
