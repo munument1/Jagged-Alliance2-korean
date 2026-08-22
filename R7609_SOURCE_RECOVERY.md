@@ -42,12 +42,14 @@
 
 `Laptop/florist Order Form.cpp`
 
-꽃집 배송지 드롭다운은 실제 마우스 영역을 `usPosY+4`부터 `usPosY+usFontHeight`까지만 잡는다. 반면 선택 강조 영역은 아래쪽으로 `usPosY+usFontHeight+4`까지 사용하며, Bobby Ray 배송지 드롭다운도 행의 아래쪽 여유를 더 크게 둔다.
+꽃집 배송지 드롭다운은 실제 마우스 영역을 `usPosY+4`부터 `usPosY+usFontHeight`까지만 잡는다. 선택 강조 영역은 그보다 넓고, Bobby Ray 배송지 드롭다운도 행 아래쪽 클릭 여유를 더 크게 둔다.
 
-WinFont 기반 한국어 빌드에서는 이 좁은 영역 때문에 글자가 보이는 위치와 실제 클릭 가능한 위치가 어긋날 수 있다. 패치는 배송지 행의 클릭 범위를 다음처럼 확장한다.
+WinFont 기반 한국어 빌드에서는 이 좁은 영역 때문에 글자가 보이는 위치와 실제 클릭 가능한 위치가 어긋날 수 있다. 다만 인접 행의 간격은 `usFontHeight+2`이므로 클릭 영역끼리 겹치지 않게 다음 행 시작점까지만 확장한다.
 
 - 기존: `usPosY+4` ~ `usPosY+usFontHeight`
-- 수정: `usPosY` ~ `usPosY+usFontHeight+4`
+- 수정: `usPosY` ~ `usPosY+usFontHeight+2`
+
+이렇게 하면 각 도시 행의 전체 시각 영역을 안정적으로 클릭하면서도 다음 행과 히트박스가 겹치지 않는다.
 
 닫힌 배송지 선택 영역의 우선순위는 변경하지 않는다. 전체 화면 차단 영역은 드롭다운을 열기 전에는 비활성 상태이므로 별도 우선순위 조정이 필요하지 않은 것으로 확인했다.
 
@@ -70,11 +72,13 @@ WinFont 기반 한국어 빌드에서는 이 좁은 영역 때문에 글자가 �
 ### 결과 바이너리
 
 - 결과 크기: `8,407,552 bytes` — 변경 없음
-- 결과 SHA-256: `5087524fa181064a7c4646acee9b96cabb3ded68080a2662a6b242a021eb8ea1`
-- 결과 Git blob SHA: `212863bcc18421ff5b9d13ecf225c559cdb1e414`
+- 결과 SHA-256: `a3480fd92a6c5e4e184b367cf29705d52b8b129a616c6a6a80affd062ee77582`
+- 결과 Git blob SHA: `2fcb4657c0590e85faa1cee2ffde2e44e0284d5b`
 - 실제 변경 바이트 수: `27 bytes`
 
 현재 hotfix 브랜치의 `Patch/ja2.exe`는 위 결과 바이너리와 동일하다.
+
+초기 테스트 빌드 `5087524f...`는 꽃집 행의 클릭 bottom을 `+4`까지 확장해 인접 행과 2픽셀 겹칠 가능성이 있었으므로 최종본에서는 `+2`로 축소했다. 패치 도구는 초기 테스트 빌드에서도 최종본으로 안전하게 전환할 수 있다.
 
 ### 바이너리 수정 위치
 
@@ -85,18 +89,17 @@ I.M.P. `HandleBeginScreenTextEvent()`는 현재 한국어 EXE에서 `0x0052C290`
 
 따라서 한글 완성형/자모는 모두 입력 가능해진다. 소스 복원 시에는 위의 명시적 Hangul 범위 방식으로 유지한다.
 
-Florist `CreateDestroyFlowerOrderDestDropDown()`은 `0x004F5990`에 있다. 세 개의 단일 바이트 수정으로 내부 Y 기준을 4픽셀 이동시키고, 마우스 영역의 top 계산에서 그 이동을 상쇄하며, 최종 드롭다운 높이에서도 같은 값을 상쇄한다. 결과적으로 화면의 도시 글자 위치와 전체 드롭다운 높이는 그대로 유지하면서 각 행의 클릭 bottom만 4픽셀 확장된다.
+Florist `CreateDestroyFlowerOrderDestDropDown()`은 `0x004F5990`에 있다. 세 개의 단일 바이트 수정으로 내부 Y 기준을 2픽셀 이동시키고, 마우스 영역의 top 계산에서 그 이동을 상쇄하며, 최종 드롭다운 높이에서도 같은 값을 상쇄한다. 결과적으로 화면의 도시 글자 위치와 전체 드롭다운 높이는 그대로 유지하면서 각 행의 클릭 범위만 `usPosY` ~ `usPosY+usFontHeight+2`로 확장된다.
 
-## 자동 바이너리 적용
+## CI 검증
 
-`.github/workflows/apply-runtime-hotfix-binary.yml`은 hotfix 브랜치에서 다음 절차를 수행한다.
+`.github/workflows/apply-runtime-hotfix-binary.yml`은 main 및 관련 PR에서 다음을 검증한다.
 
-1. 기존 `Patch/ja2.exe`의 크기와 SHA 확인
-2. `tools/patch_current_korean_exe.py` 실행
-3. 결과 SHA-256이 고정값과 일치하는지 재검증
-4. 변경된 `Patch/ja2.exe`만 브랜치에 커밋
+1. `Patch/ja2.exe`가 패치 도구가 인식하는 정확한 바이너리인지 확인
+2. 파일 크기 `8,407,552 bytes` 확인
+3. 최종 SHA-256이 `a3480fd92a6c5e4e184b367cf29705d52b8b129a616c6a6a80affd062ee77582`인지 확인
 
-알 수 없는 EXE에는 적용하지 않는다.
+알 수 없는 EXE에는 패치 도구가 적용되지 않는다.
 
 ## 소스 적용 방법
 
