@@ -1,0 +1,45 @@
+name: Cleanup stale branches
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - '.branch-cleanup-trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Delete stale branches
+        shell: bash
+        run: |
+          set -euo pipefail
+          stale=(
+            'agent/email-preprocess-opt-test'
+            'agent/initial-r7609-korean-patch'
+            'audit/runtime-dialogue-full'
+            'fix/full-runtime-dialogue-coverage'
+            'fix/runtime-dialogue-taunts'
+            'fix/runtime-florist-imp-input'
+            'release/v0.1.6-alpha-publish'
+            'release/v0.1.6-alpha-trigger'
+            'runtime-full-coverage-audit'
+            'cleanup/stale-branches'
+          )
+          for branch in "${stale[@]}"; do
+            if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+              echo "Deleting $branch"
+              git push origin --delete "$branch"
+            else
+              echo "Already absent: $branch"
+            fi
+          done
