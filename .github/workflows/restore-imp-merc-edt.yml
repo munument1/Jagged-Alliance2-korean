@@ -1,0 +1,103 @@
+name: Restore IMP MercEdt files
+
+on:
+  push:
+    branches:
+      - fix/imp-merc-edt-051-056
+    paths:
+      - .github/workflows/restore-imp-merc-edt.yml
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repair branch
+        uses: actions/checkout@v4
+        with:
+          ref: fix/imp-merc-edt-051-056
+          fetch-depth: 0
+
+      - name: Download and verify IMP dialogue files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p Patch/Data/MercEdt
+
+          download() {
+            local name="$1"
+            local id="$2"
+            local sha="$3"
+            local out="Patch/Data/MercEdt/$name"
+            curl -L --fail --retry 3 --retry-delay 2 \
+              "https://drive.google.com/uc?export=download&id=${id}" \
+              -o "$out"
+            test "$(stat -c%s "$out")" -eq 57600
+            echo "${sha}  ${out}" | sha256sum -c -
+          }
+
+          download 051.EDT 1U-hzuOQ_ucU_Av61EhXoUaOTmYXBTFgj b4ff087dfdcee83905e3de971da6b4da695a6efe39dc3e5fac9f6f0cce32a21f
+          download 052.EDT 1qiye-LdCp3IpXKBm6CV5HcuNNRFac6dh 60c5651a1419a7311d3ea3b170018d8aaaa44898a6d02f327d3fd59055bf8788
+          download 053.EDT 1daYtC9dgP1lmZyLhPi3Vjh03SjkLdglD f0b00c0143feaadc8ff8d1dd74b36c8b0e3e2b4e56980c2e6163e63e3707ce45
+          download 054.EDT 1QKDhZyB2TsVLJMZ1CYP46-2Q54NW0Uyw aaef6239a4f9a42ec2c01c9c69613855d95d49ba16b39b5ae248377f4e29d79f
+          download 055.EDT 1fvPhkB8L9KdDCjFKOViV56pvlYUzSu5P 7b000cdacf0d903d9076634b4efe3ecbd101fc5c28a8a7e9d669bb46eec4bc37
+          download 056.EDT 1nkbZ_lIc1M6ETuHKSODVlpZLwKsUtuMx 9a45d689cd020e05c0b9510841d449c7cbb225dff98509ad321ffc99bd60aa65
+
+      - name: Validate EDT structure and Korean text
+        shell: python
+        run: |
+          from pathlib import Path
+          import struct
+
+          expected = {
+              51: "나쁜 친구들.",
+              52: "목표 발견.",
+              53: "반대자들.",
+              54: "침략자들.",
+              55: "적들 출현.",
+              56: "건방진 것들!",
+          }
+
+          def decode_record(data: bytes) -> str:
+              values = struct.unpack("<" + "H" * (len(data) // 2), data)
+              chars = []
+              for value in values:
+                  if value == 0:
+                      break
+                  if value > 33:
+                      value -= 1
+                  chars.append(chr(value))
+              return "".join(chars)
+
+          for profile, first_line in expected.items():
+              path = Path(f"Patch/Data/MercEdt/{profile:03d}.EDT")
+              data = path.read_bytes()
+              assert len(data) == 57600, (path, len(data))
+              assert len(data) % 480 == 0
+              assert len(data) // 480 == 120
+              actual = decode_record(data[:480])
+              assert actual == first_line, (path, actual, first_line)
+              print(f"{path}: OK - {actual}")
+
+      - name: Commit restored files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          rm -- .github/workflows/restore-imp-merc-edt.yml
+          git add -- \
+            Patch/Data/MercEdt/051.EDT \
+            Patch/Data/MercEdt/052.EDT \
+            Patch/Data/MercEdt/053.EDT \
+            Patch/Data/MercEdt/054.EDT \
+            Patch/Data/MercEdt/055.EDT \
+            Patch/Data/MercEdt/056.EDT \
+            .github/workflows/restore-imp-merc-edt.yml
+
+          git diff --cached --check
+          git commit -m "Restore IMP MercEdt dialogue files"
+          git push origin HEAD:fix/imp-merc-edt-051-056
