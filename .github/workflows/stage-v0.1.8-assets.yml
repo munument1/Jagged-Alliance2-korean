@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'tools/v018_assets.tar.gz'
+      - 'tools/v018_asset_chunks/**'
       - '.github/workflows/stage-v0.1.8-assets.yml'
   workflow_dispatch:
 
@@ -30,7 +30,8 @@ jobs:
           set -euo pipefail
           rm -rf /tmp/v018-assets /tmp/v018-assets.tar.gz
           mkdir -p /tmp/v018-assets Patch/Data/BinaryData Patch/Data/MercEdt
-          cp tools/v018_assets.tar.gz /tmp/v018-assets.tar.gz
+          cat tools/v018_asset_chunks/*.b64 | base64 -d > /tmp/v018-assets.tar.gz
+          echo "7a7d82c76064d8e9dde60d8b6342fa1a818d2eae21afd17a40ab146087aaed17  /tmp/v018-assets.tar.gz" | sha256sum --check --strict
           tar -xzf /tmp/v018-assets.tar.gz -C /tmp/v018-assets
           cd /tmp/v018-assets
           cat > /tmp/v018.sha256 <<'EOF'
