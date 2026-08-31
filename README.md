@@ -14,17 +14,17 @@ Jagged Alliance 2 v1.13 **r7609 영어판**을 대상으로 제작 중인 한국
 
 ## 권장 설치 — install.bat 더블클릭
 
-1. GitHub Releases에서 `JA2_r7609_Korean_Patch_v0.1.6-alpha.zip`을 다운로드합니다.
+1. GitHub Releases에서 `JA2_r7609_Korean_Patch_v0.1.7-alpha.zip`을 다운로드합니다.
 2. ZIP의 압축을 풉니다.
 3. 압축을 풀면 다음과 같은 구조가 나옵니다.
 
 ```text
-JA2_r7609_Korean_Patch_v0.1.6-alpha\
+JA2_r7609_Korean_Patch_v0.1.7-alpha\
 ├─ install.bat
 ├─ install.ps1
 ├─ Patch\
 ├─ README.md
-└─ RELEASE_NOTES_v0.1.6-alpha.md
+└─ RELEASE_NOTES_v0.1.7-alpha.md
 ```
 
 4. **`install.bat`, `install.ps1`, `Patch` 폴더**를 Jagged Alliance 2 v1.13 r7609 설치 폴더로 복사합니다.
@@ -81,6 +81,20 @@ Patch\
 수동 설치 전에는 기존 `ja2.exe`와 `Ja2.ini`를 직접 백업하는 것을 권장합니다. 이전 알파 설치 환경은 구형 CIV 더미 파일이 남을 수 있으므로 수동 설치보다는 `install.bat`을 권장합니다.
 
 `v0.1.1-alpha`부터 r7609 실행 파일이 요구하는 INI 기본값을 함께 제공하므로, 이전 알파에서 나타났던 시작 화면의 붉은 INI 경고 없이 실행할 수 있습니다.
+
+## v0.1.7-alpha BASE 용병 대사 배포 누락 복구
+
+v0.1.7-alpha에서는 I.M.P. 대사 문제를 계기로 BASE `Data/MercEdt`를 원본 번역 데이터와 다시 전수 대조했습니다.
+
+- I.M.P. 프로필 `051.EDT` ~ `056.EDT`를 복구했습니다.
+- 이후 재검수에서 BASE `MercEdt` 파일 **43개가 추가로 배포 패치에서 누락**된 것을 확인해 모두 복구했습니다.
+- 최종적으로 원본 번역 데이터의 BASE `MercEdt` **70개 파일 전체**가 `Patch/Data/MercEdt`에 포함됩니다.
+- 누락 파일의 크기와 480바이트 고정 레코드 구조를 검사하고, EDT 복호화 후 한국어 문자열이 정상적으로 들어 있는지 확인했습니다.
+- 재검수 중 남아 있던 영어/혼합 표기 3건(`009.EDT`, `024.EDT`, `025.EDT`)과 기존 `055.EDT` 영어 대사 1건도 정리했습니다.
+- 전체 활성 런타임 대사 검사 결과는 `RUNTIME_UNTRANSLATED=0`입니다.
+- `Data/BinaryData`, `Data-1.13/BinaryData`, `Data-1.13/MercEdt`, `Data-1.13/NpcData`도 원본 번역 데이터와 다시 대조해 추가 누락이 없음을 확인했습니다.
+
+상세 변경 사항은 `RELEASE_NOTES_v0.1.7-alpha.md`를 참고하세요.
 
 ## v0.1.6-alpha 런타임 핫픽스
 

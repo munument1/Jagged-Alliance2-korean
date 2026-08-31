@@ -34,16 +34,53 @@ jobs:
           python3 tools/patch_current_korean_exe.py Patch/ja2.exe --check
           echo "a3480fd92a6c5e4e184b367cf29705d52b8b129a616c6a6a80affd062ee77582  Patch/ja2.exe" | sha256sum --check --strict
 
-      - name: Validate IMP dialogue and package layout
+      - name: Validate runtime dialogue and BASE MercEdt completeness
         shell: bash
         run: |
           set -euo pipefail
           python3 tools/check_runtime_dialogue.py
           python3 tools/verify_runtime_dialogue_zero.py
-          for n in 051 052 053 054 055 056; do
-            test -f "Patch/Data/MercEdt/${n}.EDT"
-            test "$(stat -c %s "Patch/Data/MercEdt/${n}.EDT")" -eq 57600
-          done
+          python3 - <<'PY'
+          from pathlib import Path
+          import struct
+
+          root = Path('Patch/Data/MercEdt')
+          expected = {f'{i:03d}.EDT' for i in range(63)} | {
+              '064.EDT', '149.EDT', '165.EDT', '166.EDT',
+              '167.EDT', '168.EDT', '169.EDT'
+          }
+          actual = {p.name.upper() for p in root.iterdir() if p.is_file() and p.suffix.lower() == '.edt'}
+          missing = sorted(expected - actual)
+          assert len(expected) == 70
+          assert not missing, f'Missing BASE MercEdt files: {missing}'
+
+          for name in sorted(expected):
+              path = root / name
+              data = path.read_bytes()
+              assert len(data) % 480 == 0, (name, len(data))
+              nonempty = 0
+              hangul = 0
+              for off in range(0, len(data), 480):
+                  vals = struct.unpack('<' + 'H' * 240, data[off:off + 480])
+                  chars = []
+                  for value in vals:
+                      if value == 0:
+                          break
+                      if value > 33:
+                          value -= 1
+                      chars.append(chr(value))
+                  text = ''.join(chars)
+                  if text:
+                      nonempty += 1
+                  if any('가' <= c <= '힣' for c in text):
+                      hangul += 1
+              assert nonempty > 0, name
+              assert hangul > 0, (name, nonempty, hangul)
+
+          print('BASE_MERCEDT_REQUIRED=70')
+          print('BASE_MERCEDT_MISSING=0')
+          print('BASE_MERCEDT_STRUCTURE=OK')
+          PY
           test -d Patch/Data
           test -d Patch/Data-1.13
           test -f Patch/Ja2.ini
@@ -68,9 +105,9 @@ jobs:
           sha256sum "${name}.zip" > "${name}.zip.sha256"
           unzip -tq "${name}.zip"
           unzip -l "${name}.zip" | grep -F "${name}/install.bat"
-          unzip -l "${name}.zip" | grep -F "${name}/Patch/Data/MercEdt/054.EDT"
-          unzip -l "${name}.zip" | grep -F "${name}/Patch/Data/MercEdt/055.EDT"
-          unzip -l "${name}.zip" | grep -F "${name}/Patch/Data/MercEdt/056.EDT"
+          for n in 000 017 051 054 055 056 062 169; do
+            unzip -l "${name}.zip" | grep -F "${name}/Patch/Data/MercEdt/${n}.EDT"
+          done
           cat "${name}.zip.sha256"
 
       - name: Publish or refresh release
