@@ -1,0 +1,196 @@
+name: Full v0.1.7 recheck
+
+on:
+  push:
+    branches:
+      - audit/v017-full-recheck
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out current main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Verify source-derived localization manifests
+        shell: python
+        run: |
+          from pathlib import Path
+          import struct
+
+          def direct_edt(root):
+              return {p.name.upper(): p for p in root.iterdir() if p.is_file() and p.suffix.lower() == '.edt'}
+
+          def assert_manifest(root, expected_sizes, label):
+              actual = direct_edt(root)
+              expected = set(expected_sizes)
+              missing = sorted(expected - set(actual))
+              extra = sorted(set(actual) - expected)
+              print(f'{label}_EXPECTED={len(expected)}')
+              print(f'{label}_ACTUAL={len(actual)}')
+              print(f'{label}_MISSING={missing}')
+              print(f'{label}_EXTRA={extra}')
+              assert not missing, (label, 'missing', missing)
+              for name, size in sorted(expected_sizes.items()):
+                  got = actual[name].stat().st_size
+                  assert got == size, (label, name, got, size)
+              print(f'{label}_SIZE_MATCH=OK')
+
+          # Google Drive Data/MercEdt source manifest, re-read 2026-08-31.
+          base_names = {f'{i:03d}.EDT' for i in range(63)} | {
+              '064.EDT', '149.EDT', '165.EDT', '166.EDT', '167.EDT', '168.EDT', '169.EDT'
+          }
+          base_sizes = {name: 56160 for name in base_names}
+          base_sizes['005.EDT'] = 56640
+          for n in ('032','064','165','166','168'):
+              base_sizes[f'{n}.EDT'] = 68640
+          for n in ('040','046','149','169'):
+              base_sizes[f'{n}.EDT'] = 37920
+          for n in ('041','042','043','044','045','047','048','049','050'):
+              base_sizes[f'{n}.EDT'] = 55200
+          for i in range(51, 63):
+              base_sizes[f'{i:03d}.EDT'] = 57600
+          assert len(base_sizes) == 70
+          assert_manifest(Path('Patch/Data/MercEdt'), base_sizes, 'BASE_MERCEDT')
+
+          base_snitch = direct_edt(Path('Patch/Data/MercEdt/snitch'))
+          assert set(base_snitch) == {'023.EDT'}, set(base_snitch)
+          assert base_snitch['023.EDT'].stat().st_size == 4320
+          print('BASE_SNITCH=1/1')
+
+          # Google Drive Data-1.13/MercEdt source manifest, re-read 2026-08-31.
+          nums_113 = {
+              4,13,14,15,20,31,37,40,149,167,169,
+              *range(170,199), *range(220,254)
+          }
+          # The source has no 168, 199-219, etc.; set above intentionally mirrors the folder listing.
+          names_113 = {f'{i:03d}.EDT' for i in nums_113}
+          sizes_113 = {name: 56160 for name in names_113}
+          for i in (40,149,169,178,179,180,181,182,183,184,185,188,189,190,
+                    195,196,197,198,220,221,224,225,226,227,229,244,247,249,252,253):
+              sizes_113[f'{i:03d}.EDT'] = 37920
+          sizes_113['191.EDT'] = 48960
+          for i in (192,193,194):
+              sizes_113[f'{i:03d}.EDT'] = 55200
+          sizes_113['222.EDT'] = 43680
+          assert len(sizes_113) == 74
+          assert_manifest(Path('Patch/Data-1.13/MercEdt'), sizes_113, 'V113_MERCEDT')
+
+          expected_snitch_113 = {'180.EDT','187.EDT','188.EDT','222.EDT','223.EDT','225.EDT','227.EDT','240.EDT','249.EDT'}
+          snitch_113 = direct_edt(Path('Patch/Data-1.13/MercEdt/snitch'))
+          assert set(snitch_113) == expected_snitch_113, (sorted(snitch_113), sorted(expected_snitch_113))
+          assert all(p.stat().st_size == 4320 for p in snitch_113.values())
+          print('V113_SNITCH=9/9')
+
+          # Source-translated BinaryData EDTs.
+          required_base_binary = {
+              'AIMHIST.EDT':18400, 'AIMPOL.EDT':36800, 'ALUMNI.EDT':65280,
+              'HELP.EDT':157440, 'IMPASS.EDT':146560, 'IMPTEXT.EDT':191200,
+              'QUESTS.EDT':7360, 'RIS.EDT':54400,
+          }
+          for name, size in required_base_binary.items():
+              p = Path('Patch/Data/BinaryData') / name
+              assert p.is_file() and p.stat().st_size == size, (p, p.stat().st_size if p.exists() else None, size)
+          print('BASE_BINARY_TRANSLATED=8/8')
+
+          required_113_binary = {'AIMBIOS.EDT':79520,'EMAIL.EDT':149120,'MERCBIOS.EDT':48160}
+          for name, size in required_113_binary.items():
+              p = Path('Patch/Data-1.13/BinaryData') / name
+              assert p.is_file() and p.stat().st_size == size, (p, p.stat().st_size if p.exists() else None, size)
+          print('V113_BINARY_TRANSLATED=3/3')
+
+          # Drive source EDTs in NPCData that must still be represented in the completed BASE set.
+          required_base_npc = {'097.EDT':27840,'138.EDT':13440,'CIV52.EDT':4800,'H8.EDT':960,'159.EDT':68640}
+          npc_actual = {p.name.upper(): p for p in Path('Patch/Data/NPCData').iterdir() if p.is_file() and p.suffix.lower() == '.edt'}
+          for name, size in required_base_npc.items():
+              assert name in npc_actual and npc_actual[name].stat().st_size == size, (name, npc_actual.get(name))
+          print(f'BASE_NPC_EDT_TOTAL={len(npc_actual)}')
+          print('BASE_NPC_DRIVE_SUBSET=5/5')
+
+          required_113_npc = {'159.EDT':42240,'229.EDT':12960}
+          npc113_actual = {p.name.upper(): p for p in Path('Patch/Data-1.13/NpcData').iterdir() if p.is_file() and p.suffix.lower() == '.edt'}
+          for name, size in required_113_npc.items():
+              assert name in npc113_actual and npc113_actual[name].stat().st_size == size, (name, npc113_actual.get(name))
+          print('V113_NPC_TRANSLATED=2/2')
+
+          # Every MercEdt file, including snitch subfolders, must be structurally valid and contain Korean text.
+          def decode_record(raw):
+              vals = struct.unpack('<' + 'H' * (len(raw)//2), raw)
+              chars = []
+              for v in vals:
+                  if v == 0:
+                      break
+                  if v > 33:
+                      v -= 1
+                  chars.append(chr(v))
+              return ''.join(chars)
+
+          for root in (Path('Patch/Data/MercEdt'), Path('Patch/Data-1.13/MercEdt')):
+              files = sorted(p for p in root.rglob('*') if p.is_file() and p.suffix.lower() == '.edt')
+              for p in files:
+                  data = p.read_bytes()
+                  assert len(data) % 480 == 0, (p, len(data))
+                  texts = [decode_record(data[o:o+480]) for o in range(0, len(data), 480)]
+                  nonempty = [t for t in texts if t]
+                  hangul = [t for t in nonempty if any('가' <= c <= '힣' for c in t)]
+                  assert nonempty, p
+                  assert hangul, (p, len(nonempty))
+              print(f'{root}_RECURSIVE_EDT={len(files)} STRUCTURE_AND_HANGUL=OK')
+
+          # Show VFS collisions so the higher-priority Data-1.13 layer is auditable.
+          base_rel = {p.relative_to('Patch/Data/MercEdt').as_posix().lower() for p in Path('Patch/Data/MercEdt').rglob('*') if p.is_file() and p.suffix.lower()=='.edt'}
+          v113_rel = {p.relative_to('Patch/Data-1.13/MercEdt').as_posix().lower() for p in Path('Patch/Data-1.13/MercEdt').rglob('*') if p.is_file() and p.suffix.lower()=='.edt'}
+          overlap = sorted(base_rel & v113_rel)
+          print(f'MERCEDT_VFS_OVERLAP_COUNT={len(overlap)}')
+          print('MERCEDT_VFS_OVERLAP=' + ','.join(overlap))
+
+      - name: Run repository runtime dialogue QA
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 tools/check_runtime_dialogue.py
+          python3 tools/verify_runtime_dialogue_zero.py
+
+      - name: Verify published release archive exactly matches main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/release-audit /tmp/release-unpack
+          mkdir -p /tmp/release-audit /tmp/release-unpack
+          gh release download v0.1.7-alpha \
+            --repo munument1/Jagged-Alliance2-korean \
+            --pattern 'JA2_r7609_Korean_Patch_v0.1.7-alpha.zip' \
+            --dir /tmp/release-audit
+          zip=/tmp/release-audit/JA2_r7609_Korean_Patch_v0.1.7-alpha.zip
+          test "$(stat -c %s "$zip")" -eq 5422001
+          echo '9ce49165915f49dec0cd1d1995ba731c7c6314f0c32b16c10960e39f7c73f3f2  /tmp/release-audit/JA2_r7609_Korean_Patch_v0.1.7-alpha.zip' | sha256sum -c --strict
+          unzip -tq "$zip"
+          unzip -q "$zip" -d /tmp/release-unpack
+          root=/tmp/release-unpack/JA2_r7609_Korean_Patch_v0.1.7-alpha
+          test -d "$root/Patch"
+          diff -qr "$root/Patch" Patch
+          cmp "$root/README.md" README.md
+          cmp "$root/RELEASE_NOTES_v0.1.7-alpha.md" RELEASE_NOTES_v0.1.7-alpha.md
+          cmp "$root/install.bat" install.bat
+          cmp "$root/install.ps1" install.ps1
+          echo 'RELEASE_ARCHIVE_MATCHES_MAIN=YES'
+
+      - name: Verify release tag points to audited main
+        shell: bash
+        run: |
+          set -euo pipefail
+          main_sha="$(git rev-parse HEAD)"
+          tag_sha="$(git rev-list -n 1 v0.1.7-alpha)"
+          echo "MAIN_SHA=$main_sha"
+          echo "TAG_SHA=$tag_sha"
+          test "$tag_sha" = "$main_sha"
+          echo 'RELEASE_TAG_MATCHES_MAIN=YES'
