@@ -132,9 +132,16 @@ def main() -> None:
     assert_no_case_collisions(base_merc, "BASE_MERCEDT")
     assert_no_case_collisions(v113_merc, "V113_MERCEDT")
 
-    # Google Drive Data/MercEdt source manifest, re-audited 2026-08-31.
+    # Effective BASE MercEdt runtime manifest, re-audited 2026-08-31.
     base_names = {f"{i:03d}.EDT" for i in range(63)} | {
+        "063.EDT",
         "064.EDT",
+        "066.EDT",
+        "067.EDT",
+        "068.EDT",
+        "069.EDT",
+        "070.EDT",
+        "072.EDT",
         "149.EDT",
         "165.EDT",
         "166.EDT",
@@ -152,7 +159,9 @@ def main() -> None:
         base_sizes[f"{number}.EDT"] = 55200
     for number in range(51, 63):
         base_sizes[f"{number:03d}.EDT"] = 57600
-    assert len(base_sizes) == 70
+    for number in ("063", "066", "067", "068", "069", "070", "072"):
+        base_sizes[f"{number}.EDT"] = 38400
+    assert len(base_sizes) == 77
     assert_manifest(base_merc, base_sizes, "BASE_MERCEDT")
 
     base_snitch = direct_edt(base_merc / "snitch")
@@ -242,10 +251,17 @@ def main() -> None:
         {
             "AIMHIST.EDT": 18400,
             "AIMPOL.EDT": 36800,
+            "ALUMNAME.EDT": 8160,
             "ALUMNI.EDT": 65280,
+            "CREDITS.EDT": 39680,
+            "FILES.EDT": 57600,
+            "FLOWERCARD.EDT": 7200,
+            "FLOWERDESC.EDT": 9600,
             "HELP.EDT": 157440,
             "IMPASS.EDT": 146560,
             "IMPTEXT.EDT": 191200,
+            "INSURANCEMULTI.EDT": 28800,
+            "INSURANCESINGLE.EDT": 4800,
             "QUESTS.EDT": 7360,
             "RIS.EDT": 54400,
         },
@@ -286,7 +302,7 @@ def main() -> None:
     )
     print("BASE_159_VFS_OVERRIDE=Data-1.13/NpcData/159.EDT")
 
-    verify_recursive_merc(base_merc, "BASE_MERCEDT", 71)
+    verify_recursive_merc(base_merc, "BASE_MERCEDT", 78)
     verify_recursive_merc(v113_merc, "V113_MERCEDT", 83)
 
     base_rel = {
