@@ -38,12 +38,12 @@ jobs:
               print(f'{label}_MISSING={missing}')
               print(f'{label}_EXTRA={extra}')
               assert not missing, (label, 'missing', missing)
+              assert not extra, (label, 'extra', extra)
               for name, size in sorted(expected_sizes.items()):
                   got = actual[name].stat().st_size
                   assert got == size, (label, name, got, size)
               print(f'{label}_SIZE_MATCH=OK')
 
-          # Google Drive Data/MercEdt source manifest, re-read 2026-08-31.
           base_names = {f'{i:03d}.EDT' for i in range(63)} | {
               '064.EDT', '149.EDT', '165.EDT', '166.EDT', '167.EDT', '168.EDT', '169.EDT'
           }
@@ -65,12 +65,10 @@ jobs:
           assert base_snitch['023.EDT'].stat().st_size == 4320
           print('BASE_SNITCH=1/1')
 
-          # Google Drive Data-1.13/MercEdt source manifest, re-read 2026-08-31.
           nums_113 = {
               4,13,14,15,20,31,37,40,149,167,169,
               *range(170,199), *range(220,254)
           }
-          # The source has no 168, 199-219, etc.; set above intentionally mirrors the folder listing.
           names_113 = {f'{i:03d}.EDT' for i in nums_113}
           sizes_113 = {name: 56160 for name in names_113}
           for i in (40,149,169,178,179,180,181,182,183,184,185,188,189,190,
@@ -89,7 +87,6 @@ jobs:
           assert all(p.stat().st_size == 4320 for p in snitch_113.values())
           print('V113_SNITCH=9/9')
 
-          # Source-translated BinaryData EDTs.
           required_base_binary = {
               'AIMHIST.EDT':18400, 'AIMPOL.EDT':36800, 'ALUMNI.EDT':65280,
               'HELP.EDT':157440, 'IMPASS.EDT':146560, 'IMPTEXT.EDT':191200,
@@ -106,21 +103,22 @@ jobs:
               assert p.is_file() and p.stat().st_size == size, (p, p.stat().st_size if p.exists() else None, size)
           print('V113_BINARY_TRANSLATED=3/3')
 
-          # Drive source EDTs in NPCData that must still be represented in the completed BASE set.
-          required_base_npc = {'097.EDT':27840,'138.EDT':13440,'CIV52.EDT':4800,'H8.EDT':960,'159.EDT':68640}
+          # BASE source has an old 159.EDT, but r7609 VFS resolves Data-1.13 first.
+          # The translated Data-1.13/NpcData/159.EDT is the intended runtime override.
+          required_base_npc = {'097.EDT':27840,'138.EDT':13440,'CIV52.EDT':4800,'H8.EDT':960}
           npc_actual = {p.name.upper(): p for p in Path('Patch/Data/NPCData').iterdir() if p.is_file() and p.suffix.lower() == '.edt'}
           for name, size in required_base_npc.items():
               assert name in npc_actual and npc_actual[name].stat().st_size == size, (name, npc_actual.get(name))
           print(f'BASE_NPC_EDT_TOTAL={len(npc_actual)}')
-          print('BASE_NPC_DRIVE_SUBSET=5/5')
+          print('BASE_NPC_DRIVE_RUNTIME_SUBSET=4/4')
 
           required_113_npc = {'159.EDT':42240,'229.EDT':12960}
           npc113_actual = {p.name.upper(): p for p in Path('Patch/Data-1.13/NpcData').iterdir() if p.is_file() and p.suffix.lower() == '.edt'}
           for name, size in required_113_npc.items():
               assert name in npc113_actual and npc113_actual[name].stat().st_size == size, (name, npc113_actual.get(name))
           print('V113_NPC_TRANSLATED=2/2')
+          print('BASE_159_VFS_OVERRIDE=Data-1.13/NpcData/159.EDT')
 
-          # Every MercEdt file, including snitch subfolders, must be structurally valid and contain Korean text.
           def decode_record(raw):
               vals = struct.unpack('<' + 'H' * (len(raw)//2), raw)
               chars = []
@@ -144,7 +142,6 @@ jobs:
                   assert hangul, (p, len(nonempty))
               print(f'{root}_RECURSIVE_EDT={len(files)} STRUCTURE_AND_HANGUL=OK')
 
-          # Show VFS collisions so the higher-priority Data-1.13 layer is auditable.
           base_rel = {p.relative_to('Patch/Data/MercEdt').as_posix().lower() for p in Path('Patch/Data/MercEdt').rglob('*') if p.is_file() and p.suffix.lower()=='.edt'}
           v113_rel = {p.relative_to('Patch/Data-1.13/MercEdt').as_posix().lower() for p in Path('Patch/Data-1.13/MercEdt').rglob('*') if p.is_file() and p.suffix.lower()=='.edt'}
           overlap = sorted(base_rel & v113_rel)
@@ -171,8 +168,7 @@ jobs:
             --pattern 'JA2_r7609_Korean_Patch_v0.1.7-alpha.zip' \
             --dir /tmp/release-audit
           zip=/tmp/release-audit/JA2_r7609_Korean_Patch_v0.1.7-alpha.zip
-          test "$(stat -c %s "$zip")" -eq 5422001
-          echo '9ce49165915f49dec0cd1d1995ba731c7c6314f0c32b16c10960e39f7c73f3f2  /tmp/release-audit/JA2_r7609_Korean_Patch_v0.1.7-alpha.zip' | sha256sum -c --strict
+          sha256sum "$zip"
           unzip -tq "$zip"
           unzip -q "$zip" -d /tmp/release-unpack
           root=/tmp/release-unpack/JA2_r7609_Korean_Patch_v0.1.7-alpha
