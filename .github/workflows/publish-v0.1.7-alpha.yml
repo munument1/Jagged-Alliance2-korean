@@ -5,6 +5,15 @@ on:
     branches:
       - main
     paths:
+      - 'Patch/**'
+      - 'install.bat'
+      - 'install.ps1'
+      - 'README.md'
+      - 'RELEASE_NOTES_v0.1.7-alpha.md'
+      - 'tools/verify_localization_package.py'
+      - 'tools/check_runtime_dialogue.py'
+      - 'tools/verify_runtime_dialogue_zero.py'
+      - 'tools/patch_current_korean_exe.py'
       - '.github/workflows/publish-v0.1.7-alpha.yml'
   workflow_dispatch:
 

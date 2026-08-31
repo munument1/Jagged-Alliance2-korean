@@ -3,8 +3,9 @@
 
 This checks the translated runtime resources that are easy to omit during packaging:
 BASE/1.13 MercEdt (including snitch subfolders), translated BinaryData EDTs,
-and the active NPC EDT overrides. It also validates MercEdt record structure and
-confirms that every MercEdt file contains Korean text.
+and the active NPC EDT overrides. It also validates MercEdt record structure,
+confirms that every MercEdt file contains Korean text, and rejects case-colliding
+paths that would collapse to one filename on Windows.
 """
 
 from pathlib import Path
@@ -14,10 +15,39 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def direct_edt(root: Path) -> dict[str, Path]:
-    return {
-        p.name.upper(): p
-        for p in root.iterdir()
+    files = [
+        p for p in root.iterdir()
         if p.is_file() and p.suffix.lower() == ".edt"
+    ]
+    folded: dict[str, list[Path]] = {}
+    for path in files:
+        folded.setdefault(path.name.casefold(), []).append(path)
+    collisions = {
+        key: paths for key, paths in folded.items()
+        if len(paths) > 1
+    }
+    assert not collisions, {
+        key: [str(path) for path in paths]
+        for key, paths in collisions.items()
+    }
+    return {p.name.upper(): p for p in files}
+
+
+def assert_no_case_collisions(root: Path, label: str) -> None:
+    folded: dict[str, list[Path]] = {}
+    for path in root.rglob("*"):
+        if not path.is_file():
+            continue
+        rel = path.relative_to(root).as_posix()
+        folded.setdefault(rel.casefold(), []).append(path)
+    collisions = {
+        key: paths for key, paths in folded.items()
+        if len(paths) > 1
+    }
+    print(f"{label}_CASE_COLLISIONS={len(collisions)}")
+    assert not collisions, {
+        key: [str(path) for path in paths]
+        for key, paths in collisions.items()
     }
 
 
@@ -59,12 +89,13 @@ def decode_record(raw: bytes) -> str:
     return "".join(chars)
 
 
-def verify_recursive_merc(root: Path, label: str) -> None:
+def verify_recursive_merc(root: Path, label: str, expected_count: int) -> None:
     files = sorted(
         p
         for p in root.rglob("*")
         if p.is_file() and p.suffix.lower() == ".edt"
     )
+    assert len(files) == expected_count, (label, len(files), expected_count)
     for path in files:
         data = path.read_bytes()
         assert len(data) % 480 == 0, (path, len(data))
@@ -97,6 +128,9 @@ def assert_file_sizes(root: Path, manifest: dict[str, int], label: str) -> None:
 def main() -> None:
     base_merc = ROOT / "Patch/Data/MercEdt"
     v113_merc = ROOT / "Patch/Data-1.13/MercEdt"
+
+    assert_no_case_collisions(base_merc, "BASE_MERCEDT")
+    assert_no_case_collisions(v113_merc, "V113_MERCEDT")
 
     # Google Drive Data/MercEdt source manifest, re-audited 2026-08-31.
     base_names = {f"{i:03d}.EDT" for i in range(63)} | {
@@ -252,8 +286,8 @@ def main() -> None:
     )
     print("BASE_159_VFS_OVERRIDE=Data-1.13/NpcData/159.EDT")
 
-    verify_recursive_merc(base_merc, "BASE_MERCEDT")
-    verify_recursive_merc(v113_merc, "V113_MERCEDT")
+    verify_recursive_merc(base_merc, "BASE_MERCEDT", 71)
+    verify_recursive_merc(v113_merc, "V113_MERCEDT", 83)
 
     base_rel = {
         path.relative_to(base_merc).as_posix().lower()
