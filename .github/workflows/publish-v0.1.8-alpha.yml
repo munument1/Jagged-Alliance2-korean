@@ -1,0 +1,120 @@
+name: Publish v0.1.8-alpha
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/publish-v0.1.8-alpha.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-v0.1.8-alpha
+  cancel-in-progress: false
+
+jobs:
+  validate-package-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Validate final runtime executable
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f Patch/ja2.exe
+          test "$(stat -c %s Patch/ja2.exe)" -eq 8407552
+          python3 tools/patch_current_korean_exe.py Patch/ja2.exe --check
+          echo "a3480fd92a6c5e4e184b367cf29705d52b8b129a616c6a6a80affd062ee77582  Patch/ja2.exe" | sha256sum --check --strict
+
+      - name: Validate complete localization package
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 tools/verify_localization_package.py
+          python3 tools/check_runtime_dialogue.py
+          python3 tools/verify_runtime_dialogue_zero.py
+          test -d Patch/Data
+          test -d Patch/Data-1.13
+          test -f Patch/Ja2.ini
+          test -f install.bat
+          test -f install.ps1
+          test -f README.md
+          test -f RELEASE_NOTES_v0.1.8-alpha.md
+          test ! -d Patch/Data-UB
+
+      - name: Build and verify release archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          name="JA2_r7609_Korean_Patch_v0.1.8-alpha"
+          stage="/tmp/${name}"
+          verify="/tmp/${name}-verify"
+          rm -rf "${stage}" "${verify}" "/tmp/${name}.zip" "/tmp/${name}.zip.sha256"
+          mkdir -p "${stage}" "${verify}"
+          cp -a Patch "${stage}/Patch"
+          cp install.bat install.ps1 README.md RELEASE_NOTES_v0.1.8-alpha.md "${stage}/"
+          cd /tmp
+          zip -qr "${name}.zip" "${name}"
+          sha256sum "${name}.zip" > "${name}.zip.sha256"
+          unzip -tq "${name}.zip"
+          unzip -q "${name}.zip" -d "${verify}"
+          diff -qr "${verify}/${name}/Patch" "${stage}/Patch"
+          cmp "${verify}/${name}/README.md" "${stage}/README.md"
+          cmp "${verify}/${name}/RELEASE_NOTES_v0.1.8-alpha.md" "${stage}/RELEASE_NOTES_v0.1.8-alpha.md"
+          cmp "${verify}/${name}/install.bat" "${stage}/install.bat"
+          cmp "${verify}/${name}/install.ps1" "${stage}/install.ps1"
+          cat "${name}.zip.sha256"
+          echo 'BUILT_ARCHIVE_MATCHES_STAGE=YES'
+
+      - name: Sync release tag to audited main
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="v0.1.8-alpha"
+          main_sha="$(git rev-parse HEAD)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -f "${tag}" "${main_sha}"
+          git push origin "refs/tags/${tag}" --force
+          remote_sha="$(git ls-remote --tags origin "refs/tags/${tag}" | awk '{print $1}')"
+          echo "MAIN_SHA=${main_sha}"
+          echo "REMOTE_TAG_SHA=${remote_sha}"
+          test "${remote_sha}" = "${main_sha}"
+          echo 'RELEASE_TAG_MATCHES_MAIN=YES'
+
+      - name: Publish or refresh prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          name="JA2_r7609_Korean_Patch_v0.1.8-alpha"
+          tag="v0.1.8-alpha"
+          if gh release view "${tag}" >/dev/null 2>&1; then
+            gh release upload "${tag}" "/tmp/${name}.zip" "/tmp/${name}.zip.sha256" --clobber
+            gh release edit "${tag}" --prerelease --title "JA2 r7609 Korean Patch v0.1.8-alpha" --notes-file RELEASE_NOTES_v0.1.8-alpha.md
+          else
+            gh release create "${tag}" "/tmp/${name}.zip" "/tmp/${name}.zip.sha256" --prerelease --title "JA2 r7609 Korean Patch v0.1.8-alpha" --notes-file RELEASE_NOTES_v0.1.8-alpha.md
+          fi
+
+      - name: Verify published release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          name="JA2_r7609_Korean_Patch_v0.1.8-alpha"
+          rm -rf /tmp/published-v018
+          mkdir -p /tmp/published-v018
+          gh release download v0.1.8-alpha --repo munument1/Jagged-Alliance2-korean --pattern "${name}.zip" --dir /tmp/published-v018
+          cmp "/tmp/${name}.zip" "/tmp/published-v018/${name}.zip"
+          sha256sum "/tmp/published-v018/${name}.zip"
+          echo 'PUBLISHED_ARCHIVE_MATCHES_BUILD=YES'
