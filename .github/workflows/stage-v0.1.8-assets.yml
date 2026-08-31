@@ -1,0 +1,68 @@
+name: Stage v0.1.8 fallback assets
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'tools/v018_assets.tar.gz'
+      - '.github/workflows/stage-v0.1.8-assets.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stage-v0.1.8-assets
+  cancel-in-progress: false
+
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Decode and verify assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/v018-assets /tmp/v018-assets.tar.gz
+          mkdir -p /tmp/v018-assets Patch/Data/BinaryData Patch/Data/MercEdt
+          cp tools/v018_assets.tar.gz /tmp/v018-assets.tar.gz
+          tar -xzf /tmp/v018-assets.tar.gz -C /tmp/v018-assets
+          cd /tmp/v018-assets
+          cat > /tmp/v018.sha256 <<'EOF'
+          9257c9c943d9a51d55fb60af0f377304df462cdf870e71f8d2b8e8b6bb789072  063.EDT
+          bc9c8e493c58ada268433e75d24673e206e7e22229b84d092758fa6b83d063cd  066.EDT
+          baa17c0f871400bc097cd5a65371603e31093f7a9497d590a15623a56f77c89b  067.EDT
+          347ef58f7c134e8f5e7887c1cd39d5ca94fed6bf28433eb56d5e87ebfc966612  068.EDT
+          c66b35e9f31ca70dc6837bebf9d4a2ff2b8f733880fcac5aa6e457c87392474e  069.EDT
+          55921d979782f68f2df29198c190b88d9ba4c9aa5bf8e46aaaf233b84990b459  070.EDT
+          2c40dce1b113e7dd0b09b4beff4e7bce9fd123501bdd322fd4b610b1cf32ab1c  072.EDT
+          7ef7e6d95cd3680f498843db8203642c967c9abff981bdce3ee1d052d704124a  ALUMNAME.EDT
+          b69e46ce8035f355ebe132c26e9fd9c131a2ea4537f95a37f8eb33f389f37fec  CREDITS.EDT
+          f53c6b7bd48e7982c74d22d6ba2949b71e327be930bd1d9a4d40c51a812dd737  FILES.EDT
+          bbfb8719c501e629cf738367dcc3aee12df48d18090783ac3fd2ad5a9c5d7c36  FLOWERCARD.EDT
+          43a42bca44d8097a99bd5d66baf070b6cdc65ed4fa5fcc8211c838111bf1b1fb  FLOWERDESC.EDT
+          137eaf2e9c875ac5dfcc12c8b793acb29c747fb2c3cde7d3ba6f8db5c9768dc6  INSURANCEMULTI.EDT
+          3101eeaef37297e664bd533fe61a6dca018b64d54fb6588837831fa738a14de5  INSURANCESINGLE.EDT
+          EOF
+          sha256sum --check --strict /tmp/v018.sha256
+          cd -
+          cp /tmp/v018-assets/{063,066,067,068,069,070,072}.EDT Patch/Data/MercEdt/
+          cp /tmp/v018-assets/{ALUMNAME,CREDITS,FILES,FLOWERCARD,FLOWERDESC,INSURANCEMULTI,INSURANCESINGLE}.EDT Patch/Data/BinaryData/
+      - name: Commit staged runtime files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Patch/Data/MercEdt Patch/Data/BinaryData
+          if git diff --cached --quiet; then
+            echo 'ASSETS_ALREADY_STAGED=YES'
+            exit 0
+          fi
+          git commit -m "fix: add v0.1.8 BASE fallback translations"
+          git push origin HEAD:main
