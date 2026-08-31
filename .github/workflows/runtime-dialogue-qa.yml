@@ -42,3 +42,5 @@ jobs:
         run: python3 tools/check_runtime_dialogue.py
       - name: Assert zero untranslated runtime dialogue
         run: python3 tools/verify_runtime_dialogue_zero.py
+
+# v0.1.8 runtime verification trigger
