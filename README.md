@@ -92,7 +92,22 @@ v0.1.7-alpha에서는 I.M.P. 대사 문제를 계기로 BASE `Data/MercEdt`를 �
 - 누락 파일의 크기와 480바이트 고정 레코드 구조를 검사하고, EDT 복호화 후 한국어 문자열이 정상적으로 들어 있는지 확인했습니다.
 - 재검수 중 남아 있던 영어/혼합 표기 3건(`009.EDT`, `024.EDT`, `025.EDT`)과 기존 `055.EDT` 영어 대사 1건도 정리했습니다.
 - 전체 활성 런타임 대사 검사 결과는 `RUNTIME_UNTRANSLATED=0`입니다.
-- `Data/BinaryData`, `Data-1.13/BinaryData`, `Data-1.13/MercEdt`, `Data-1.13/NpcData`도 원본 번역 데이터와 다시 대조해 추가 누락이 없음을 확인했습니다.
+
+### v0.1.7 2차 전수검수
+
+누락 복구 후 배포 파일을 다시 한 번 원본 번역 데이터와 대조했습니다.
+
+- BASE `MercEdt`: 최상위 **70 / 70**, `snitch` **1 / 1**
+- `Data-1.13/MercEdt`: 최상위 **74 / 74**, `snitch` **9 / 9**
+- `Data/BinaryData` 번역 EDT: **8 / 8**
+- `Data-1.13/BinaryData` 번역 EDT: **3 / 3**
+- `Data-1.13/NpcData`: 번역 EDT `159.EDT`, `229.EDT` **2 / 2**
+- BASE 원본의 구형 `Data/NPCData/159.EDT`는 r7609 VFS에서 더 높은 우선순위의 `Data-1.13/NpcData/159.EDT`가 대신 사용되므로 배포 필수 파일에서 제외합니다.
+- BASE/1.13 `MercEdt` 전체를 재귀 검사해 480바이트 레코드 구조와 한국어 문자열을 확인했습니다.
+- `Data`와 `Data-1.13`에 함께 존재하는 MercEdt 11개도 VFS 중복 목록을 고정해 예기치 않은 덮어쓰기를 검사합니다.
+- 실제 GitHub Release ZIP을 다시 내려받아 압축 해제한 뒤 `Patch`, README, 릴리즈 노트, 설치기가 현재 `main`과 동일한지 비교합니다.
+- `tools/verify_localization_package.py`를 추가해 이후 커밋과 릴리즈에서도 위 파일 수·크기·구조를 자동 검사합니다.
+- 릴리즈 워크플로는 기존 릴리즈를 갱신할 때도 `v0.1.7-alpha` Git 태그를 검증된 `main` 커밋과 동기화합니다.
 
 상세 변경 사항은 `RELEASE_NOTES_v0.1.7-alpha.md`를 참고하세요.
 
