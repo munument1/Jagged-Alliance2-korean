@@ -1,0 +1,130 @@
+name: Restore missing BASE MercEdt files
+
+on:
+  push:
+    branches:
+      - fix/restore-base-merc-edt
+    paths:
+      - .github/workflows/restore-base-merc-edt.yml
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repair branch
+        uses: actions/checkout@v4
+        with:
+          ref: fix/restore-base-merc-edt
+          fetch-depth: 0
+
+      - name: Download missing translated MercEdt files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p Patch/Data/MercEdt
+          while read -r name id size; do
+            [ -n "$name" ] || continue
+            out="Patch/Data/MercEdt/$name"
+            curl -L --fail --retry 3 --retry-delay 2 "https://drive.google.com/uc?export=download&id=${id}" -o "$out"
+            actual="$(stat -c%s "$out")"
+            test "$actual" -eq "$size"
+            echo "$name $actual"
+          done <<'FILES'
+            000.EDT 139bGj3W62wjxuhyh63y0UPO_zOZjp-cA 56160
+            001.EDT 1nOS1YoHGI0zaMBNg02XUUFVNTa343voC 56160
+            002.EDT 1l-pggVFAgCDT5cT4-cZ95o54fO8MbJuo 56160
+            003.EDT 1AFag4nudFliwFS4AGa6VZHkVSVGT2hPq 56160
+            005.EDT 1VZ9l6lHBMk60e7-9DmEuVBpNj9MIXXVc 56640
+            006.EDT 1SObhc0uMg2p5vdgpA8hgMXBg9oDu_kca 56160
+            008.EDT 1sOPRXmWA0ybk74aLUhwJAgdwzhWIPjGP 56160
+            009.EDT 1rN8EDa7M14Pd6969Asrofrk7-cFIXrLC 56160
+            010.EDT 1ruWwbUS8L3aZGKmuWbDRAGUzd9NsdwS- 56160
+            011.EDT 1ycJ3YY4qrC7dzuFoxK78tqUTB71aQNQA 56160
+            012.EDT 1OrgziGaZQRmVDLfSD7XaYXAbYatxLHsd 56160
+            016.EDT 1VyoP_YiN83-PyTJlHlh0b87g-I9zyRI0 56160
+            018.EDT 1PflOvMPAifZJriCdHCkbC-P4HUv-bTw7 56160
+            019.EDT 1wyagruTJG-KjIWNd3mSTlDkrI0s6cu8n 56160
+            021.EDT 16MXzdn8bc8bfuRNQOfD1IelTdIWxi7uR 56160
+            023.EDT 1_NfxTbWx-2H6VQCbcsXT-vpEjj9nc73q 56160
+            024.EDT 1LPXy0PctnHmpnLCiwitQYcjfh7oQ26Oz 56160
+            025.EDT 1ZlvADqozML3R6ODhD9vscUd8wGa6iXDg 56160
+            026.EDT 1xuBhXmET2N5TyxfbedJ5ZZdu8vS_M7Bx 56160
+            028.EDT 12fynGrbzYP_NTo31TUxmc2sV2oN73v6a 56160
+            030.EDT 1mY5lqQPiH7xLxq9CydRMCHUqvFqFi6nm 56160
+            033.EDT 17uA1Y84x5nixfiWRJGg7ieEj928F6D9y 56160
+            034.EDT 1tfecDn6eDlMQ8grYDM0XwycqEPtogCG2 56160
+            035.EDT 1qybYMStMoMUqzYIhqFc-QKLluEB3y-Rk 56160
+            036.EDT 1kKDK_A6btidA_S5hr_Ykqj2nAif1L82z 56160
+            038.EDT 1RuKKqbPLeFrBDOJpJ2UiPtg36oDxX6tG 56160
+            039.EDT 1Zv1zL7yjyJOE94AZnCNOtGDh3juuKFeb 56160
+            041.EDT 1ZsMU_sy0PTcc47ATQvgZRb9JwXXY1sk7 55200
+            042.EDT 1X6wRe5a2VYiwhEWHtFfi33LqdoQqwt34 55200
+            043.EDT 1jTunDWwzXFOuNm1S04mgjfn0alRP0OjC 55200
+            044.EDT 1jQnFF3D5eIihjonX83VpRg-5N82AKGR9 55200
+            045.EDT 1Dwcnx0zTw5LY0LHo_Db1beaRNPjoNxJU 55200
+            047.EDT 1Pu9rM-73xxBny6ByXvONKifdHRj7hyVd 55200
+            048.EDT 1Di9gZFHnLIiZ35PY_uK_CI9MAFRd9Bnx 55200
+            049.EDT 1pWgde30e6a6sbtJHicbwwuQGau4u4DN7 55200
+            050.EDT 1NkW45Pz3v8tneBkDs5DPQHcsdThjGAYV 55200
+            057.EDT 1twQkG8nkyUHFzFTZHyeIrGwjy7WYEocT 57600
+            058.EDT 1OQ9eNNVDSClt2axuC-Rty-9BrSScWXO7 57600
+            059.EDT 1INYLOvw-bUhYvq8hi-yM4BqtwKfLbgxB 57600
+            060.EDT 1OrhXUmOXtQLqKggQIuwypMcgGulDsdyQ 57600
+            061.EDT 1-4eCID2pACC5RB2MX87PtwoLKZ0wJmvZ 57600
+            062.EDT 1FfCD61qd190eLxEm8VJSUSx1tJiZbq5J 57600
+          FILES
+
+      - name: Validate EDT structure and Korean content
+        shell: python
+        run: |
+          from pathlib import Path
+          import struct
+          names = ['000.EDT','001.EDT','002.EDT','003.EDT','005.EDT','006.EDT','008.EDT','009.EDT','010.EDT','011.EDT','012.EDT','016.EDT','018.EDT','019.EDT','021.EDT','023.EDT','024.EDT','025.EDT','026.EDT','028.EDT','030.EDT','033.EDT','034.EDT','035.EDT','036.EDT','038.EDT','039.EDT','041.EDT','042.EDT','043.EDT','044.EDT','045.EDT','047.EDT','048.EDT','049.EDT','050.EDT','057.EDT','058.EDT','059.EDT','060.EDT','061.EDT','062.EDT']
+          for name in names:
+              path = Path('Patch/Data/MercEdt') / name
+              data = path.read_bytes()
+              assert len(data) % 480 == 0, (name, len(data))
+              records = len(data) // 480
+              hangul = 0
+              nonempty = 0
+              for i in range(records):
+                  chunk = data[i*480:(i+1)*480]
+                  values = struct.unpack('<' + 'H' * (len(chunk)//2), chunk)
+                  chars = []
+                  for value in values:
+                      if value == 0:
+                          break
+                      if value > 33:
+                          value -= 1
+                      chars.append(chr(value))
+                  text = ''.join(chars)
+                  if text:
+                      nonempty += 1
+                  if any('\uac00' <= c <= '\ud7a3' for c in text):
+                      hangul += 1
+              assert nonempty > 0, name
+              assert hangul > 0, (name, nonempty, hangul)
+              print(f'{name}: records={records}, nonempty={nonempty}, hangul={hangul}')
+
+      - name: Audit untranslated runtime dialogue
+        shell: bash
+        run: |
+          set +e
+          python3 tools/verify_runtime_dialogue_zero.py
+          echo "audit_exit=$?"
+          exit 0
+
+      - name: Commit restored files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -- .github/workflows/restore-base-merc-edt.yml
+          git add -- Patch/Data/MercEdt/000.EDT Patch/Data/MercEdt/001.EDT Patch/Data/MercEdt/002.EDT Patch/Data/MercEdt/003.EDT Patch/Data/MercEdt/005.EDT Patch/Data/MercEdt/006.EDT Patch/Data/MercEdt/008.EDT Patch/Data/MercEdt/009.EDT Patch/Data/MercEdt/010.EDT Patch/Data/MercEdt/011.EDT Patch/Data/MercEdt/012.EDT Patch/Data/MercEdt/016.EDT Patch/Data/MercEdt/018.EDT Patch/Data/MercEdt/019.EDT Patch/Data/MercEdt/021.EDT Patch/Data/MercEdt/023.EDT Patch/Data/MercEdt/024.EDT Patch/Data/MercEdt/025.EDT Patch/Data/MercEdt/026.EDT Patch/Data/MercEdt/028.EDT Patch/Data/MercEdt/030.EDT Patch/Data/MercEdt/033.EDT Patch/Data/MercEdt/034.EDT Patch/Data/MercEdt/035.EDT Patch/Data/MercEdt/036.EDT Patch/Data/MercEdt/038.EDT Patch/Data/MercEdt/039.EDT Patch/Data/MercEdt/041.EDT Patch/Data/MercEdt/042.EDT Patch/Data/MercEdt/043.EDT Patch/Data/MercEdt/044.EDT Patch/Data/MercEdt/045.EDT Patch/Data/MercEdt/047.EDT Patch/Data/MercEdt/048.EDT Patch/Data/MercEdt/049.EDT Patch/Data/MercEdt/050.EDT Patch/Data/MercEdt/057.EDT Patch/Data/MercEdt/058.EDT Patch/Data/MercEdt/059.EDT Patch/Data/MercEdt/060.EDT Patch/Data/MercEdt/061.EDT Patch/Data/MercEdt/062.EDT .github/workflows/restore-base-merc-edt.yml
+          git diff --cached --check
+          git commit -m "Restore missing BASE MercEdt dialogue files"
+          git push origin HEAD:fix/restore-base-merc-edt
